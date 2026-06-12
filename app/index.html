@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unified Elsine-i Selase Dictionary</title>
+    <link rel="stylesheet" href="./styles.css?v=url-state-image-loading">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="search-rail" aria-label="Search and results">
+        <header class="brand-block">
+          <div>
+            <p class="eyebrow">Unified Lexicon</p>
+            <h1>Elsine-i Selase</h1>
+          </div>
+          <span class="status-pill">Prototype</span>
+        </header>
+
+        <label class="search-box">
+          <span>Search</span>
+          <input id="searchInput" type="search" value="دانش" autocomplete="off" spellcheck="false">
+        </label>
+
+        <div class="filter-row" role="group" aria-label="Search modes">
+          <button class="mode-button active" type="button" data-mode="all">All</button>
+          <button class="mode-button" type="button" data-mode="ota">Ottoman</button>
+          <button class="mode-button" type="button" data-mode="latin">Latin</button>
+        </div>
+
+        <section class="result-section">
+          <div class="section-heading">
+            <h2>Results</h2>
+            <div class="section-actions">
+              <button id="resultMetaToggle" class="meta-toggle" type="button" aria-pressed="false">Meta</button>
+              <span id="resultCount">1</span>
+            </div>
+          </div>
+          <div id="results" class="result-list"></div>
+        </section>
+
+        <section class="result-section compact">
+          <div class="section-heading">
+            <h2>Nearby</h2>
+          </div>
+          <div id="nearbyList" class="nearby-list"></div>
+        </section>
+      </aside>
+
+      <main class="reader">
+        <section class="lemma-panel" aria-label="Lemma">
+          <div class="lemma-title-row">
+            <div>
+              <p class="eyebrow">Canonical lemma</p>
+              <div class="lemma-title">
+                <span id="lemmaArabic" lang="ota" dir="rtl">دانش</span>
+                <span id="lemmaLatin">daniş</span>
+              </div>
+            </div>
+            <a id="lemmaSourceLink" class="source-link" href="#" target="_blank" rel="noreferrer">Original</a>
+          </div>
+
+          <div id="formStrip" class="form-strip"></div>
+
+          <nav id="sourceTabs" class="source-tabs" aria-label="Source entries"></nav>
+        </section>
+
+        <section class="workbench">
+          <article class="entry-view" aria-label="Selected entry">
+            <div class="entry-toolbar">
+              <div>
+                <p class="eyebrow">Selected source</p>
+                <h2 id="entrySourceTitle">Redhouse</h2>
+              </div>
+              <div class="toolbar-actions" aria-label="Image controls">
+                <button id="zoomOut" class="icon-button" type="button" title="Zoom out">-</button>
+                <button id="zoomReset" class="icon-button" type="button" title="Reset zoom">1:1</button>
+                <button id="zoomIn" class="icon-button" type="button" title="Zoom in">+</button>
+              </div>
+            </div>
+
+            <div id="cropStage" class="crop-stage">
+              <div id="entryImages" class="entry-images"></div>
+              <div id="missingImage" class="missing-image" hidden>
+                <h3>No crop in sample</h3>
+                <p>This source is known from the lemma page, but this prototype only includes the Redhouse crop.</p>
+              </div>
+            </div>
+
+            <div class="citation-line" id="citationLine"></div>
+          </article>
+
+          <aside class="detail-panel" aria-label="Provenance and metadata">
+            <section class="detail-card">
+              <h2>Provenance</h2>
+              <dl id="provenanceList"></dl>
+            </section>
+
+            <section class="detail-card">
+              <h2>Source Graph</h2>
+              <div id="sourceGraph" class="source-graph"></div>
+            </section>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="./main.js?v=url-state-model" type="module"></script>
+  </body>
+</html>

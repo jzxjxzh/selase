@@ -1,0 +1,107 @@
+{
+  "lemma": {
+    "id": "lemma:ota:دانش",
+    "primary_form": "دانش",
+    "display_latin": "daniş",
+    "language": "ota",
+    "slugs": [
+      "danis"
+    ],
+    "forms": [
+      "form:ota:دانش",
+      "form:tr-latn:daniş"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:lemma:10973"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:461239-k46"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانش",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانش",
+      "normalized": "دانش",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:daniş",
+      "script": "Latn",
+      "language": "tr",
+      "text": "daniş",
+      "normalized": "danis",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "Redhouse Turkish/Ottoman-English Dictionary",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ],
+      "default_provider": "provider:ottomanlexicons"
+    }
+  ],
+  "providers": [
+    {
+      "id": "provider:ottomanlexicons",
+      "title": "Ottoman Lexicons",
+      "base_url": "https://www.ottomanlexicons.com/"
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:461239-k46",
+      "lemma_id": "lemma:ota:دانش",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانش",
+      "latin": "daniş",
+      "content": {
+        "kind": "facsimile-only"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:885-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:461239-k46"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:885-7",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-7.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "volume": "2",
+        "page": "885",
+        "sequence": "7"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:lemma:10973",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "lemma",
+      "external_id": "10973",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:461239-k46",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:461239-k46",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461239-k46.html"
+    }
+  ]
+}
