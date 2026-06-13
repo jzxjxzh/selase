@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آبادی",
+    "primary_form": "آبادی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادی:ebedi",
+    "spelling_id": "spelling:آبادی",
+    "display_latin": "ebedi",
+    "normalized": "ebedi",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ebedi"
+    ],
+    "forms": [
+      "form:ota:آبادی",
+      "form:tr-latn:ebedi"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:159929"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:fransevi:40929-vy8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادی",
+      "normalized": "آبادی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ebedi",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ebedi",
+      "normalized": "ebedi",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-fransevi",
+      "title": "Kamus-ı Fransevi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:fransevi:40929-vy8",
+      "spelling_id": "spelling:آبادی",
+      "reading_id": "reading:آبادی:ebedi",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادی",
+      "latin": "ebedi",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-fransevi:2-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransevi:40929-vy8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-fransevi:2-7",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/0/2-7.png",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Fransevi",
+        "page": "2",
+        "sequence": "7"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransevi:40929-vy8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransevi:40929-vy8",
+      "url": "https://www.ottomanlexicons.com/fransevi/tafsil-40929-vy8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:159929",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "159929",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-159929.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

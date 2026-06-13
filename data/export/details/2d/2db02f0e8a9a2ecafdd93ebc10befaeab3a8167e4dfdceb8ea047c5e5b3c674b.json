@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب خضر",
+    "primary_form": "آب خضر",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب خضر:abı hızır",
+    "spelling_id": "spelling:آب خضر",
+    "display_latin": "abı hızır",
+    "normalized": "abı hızır",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-hizir"
+    ],
+    "forms": [
+      "form:ota:آب خضر",
+      "form:tr-latn:abı hızır"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:148551"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:osmanli:372102-g54"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب خضر",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب خضر",
+      "normalized": "آب خضر",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abı hızır",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abı hızır",
+      "normalized": "abi-hizir",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:osmanli:372102-g54",
+      "spelling_id": "spelling:آب خضر",
+      "reading_id": "reading:آب خضر:abı hızır",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب خضر",
+      "latin": "abı hızır",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:8-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372102-g54"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:8-2",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/8-2.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "8",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372102-g54",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372102-g54",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372102-g54.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:148551",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "148551",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-148551.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

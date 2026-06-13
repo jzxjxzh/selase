@@ -10,5 +10,6 @@ pnpm-debug.log*
 public/
 
 data/raw/
+data/build/
 
 *.log

@@ -1,0 +1,303 @@
+{
+  "spelling": {
+    "id": "spelling:دانشمق",
+    "primary_form": "دانشمق",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشمق:danışmak",
+    "spelling_id": "spelling:دانشمق",
+    "display_latin": "danışmak",
+    "normalized": "danışmak",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danismak"
+    ],
+    "forms": [
+      "form:ota:دانشمق",
+      "form:tr-latn:danışmak"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:43468"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiturki:257772-gs6",
+      "entry:ottomanlexicons:fransevi:52685-va4",
+      "entry:ottomanlexicons:ingilizce:461241-b19",
+      "entry:ottomanlexicons:resimlikamus:527458-dc8",
+      "entry:ottomanlexicons:almanca:341698-z93"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشمق",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشمق",
+      "normalized": "دانشمق",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danışmak",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danışmak",
+      "normalized": "danismak",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:almanca-osmanlica",
+      "title": "Almanca Osmanlıca Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "de"
+      ]
+    },
+    {
+      "id": "source:kamus-i-fransevi",
+      "title": "Kamus-ı Fransevi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    },
+    {
+      "id": "source:kamus-i-turki",
+      "title": "Kamus-ı Türki",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:resimli-kamus-i-osmani",
+      "title": "Resimli Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiturki:257772-gs6",
+      "spelling_id": "spelling:دانشمق",
+      "reading_id": "reading:دانشمق:danışmak",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمق",
+      "latin": "danışmak",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-turki:600-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiturki:257772-gs6"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:fransevi:52685-va4",
+      "spelling_id": "spelling:دانشمق",
+      "reading_id": "reading:دانشمق:danışmak",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمق",
+      "latin": "danışmak",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-fransevi:563-20"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransevi:52685-va4"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:461241-b19",
+      "spelling_id": "spelling:دانشمق",
+      "reading_id": "reading:دانشمق:danışmak",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمق",
+      "latin": "danışmak",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:885-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:461241-b19"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:resimlikamus:527458-dc8",
+      "spelling_id": "spelling:دانشمق",
+      "reading_id": "reading:دانشمق:danışmak",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمق",
+      "latin": "danışmak",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-kamus-i-osmani:445-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:resimlikamus:527458-dc8"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:almanca:341698-z93",
+      "spelling_id": "spelling:دانشمق",
+      "reading_id": "reading:دانشمق:danışmak",
+      "source_id": "source:almanca-osmanlica",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمق",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:almanca-osmanlica:147-33"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:almanca:341698-z93"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:almanca-osmanlica:147-33",
+      "kind": "entry-crop",
+      "url": "https://almanca.cagdassozluk.com/lugat/rsm/alm/10/147-33.jpg",
+      "source_id": "source:almanca-osmanlica",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Almanca Osmanlıca Sözlük",
+        "page": "147",
+        "sequence": "33"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-fransevi:563-20",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/55/563-20.png",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Fransevi",
+        "page": "563",
+        "sequence": "20"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:600-3",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/6/600-3.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "600",
+        "sequence": "3"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:885-9",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-9.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "885",
+        "sequence": "9"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:resimli-kamus-i-osmani:445-3",
+      "kind": "entry-crop",
+      "url": "https://resimli.cagdassozluk.com/rsm/seydi/40/445-3.jpg",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Kamus-ı Osmani",
+        "volume": "2",
+        "page": "445",
+        "sequence": "3"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:almanca:341698-z93",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "almanca:341698-z93",
+      "url": "https://www.ottomanlexicons.com/almanca/tafsil-341698-z93.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:fransevi:52685-va4",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransevi:52685-va4",
+      "url": "https://www.ottomanlexicons.com/fransevi/tafsil-52685-va4.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:461241-b19",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:461241-b19",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461241-b19.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiturki:257772-gs6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiturki:257772-gs6",
+      "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-257772-gs6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:resimlikamus:527458-dc8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "resimlikamus:527458-dc8",
+      "url": "https://www.ottomanlexicons.com/resimlikamus/tafsil-527458-dc8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:43468",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "43468",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43468.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

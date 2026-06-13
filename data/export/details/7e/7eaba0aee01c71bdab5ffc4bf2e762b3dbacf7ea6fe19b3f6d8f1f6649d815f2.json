@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آبا",
+    "primary_form": "آبا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبا:samuel aba",
+    "spelling_id": "spelling:آبا",
+    "display_latin": "samuel aba",
+    "normalized": "samuel aba",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "samuel-aba"
+    ],
+    "forms": [
+      "form:ota:آبا",
+      "form:tr-latn:samuel aba"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:197991"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:4-pr6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبا",
+      "normalized": "آبا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:samuel aba",
+      "script": "Latn",
+      "language": "tr",
+      "text": "samuel aba",
+      "normalized": "samuel-aba",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:4-pr6",
+      "spelling_id": "spelling:آبا",
+      "reading_id": "reading:آبا:samuel aba",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبا",
+      "latin": "Samuel Aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:1-10"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:4-pr6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:1-10",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/1-10.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "1",
+        "sequence": "10"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:4-pr6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:4-pr6",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-4-pr6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:197991",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "197991",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-197991.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

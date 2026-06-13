@@ -1,0 +1,160 @@
+{
+  "spelling": {
+    "id": "spelling:آبه",
+    "primary_form": "آبه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبه:aba",
+    "spelling_id": "spelling:آبه",
+    "display_latin": "aba",
+    "normalized": "aba",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aba"
+    ],
+    "forms": [
+      "form:ota:آبه",
+      "form:tr-latn:aba"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:197991"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167607-mz4",
+      "entry:ottomanlexicons:turkcelugat:244964-dc3"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبه",
+      "normalized": "آبه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aba",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aba",
+      "normalized": "aba",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:yeni-turkce-lugat",
+      "title": "Yeni Türkçe Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167607-mz4",
+      "spelling_id": "spelling:آبه",
+      "reading_id": "reading:آبه:aba",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبه",
+      "latin": "aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:15-18"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167607-mz4"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:turkcelugat:244964-dc3",
+      "spelling_id": "spelling:آبه",
+      "reading_id": "reading:آبه:aba",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبه",
+      "latin": "aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:yeni-turkce-lugat:6-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcelugat:244964-dc3"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:15-18",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/15-18.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "15",
+        "sequence": "18"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:yeni-turkce-lugat:6-2",
+      "kind": "entry-crop",
+      "url": "https://toven.cagdassozluk.com/rsm/ytl/0/6-2.jpg",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Yeni Türkçe Lugat",
+        "page": "6",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167607-mz4",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167607-mz4",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167607-mz4.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcelugat:244964-dc3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcelugat:244964-dc3",
+      "url": "https://www.ottomanlexicons.com/turkcelugat/tafsil-244964-dc3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:197991",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "197991",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-197991.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

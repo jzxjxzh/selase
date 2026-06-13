@@ -1,0 +1,103 @@
+{
+  "spelling": {
+    "id": "spelling:آب خورشید",
+    "primary_form": "آب خورشید",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب خورشید:null",
+    "spelling_id": "spelling:آب خورشید",
+    "display_latin": null,
+    "normalized": null,
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [],
+    "forms": [
+      "form:ota:آب خورشید"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:62051"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:tarihvecografya:92810-d84"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب خورشید",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب خورشید",
+      "normalized": "آب خورشید",
+      "kind": "headword"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:tarihvecografya",
+      "title": "Tarih ve Coğrafya Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:tarihvecografya:92810-d84",
+      "spelling_id": "spelling:آب خورشید",
+      "reading_id": "reading:آب خورشید:null",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب خورشید",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:tarihvecografya:7-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:tarihvecografya:92810-d84"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:7-1",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt1/0/7-1.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "1",
+        "page": "7",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:tarihvecografya:92810-d84",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "tarihvecografya:92810-d84",
+      "url": "https://www.ottomanlexicons.com/tarihvecografya/tafsil-92810-d84.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:62051",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "62051",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-62051.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

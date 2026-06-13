@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آب روان",
+    "primary_form": "آب روان",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب روان:abi revan",
+    "spelling_id": "spelling:آب روان",
+    "display_latin": "abi revan",
+    "normalized": "abi revan",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-revan"
+    ],
+    "forms": [
+      "form:ota:آب روان",
+      "form:tr-latn:abi revan"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:55119"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ebuzziya:510036-pt5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب روان",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب روان",
+      "normalized": "آب روان",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abi revan",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abi revan",
+      "normalized": "abi-revan",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-ebuzziya",
+      "title": "Lugat-ı Ebuzziya",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ebuzziya:510036-pt5",
+      "spelling_id": "spelling:آب روان",
+      "reading_id": "reading:آب روان:abi revan",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب روان",
+      "latin": "abi revan",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-ebuzziya:23-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ebuzziya:510036-pt5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-ebuzziya:23-9",
+      "kind": "entry-crop",
+      "url": "https://ebuzziya.cagdassozluk.com/rsm/eziya/0/23-9.jpg",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Ebuzziya",
+        "volume": "1",
+        "page": "23",
+        "sequence": "9"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ebuzziya:510036-pt5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ebuzziya:510036-pt5",
+      "url": "https://www.ottomanlexicons.com/ebuzziya/tafsil-510036-pt5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:55119",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "55119",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-55119.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

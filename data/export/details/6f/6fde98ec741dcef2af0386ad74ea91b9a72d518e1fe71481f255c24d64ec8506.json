@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:ا",
+    "primary_form": "ا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:ا:a",
+    "spelling_id": "spelling:ا",
+    "display_latin": "a",
+    "normalized": "a",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "a"
+    ],
+    "forms": [
+      "form:ota:ا",
+      "form:tr-latn:a"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:165472"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:97636-t18"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:ا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "ا",
+      "normalized": "ا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:a",
+      "script": "Latn",
+      "language": "tr",
+      "text": "a",
+      "normalized": "a",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:97636-t18",
+      "spelling_id": "spelling:ا",
+      "reading_id": "reading:ا:a",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ا",
+      "latin": "a",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:2-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:97636-t18"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:2-1",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/0/2-1.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "2",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:97636-t18",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:97636-t18",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-97636-t18.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:165472",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "165472",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-165472.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

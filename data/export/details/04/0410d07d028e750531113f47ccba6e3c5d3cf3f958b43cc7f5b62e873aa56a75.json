@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آئب",
+    "primary_form": "آئب",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئب:a'ib",
+    "spelling_id": "spelling:آئب",
+    "display_latin": "a'ib",
+    "normalized": "a'ib",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "a-ib"
+    ],
+    "forms": [
+      "form:ota:آئب",
+      "form:tr-latn:a'ib"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19064"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:176719-cf6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئب",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئب",
+      "normalized": "آئب",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:a'ib",
+      "script": "Latn",
+      "language": "tr",
+      "text": "a'ib",
+      "normalized": "a-ib",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:176719-cf6",
+      "spelling_id": "spelling:آئب",
+      "reading_id": "reading:آئب:a'ib",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئب",
+      "latin": "a'ib",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:286-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:176719-cf6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:286-7",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/25/286-7.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "286",
+        "sequence": "7"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:176719-cf6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:176719-cf6",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-176719-cf6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19064",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19064",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19064.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

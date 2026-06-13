@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آبادانلق",
+    "primary_form": "آبادانلق",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادانلق:abadanlık",
+    "spelling_id": "spelling:آبادانلق",
+    "display_latin": "abadanlık",
+    "normalized": "abadanlık",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadanlik"
+    ],
+    "forms": [
+      "form:ota:آبادانلق",
+      "form:tr-latn:abadanlık"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:35695"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiturki:88682-c56"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادانلق",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادانلق",
+      "normalized": "آبادانلق",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadanlık",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadanlık",
+      "normalized": "abadanlik",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-turki",
+      "title": "Kamus-ı Türki",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiturki:88682-c56",
+      "spelling_id": "spelling:آبادانلق",
+      "reading_id": "reading:آبادانلق:abadanlık",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادانلق",
+      "latin": "Abadanlık",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-turki:16-13"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiturki:88682-c56"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:16-13",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/0/16-13.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "16",
+        "sequence": "13"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiturki:88682-c56",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiturki:88682-c56",
+      "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-88682-c56.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:35695",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "35695",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-35695.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

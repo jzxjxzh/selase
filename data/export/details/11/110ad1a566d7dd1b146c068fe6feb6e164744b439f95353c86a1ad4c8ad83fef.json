@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:دانشمندلو",
+    "primary_form": "دانشمندلو",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشمندلو:danişmentli",
+    "spelling_id": "spelling:دانشمندلو",
+    "display_latin": "danişmentli",
+    "normalized": "danişmentli",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danismentli"
+    ],
+    "forms": [
+      "form:ota:دانشمندلو",
+      "form:tr-latn:danişmentli"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:226474"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lehceiosmani:439295-kz9"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشمندلو",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشمندلو",
+      "normalized": "دانشمندلو",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danişmentli",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danişmentli",
+      "normalized": "danismentli",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lehce-i-osmani",
+      "title": "Lehçe-i Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lehceiosmani:439295-kz9",
+      "spelling_id": "spelling:دانشمندلو",
+      "reading_id": "reading:دانشمندلو:danişmentli",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمندلو",
+      "latin": "danişmentli",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lehce-i-osmani:394-4"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lehceiosmani:439295-kz9"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lehce-i-osmani:394-4",
+      "kind": "entry-crop",
+      "url": "https://lehcei.cagdassozluk.com/rsm/lehce/35/394-4.jpg",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lehçe-i Osmani",
+        "volume": "1",
+        "page": "394",
+        "sequence": "4"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lehceiosmani:439295-kz9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lehceiosmani:439295-kz9",
+      "url": "https://www.ottomanlexicons.com/lehceiosmani/tafsil-439295-kz9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:226474",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "226474",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-226474.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

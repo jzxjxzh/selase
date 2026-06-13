@@ -1,0 +1,269 @@
+{
+  "spelling": {
+    "id": "spelling:آب حیات",
+    "primary_form": "آب حیات",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب حیات:abı hayat",
+    "spelling_id": "spelling:آب حیات",
+    "display_latin": "abı hayat",
+    "normalized": "abı hayat",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-hayat"
+    ],
+    "forms": [
+      "form:ota:آب حیات",
+      "form:tr-latn:abı hayat"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19093"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiosmani:22296-rf8",
+      "entry:ottomanlexicons:ebuzziya:510027-kg8",
+      "entry:ottomanlexicons:cudi:355418-ru5",
+      "entry:ottomanlexicons:osmanli:372100-dp8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب حیات",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب حیات",
+      "normalized": "آب حیات",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abı hayat",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abı hayat",
+      "normalized": "abi-hayat",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-cudi",
+      "title": "Lugat-ı Cudi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-ebuzziya",
+      "title": "Lugat-ı Ebuzziya",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22296-rf8",
+      "spelling_id": "spelling:آب حیات",
+      "reading_id": "reading:آب حیات:abı hayat",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیات",
+      "latin": "Abı Hayat",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:6-11"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22296-rf8"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ebuzziya:510027-kg8",
+      "spelling_id": "spelling:آب حیات",
+      "reading_id": "reading:آب حیات:abı hayat",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیات",
+      "latin": "abı hayat",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-ebuzziya:22-11"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ebuzziya:510027-kg8"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:cudi:355418-ru5",
+      "spelling_id": "spelling:آب حیات",
+      "reading_id": "reading:آب حیات:abı hayat",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیات",
+      "latin": "abı hayat",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-cudi:1-10",
+        "image:ottomanlexicons:lugat-i-cudi:2-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:cudi:355418-ru5"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:osmanli:372100-dp8",
+      "spelling_id": "spelling:آب حیات",
+      "reading_id": "reading:آب حیات:abı hayat",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیات",
+      "latin": "abı hayat",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:7-25"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372100-dp8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:6-11",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/6-11.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "6",
+        "sequence": "11"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-cudi:1-10",
+      "kind": "entry-crop",
+      "url": "https://cudi.cagdassozluk.com/rsm/cudi/0/1-10.jpg",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Cudi",
+        "page": "1",
+        "sequence": "10"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-cudi:2-1",
+      "kind": "entry-crop",
+      "url": "https://cudi.cagdassozluk.com/rsm/cudi/0/2-1.jpg",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Cudi",
+        "page": "2",
+        "sequence": "1"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-ebuzziya:22-11",
+      "kind": "entry-crop",
+      "url": "https://ebuzziya.cagdassozluk.com/rsm/eziya/0/22-11.jpg",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Ebuzziya",
+        "volume": "1",
+        "page": "22",
+        "sequence": "11"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:7-25",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/7-25.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "7",
+        "sequence": "25"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:cudi:355418-ru5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "cudi:355418-ru5",
+      "url": "https://www.ottomanlexicons.com/cudi/tafsil-355418-ru5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ebuzziya:510027-kg8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ebuzziya:510027-kg8",
+      "url": "https://www.ottomanlexicons.com/ebuzziya/tafsil-510027-kg8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22296-rf8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22296-rf8",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22296-rf8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372100-dp8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372100-dp8",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372100-dp8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19093",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19093",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19093.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

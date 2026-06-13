@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب و تاب",
+    "primary_form": "آب و تاب",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب و تاب:âb-u tâb",
+    "spelling_id": "spelling:آب و تاب",
+    "display_latin": "âb-u tâb",
+    "normalized": "âb-u tâb",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-u-tab"
+    ],
+    "forms": [
+      "form:ota:آب و تاب",
+      "form:tr-latn:âb-u tâb"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:55133"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatinaci:71018-yv9"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب و تاب",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب و تاب",
+      "normalized": "آب و تاب",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âb-u tâb",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âb-u tâb",
+      "normalized": "ab-u-tab",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-naci",
+      "title": "Lugat-ı Naci",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatinaci:71018-yv9",
+      "spelling_id": "spelling:آب و تاب",
+      "reading_id": "reading:آب و تاب:âb-u tâb",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب و تاب",
+      "latin": "Âb-u tâb",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-naci:2-28"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatinaci:71018-yv9"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-naci:2-28",
+      "kind": "entry-crop",
+      "url": "https://naci.cagdassozluk.com/rsm/naci/0/2-28.jpg",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Naci",
+        "page": "2",
+        "sequence": "28"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatinaci:71018-yv9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatinaci:71018-yv9",
+      "url": "https://www.ottomanlexicons.com/lugatinaci/tafsil-71018-yv9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:55133",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "55133",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-55133.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

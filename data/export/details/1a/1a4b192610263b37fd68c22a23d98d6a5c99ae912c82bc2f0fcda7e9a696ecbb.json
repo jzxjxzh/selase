@@ -1,0 +1,161 @@
+{
+  "spelling": {
+    "id": "spelling:دانشور",
+    "primary_form": "دانشور",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشور:dânışver",
+    "spelling_id": "spelling:دانشور",
+    "display_latin": "dânışver",
+    "normalized": "dânışver",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danisver"
+    ],
+    "forms": [
+      "form:ota:دانشور",
+      "form:tr-latn:dânışver"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:43469"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiturki:257774-c96",
+      "entry:ottomanlexicons:lugatiremzi:122313-b77"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشور",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشور",
+      "normalized": "دانشور",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:dânışver",
+      "script": "Latn",
+      "language": "tr",
+      "text": "dânışver",
+      "normalized": "danisver",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-turki",
+      "title": "Kamus-ı Türki",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiturki:257774-c96",
+      "spelling_id": "spelling:دانشور",
+      "reading_id": "reading:دانشور:dânışver",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشور",
+      "latin": "Dânışver",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-turki:600-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiturki:257774-c96"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:122313-b77",
+      "spelling_id": "spelling:دانشور",
+      "reading_id": "reading:دانشور:dânışver",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشور",
+      "latin": "Dânışver",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:530-18"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:122313-b77"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:600-5",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/6/600-5.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "600",
+        "sequence": "5"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:530-18",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-18.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "530",
+        "sequence": "18"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiturki:257774-c96",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiturki:257774-c96",
+      "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-257774-c96.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:122313-b77",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:122313-b77",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122313-b77.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:43469",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "43469",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43469.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

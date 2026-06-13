@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:ضنینة",
+    "primary_form": "ضنینة",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:ضنینة:danîne",
+    "spelling_id": "spelling:ضنینة",
+    "display_latin": "danîne",
+    "normalized": "danîne",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danine"
+    ],
+    "forms": [
+      "form:ota:ضنینة",
+      "form:tr-latn:danîne"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:79692"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:127614-dm6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:ضنینة",
+      "script": "Arab",
+      "language": "ota",
+      "text": "ضنینة",
+      "normalized": "ضنینة",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danîne",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danîne",
+      "normalized": "danine",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:127614-dm6",
+      "spelling_id": "spelling:ضنینة",
+      "reading_id": "reading:ضنینة:danîne",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ضنینة",
+      "latin": "Danîne",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:782-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:127614-dm6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:782-1",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/75/782-1.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "782",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:127614-dm6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:127614-dm6",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-127614-dm6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:79692",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "79692",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-79692.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

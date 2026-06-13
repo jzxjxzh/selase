@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آبادا",
+    "primary_form": "آبادا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادا:abada",
+    "spelling_id": "spelling:آبادا",
+    "display_latin": "abada",
+    "normalized": "abada",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abada"
+    ],
+    "forms": [
+      "form:ota:آبادا",
+      "form:tr-latn:abada"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:142685"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:resimlikamus:518462-si7"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادا",
+      "normalized": "آبادا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abada",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abada",
+      "normalized": "abada",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:resimli-kamus-i-osmani",
+      "title": "Resimli Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:resimlikamus:518462-si7",
+      "spelling_id": "spelling:آبادا",
+      "reading_id": "reading:آبادا:abada",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادا",
+      "latin": "abada",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-kamus-i-osmani:14-10"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:resimlikamus:518462-si7"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:resimli-kamus-i-osmani:14-10",
+      "kind": "entry-crop",
+      "url": "https://resimli.cagdassozluk.com/rsm/seydi/0/14-10.jpg",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Kamus-ı Osmani",
+        "volume": "1",
+        "page": "14",
+        "sequence": "10"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:resimlikamus:518462-si7",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "resimlikamus:518462-si7",
+      "url": "https://www.ottomanlexicons.com/resimlikamus/tafsil-518462-si7.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:142685",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "142685",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-142685.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

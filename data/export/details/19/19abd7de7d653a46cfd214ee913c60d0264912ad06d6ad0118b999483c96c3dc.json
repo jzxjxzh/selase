@@ -1,0 +1,162 @@
+{
+  "spelling": {
+    "id": "spelling:دانشپذیر",
+    "primary_form": "دانشپذیر",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشپذیر:dânışpezîr",
+    "spelling_id": "spelling:دانشپذیر",
+    "display_latin": "dânışpezîr",
+    "normalized": "dânışpezîr",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danispezir"
+    ],
+    "forms": [
+      "form:ota:دانشپذیر",
+      "form:tr-latn:dânışpezîr"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:77018"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:122311-kn6",
+      "entry:ottomanlexicons:muntehab:549250-t81"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشپذیر",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشپذیر",
+      "normalized": "دانشپذیر",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:dânışpezîr",
+      "script": "Latn",
+      "language": "tr",
+      "text": "dânışpezîr",
+      "normalized": "danispezir",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:muntehab-i-lugat-i-osmaniyye",
+      "title": "Müntehab-ı Lugat-ı Osmâniyye",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:122311-kn6",
+      "spelling_id": "spelling:دانشپذیر",
+      "reading_id": "reading:دانشپذیر:dânışpezîr",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشپذیر",
+      "latin": "Dânışpezîr",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:530-16"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:122311-kn6"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:muntehab:549250-t81",
+      "spelling_id": "spelling:دانشپذیر",
+      "reading_id": "reading:دانشپذیر:dânışpezîr",
+      "source_id": "source:muntehab-i-lugat-i-osmaniyye",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشپذیر",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:muntehab-i-lugat-i-osmaniyye:312-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:muntehab:549250-t81"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:530-16",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-16.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "530",
+        "sequence": "16"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:muntehab-i-lugat-i-osmaniyye:312-9",
+      "kind": "entry-crop",
+      "url": "https://muntehab.cagdassozluk.com/rsm/munt1/30/312-9.jpg",
+      "source_id": "source:muntehab-i-lugat-i-osmaniyye",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Müntehab-ı Lugat-ı Osmâniyye",
+        "volume": "1",
+        "page": "312",
+        "sequence": "9"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:122311-kn6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:122311-kn6",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122311-kn6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:muntehab:549250-t81",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "muntehab:549250-t81",
+      "url": "https://www.ottomanlexicons.com/muntehab/tafsil-549250-t81.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:77018",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "77018",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-77018.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

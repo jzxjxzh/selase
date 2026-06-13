@@ -1,6 +1,7 @@
 import { normalizeOttomanSearchText } from "./search-normalization.js";
 
-const corpusUrl = "../data/generated/danis-neighborhood.json";
+const exportManifestUrl = "../data/export/manifest.json";
+const fallbackCorpusUrl = "../data/generated/danis-neighborhood.json";
 
 let corpus;
 let selectedRecord;
@@ -10,6 +11,7 @@ let showResultMeta = false;
 let zoom = 1;
 let isRestoringUrlState = false;
 const expandedSpellingIds = new Set();
+const detailCache = new Map();
 
 const preferredSources = [
   {
@@ -31,8 +33,8 @@ const byId = (items) => Object.fromEntries(items.map((item) => [item.id, item]))
 const $ = (id) => document.getElementById(id);
 
 async function init() {
-  corpus = hydrateCorpus(await fetchJson(corpusUrl));
-  applyUrlState();
+  corpus = await loadCorpus();
+  await applyUrlState();
 
   $("searchInput").addEventListener("input", () => {
     renderResults(getRankedMatches());
@@ -59,10 +61,21 @@ async function init() {
   $("zoomReset").addEventListener("click", () => setZoom(1));
 
   window.addEventListener("popstate", () => {
-    applyUrlState();
+    void applyUrlState();
   });
 
   render();
+}
+
+async function loadCorpus() {
+  try {
+    const manifest = await fetchJson(exportManifestUrl);
+    const index = await fetchJson(new URL(manifest.search_index, new URL(exportManifestUrl, window.location.href)).href);
+    return hydrateExportCorpus(manifest, index);
+  } catch (error) {
+    console.warn("Falling back to prototype corpus", error);
+    return hydrateLegacyCorpus(await fetchJson(fallbackCorpusUrl));
+  }
 }
 
 async function fetchJson(url) {
@@ -71,7 +84,20 @@ async function fetchJson(url) {
   return response.json();
 }
 
-function hydrateCorpus(data) {
+function hydrateExportCorpus(manifest, index) {
+  return {
+    ...index,
+    manifest,
+    provider: index.provider || manifest.provider,
+    exportBaseUrl: new URL(".", new URL(exportManifestUrl, window.location.href)).href,
+    records: index.records.map((record) => ({
+      ...record,
+      isSummary: true
+    }))
+  };
+}
+
+function hydrateLegacyCorpus(data) {
   const provider = data.provider;
   return {
     ...data,
@@ -80,6 +106,7 @@ function hydrateCorpus(data) {
 }
 
 function hydrateRecord(record, provider) {
+  if (record.maps) return record;
   return {
     ...record,
     maps: {
@@ -91,6 +118,16 @@ function hydrateRecord(record, provider) {
       sourceLinks: byId(record.source_links)
     }
   };
+}
+
+async function getRecordDetail(record) {
+  if (!record?.isSummary) return hydrateRecord(record, corpus.provider);
+  const id = recordId(record);
+  if (detailCache.has(id)) return detailCache.get(id);
+  const detailUrl = new URL(record.detail_path, corpus.exportBaseUrl).href;
+  const detail = hydrateRecord(await fetchJson(detailUrl), corpus.provider);
+  detailCache.set(id, detail);
+  return detail;
 }
 
 function recordId(record) {
@@ -118,7 +155,7 @@ function recordEntryIds(record) {
 }
 
 function recordEntryCount(record) {
-  return recordEntryIds(record).length;
+  return record.entry_count ?? recordEntryIds(record).length;
 }
 
 function render() {
@@ -130,10 +167,10 @@ function render() {
   renderEntry();
 }
 
-function selectRecord(record, options = {}) {
-  selectedRecord = record;
+async function selectRecord(record, options = {}) {
+  selectedRecord = await getRecordDetail(record);
   expandedSpellingIds.clear();
-  selectedEntryId = getValidEntryId(record, options.entryId);
+  selectedEntryId = getValidEntryId(selectedRecord, options.entryId);
   zoom = 1;
   renderSpelling();
   renderResults();
@@ -172,6 +209,7 @@ function getSourcePriority(entry, source) {
 }
 
 function getRecordSourcePriority(record) {
+  if (record.source_priority != null) return record.source_priority;
   return Math.min(
     ...recordEntryIds(record).map((entryId) => {
       const entry = record.maps.entries[entryId];
@@ -185,7 +223,7 @@ function sourceText(source) {
   return `${source?.id || ""} ${source?.title || ""}`.toLocaleLowerCase("tr");
 }
 
-function applyUrlState() {
+async function applyUrlState() {
   const state = readUrlState();
   isRestoringUrlState = true;
 
@@ -195,9 +233,11 @@ function applyUrlState() {
   const recordFromReading = corpus.records.find((record) => recordId(record) === state.reading);
   const recordFromSpelling = corpus.records.find((record) => record.spelling.id === state.spelling);
   const recordFromQuery = state.query ? getRankedMatches()[0]?.record : null;
-  selectedRecord = recordFromReading || recordFromSpelling || recordFromQuery || corpus.records[0];
+  const selectedSummary = recordFromReading || recordFromSpelling || recordFromQuery || corpus.records[0];
+  selectedRecord = await getRecordDetail(selectedSummary);
   expandedSpellingIds.clear();
   if (!state.query && (state.reading || state.spelling)) $("searchInput").value = selectedRecord.spelling.primary_form;
+  if (!state.query && !state.reading && !state.spelling) $("searchInput").value = selectedRecord.spelling.primary_form;
   selectedEntryId = getValidEntryId(selectedRecord, state.entry);
   zoom = 1;
 
@@ -338,7 +378,7 @@ function renderResults(matches = getRankedMatches()) {
           <span class="reading-row-count">${formatEntryCount(recordEntryCount(record))}</span>
         `;
         row.addEventListener("click", () => {
-          selectRecord(record, { focusSearch: true, history: "push", urlState: "spelling" });
+          void selectRecord(record, { focusSearch: true, history: "push", urlState: "spelling" });
         });
         return row;
       }));
@@ -426,6 +466,8 @@ function getRankedMatches() {
 }
 
 function scoreRecord(record, query, index) {
+  if (record.search) return scoreExportedRecord(record, query, index);
+
   const foldedQuery = foldTurkish(query);
   const forms = recordForms(record).map((id) => record.maps.forms[id]).filter(Boolean);
   const sourceLabels = record.sources.map((source) => source.title);
@@ -458,6 +500,51 @@ function scoreRecord(record, query, index) {
   }
 
   return { score: 0, reason: "no match", index };
+}
+
+function scoreExportedRecord(record, query, index) {
+  const foldedQuery = foldTurkish(query);
+  const searchQuery = normalizeOttomanSearchText(query);
+  const broadQuery = normalizeOttomanSearchText(query, { broad: true });
+
+  const candidates = [
+    ...(searchMode !== "latin" ? [{ values: record.search.ottoman, query: searchQuery, score: 100, reason: "exact headword", type: "exact" }] : []),
+    ...(searchMode !== "ota" ? [{ values: record.search.latin, query, score: 90, reason: "exact transliteration", type: "exact" }] : []),
+    ...(searchMode !== "latin" ? [{ values: record.search.ottoman, query: searchQuery, score: 80, reason: "headword prefix", type: "prefix" }] : []),
+    ...(searchMode !== "ota" ? [{ values: record.search.latin, query, score: 70, reason: "Latin prefix", type: "prefix" }] : []),
+    ...(searchMode !== "latin" ? [{ values: record.search.ottoman, query: searchQuery, score: 60, reason: "headword contains", type: "substring" }] : []),
+    ...(searchMode !== "latin" ? [{ values: record.search.ottoman_broad, query: broadQuery, score: 58, reason: "broad headword", type: "substring" }] : []),
+    ...(searchMode !== "ota" ? [{ values: record.search.latin, query, score: 50, reason: "Latin contains", type: "substring" }] : []),
+    ...(searchMode !== "ota" ? [{ values: record.search.latin_folded, query: foldedQuery, score: 40, reason: "folded Latin", type: "substring" }] : []),
+    ...(searchMode !== "latin" ? [{ values: record.search.entry_ottoman, query: searchQuery, score: 30, reason: "source variant", type: "substring" }] : []),
+    ...(searchMode !== "latin" ? [{ values: record.search.entry_ottoman_broad, query: broadQuery, score: 28, reason: "source variant", type: "substring" }] : []),
+    ...(searchMode !== "ota" ? [{ values: record.search.entry_latin, query, score: 26, reason: "source variant", type: "substring" }] : []),
+    ...(searchMode !== "ota" ? [{ values: record.search.entry_latin_folded, query: foldedQuery, score: 24, reason: "source variant", type: "substring" }] : []),
+    { values: record.search.source_metadata, query: foldedQuery, score: 10, reason: "source metadata", type: "substring" }
+  ];
+
+  for (const candidate of candidates) {
+    const value = candidate.values?.find((item) => matchesPrecomputed(item, candidate.query, candidate.type));
+    if (value) {
+      return {
+        score: candidate.score,
+        reason: candidate.reason,
+        value,
+        index
+      };
+    }
+  }
+
+  return { score: 0, reason: "no match", index };
+}
+
+function matchesPrecomputed(value, query, type) {
+  const text = String(value || "").toLocaleLowerCase("tr");
+  const normalizedQuery = String(query || "").toLocaleLowerCase("tr").trim();
+  if (!text || !normalizedQuery) return false;
+  if (type === "exact") return text === normalizedQuery;
+  if (type === "prefix") return text.startsWith(normalizedQuery);
+  return text.includes(normalizedQuery);
 }
 
 function matchesByType(value, query, foldedQuery, type) {
@@ -500,7 +587,7 @@ function renderNearby() {
     button.innerHTML = `<span dir="rtl" lang="ota">${record.spelling.primary_form}</span><span>${formatResultLatin(recordLatin(record))}</span>`;
     button.addEventListener("click", () => {
       $("searchInput").value = record.spelling.primary_form;
-      selectRecord(record, { focusSearch: true, history: "push", urlState: "spelling" });
+      void selectRecord(record, { focusSearch: true, history: "push", urlState: "spelling" });
     });
     return button;
   }));

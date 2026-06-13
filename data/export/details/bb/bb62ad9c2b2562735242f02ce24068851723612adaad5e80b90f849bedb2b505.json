@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:دانس",
+    "primary_form": "دانس",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانس:danis",
+    "spelling_id": "spelling:دانس",
+    "display_latin": "danis",
+    "normalized": "danis",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danis"
+    ],
+    "forms": [
+      "form:ota:دانس",
+      "form:tr-latn:danis"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:131632"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:turkcelugat:252752-sk2"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانس",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانس",
+      "normalized": "دانس",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danis",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danis",
+      "normalized": "danis",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:yeni-turkce-lugat",
+      "title": "Yeni Türkçe Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:turkcelugat:252752-sk2",
+      "spelling_id": "spelling:دانس",
+      "reading_id": "reading:دانس:danis",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانس",
+      "latin": "danis",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:yeni-turkce-lugat:319-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcelugat:252752-sk2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:yeni-turkce-lugat:319-6",
+      "kind": "entry-crop",
+      "url": "https://toven.cagdassozluk.com/rsm/ytl/30/319-6.jpg",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Yeni Türkçe Lugat",
+        "page": "319",
+        "sequence": "6"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcelugat:252752-sk2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcelugat:252752-sk2",
+      "url": "https://www.ottomanlexicons.com/turkcelugat/tafsil-252752-sk2.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:131632",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "131632",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-131632.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

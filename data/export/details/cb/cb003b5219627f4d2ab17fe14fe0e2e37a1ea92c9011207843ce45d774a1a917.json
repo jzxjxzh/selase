@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب زندگی",
+    "primary_form": "آب زندگی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب زندگی:abi zindegi",
+    "spelling_id": "spelling:آب زندگی",
+    "display_latin": "abi zindegi",
+    "normalized": "abi zindegi",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-zindegi"
+    ],
+    "forms": [
+      "form:ota:آب زندگی",
+      "form:tr-latn:abi zindegi"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:55123"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:osmanli:372191-f48"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب زندگی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب زندگی",
+      "normalized": "آب زندگی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abi zindegi",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abi zindegi",
+      "normalized": "abi-zindegi",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:osmanli:372191-f48",
+      "spelling_id": "spelling:آب زندگی",
+      "reading_id": "reading:آب زندگی:abi zindegi",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب زندگی",
+      "latin": "abi zindegi",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:11-15"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372191-f48"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:11-15",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/11-15.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "11",
+        "sequence": "15"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372191-f48",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372191-f48",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372191-f48.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:55123",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "55123",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-55123.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

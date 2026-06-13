@@ -1,0 +1,161 @@
+{
+  "spelling": {
+    "id": "spelling:آب حیوان",
+    "primary_form": "آب حیوان",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب حیوان:abı hayvan",
+    "spelling_id": "spelling:آب حیوان",
+    "display_latin": "abı hayvan",
+    "normalized": "abı hayvan",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-hayvan"
+    ],
+    "forms": [
+      "form:ota:آب حیوان",
+      "form:tr-latn:abı hayvan"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:141721"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ebuzziya:510028-d96",
+      "entry:ottomanlexicons:osmanli:372101-tv7"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب حیوان",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب حیوان",
+      "normalized": "آب حیوان",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abı hayvan",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abı hayvan",
+      "normalized": "abi-hayvan",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-ebuzziya",
+      "title": "Lugat-ı Ebuzziya",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ebuzziya:510028-d96",
+      "spelling_id": "spelling:آب حیوان",
+      "reading_id": "reading:آب حیوان:abı hayvan",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیوان",
+      "latin": "abı hayvan",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-ebuzziya:23-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ebuzziya:510028-d96"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:osmanli:372101-tv7",
+      "spelling_id": "spelling:آب حیوان",
+      "reading_id": "reading:آب حیوان:abı hayvan",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیوان",
+      "latin": "abı hayvan",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:8-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372101-tv7"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-ebuzziya:23-1",
+      "kind": "entry-crop",
+      "url": "https://ebuzziya.cagdassozluk.com/rsm/eziya/0/23-1.jpg",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Ebuzziya",
+        "volume": "1",
+        "page": "23",
+        "sequence": "1"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:8-1",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/8-1.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "8",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ebuzziya:510028-d96",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ebuzziya:510028-d96",
+      "url": "https://www.ottomanlexicons.com/ebuzziya/tafsil-510028-d96.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372101-tv7",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372101-tv7",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372101-tv7.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:141721",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "141721",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-141721.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

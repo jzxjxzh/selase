@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب راه",
+    "primary_form": "آب راه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب راه:abrah",
+    "spelling_id": "spelling:آب راه",
+    "display_latin": "abrah",
+    "normalized": "abrah",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abrah"
+    ],
+    "forms": [
+      "form:ota:آب راه",
+      "form:tr-latn:abrah"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:55117"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:osmanli:372170-ms5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب راه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب راه",
+      "normalized": "آب راه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abrah",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abrah",
+      "normalized": "abrah",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:osmanli:372170-ms5",
+      "spelling_id": "spelling:آب راه",
+      "reading_id": "reading:آب راه:abrah",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب راه",
+      "latin": "abrah",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:10-19"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372170-ms5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:10-19",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/10-19.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "10",
+        "sequence": "19"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372170-ms5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372170-ms5",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372170-ms5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:55117",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "55117",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-55117.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

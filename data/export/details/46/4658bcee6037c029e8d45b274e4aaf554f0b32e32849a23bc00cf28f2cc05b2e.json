@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:دانیشیق",
+    "primary_form": "دانیشیق",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانیشیق:danışık",
+    "spelling_id": "spelling:دانیشیق",
+    "display_latin": "danışık",
+    "normalized": "danışık",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danisik"
+    ],
+    "forms": [
+      "form:ota:دانیشیق",
+      "form:tr-latn:danışık"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:151131"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:turkcekamus:282810-r21"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانیشیق",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانیشیق",
+      "normalized": "دانیشیق",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danışık",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danışık",
+      "normalized": "danisik",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:resimli-turkce-kamus",
+      "title": "Resimli Türkçe Kamus",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:turkcekamus:282810-r21",
+      "spelling_id": "spelling:دانیشیق",
+      "reading_id": "reading:دانیشیق:danışık",
+      "source_id": "source:resimli-turkce-kamus",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانیشیق",
+      "latin": "danışık",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-turkce-kamus:338-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcekamus:282810-r21"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:resimli-turkce-kamus:338-5",
+      "kind": "entry-crop",
+      "url": "https://kestelli.cagdassozluk.com/rsm/tkamus/30/338-5.jpg",
+      "source_id": "source:resimli-turkce-kamus",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Türkçe Kamus",
+        "page": "338",
+        "sequence": "5"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcekamus:282810-r21",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcekamus:282810-r21",
+      "url": "https://www.ottomanlexicons.com/turkcekamus/tafsil-282810-r21.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:151131",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "151131",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-151131.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:دانس",
+    "primary_form": "دانس",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانس:dans",
+    "spelling_id": "spelling:دانس",
+    "display_latin": "dans",
+    "normalized": "dans",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "dans"
+    ],
+    "forms": [
+      "form:ota:دانس",
+      "form:tr-latn:dans"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:131632"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:turkcekamus:282801-vz8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانس",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانس",
+      "normalized": "دانس",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:dans",
+      "script": "Latn",
+      "language": "tr",
+      "text": "dans",
+      "normalized": "dans",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:resimli-turkce-kamus",
+      "title": "Resimli Türkçe Kamus",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:turkcekamus:282801-vz8",
+      "spelling_id": "spelling:دانس",
+      "reading_id": "reading:دانس:dans",
+      "source_id": "source:resimli-turkce-kamus",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانس",
+      "latin": "dans",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-turkce-kamus:337-14"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcekamus:282801-vz8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:resimli-turkce-kamus:337-14",
+      "kind": "entry-crop",
+      "url": "https://kestelli.cagdassozluk.com/rsm/tkamus/30/337-14.jpg",
+      "source_id": "source:resimli-turkce-kamus",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Türkçe Kamus",
+        "page": "337",
+        "sequence": "14"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcekamus:282801-vz8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcekamus:282801-vz8",
+      "url": "https://www.ottomanlexicons.com/turkcekamus/tafsil-282801-vz8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:131632",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "131632",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-131632.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

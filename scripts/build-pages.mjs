@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { cp, mkdir, rm, writeFile } from "node:fs/promises";
+import { access, cp, mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -16,6 +16,9 @@ await cp(
   path.join(ROOT, "data/generated/danis-neighborhood.json"),
   path.join(PUBLIC_DIR, "data/generated/danis-neighborhood.json")
 );
+if (await exists(path.join(ROOT, "data/export"))) {
+  await cp(path.join(ROOT, "data/export"), path.join(PUBLIC_DIR, "data/export"), { recursive: true });
+}
 
 await writeFile(path.join(PUBLIC_DIR, ".nojekyll"), "");
 await writeFile(
@@ -37,3 +40,12 @@ await writeFile(
 );
 
 console.log(`Built ${path.relative(ROOT, PUBLIC_DIR)}`);
+
+async function exists(file) {
+  try {
+    await access(file);
+    return true;
+  } catch {
+    return false;
+  }
+}

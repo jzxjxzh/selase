@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب سیر",
+    "primary_form": "آب سیر",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب سیر:ab seyr",
+    "spelling_id": "spelling:آب سیر",
+    "display_latin": "ab seyr",
+    "normalized": "ab seyr",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-seyr"
+    ],
+    "forms": [
+      "form:ota:آب سیر",
+      "form:tr-latn:ab seyr"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94323"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167511-pc8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب سیر",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب سیر",
+      "normalized": "آب سیر",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ab seyr",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ab seyr",
+      "normalized": "ab-seyr",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167511-pc8",
+      "spelling_id": "spelling:آب سیر",
+      "reading_id": "reading:آب سیر:ab seyr",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب سیر",
+      "latin": "ab seyr",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:10-26"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167511-pc8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:10-26",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/10-26.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "10",
+        "sequence": "26"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167511-pc8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167511-pc8",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167511-pc8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94323",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94323",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94323.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

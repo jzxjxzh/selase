@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آبار",
+    "primary_form": "آبار",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبار:ebbar",
+    "spelling_id": "spelling:آبار",
+    "display_latin": "ebbar",
+    "normalized": "ebbar",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ebbar"
+    ],
+    "forms": [
+      "form:ota:آبار",
+      "form:tr-latn:ebbar"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:17"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167337-yr6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبار",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبار",
+      "normalized": "آبار",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ebbar",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ebbar",
+      "normalized": "ebbar",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167337-yr6",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:ebbar",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "ebbar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:4-20"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167337-yr6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:4-20",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/4-20.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "4",
+        "sequence": "20"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167337-yr6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167337-yr6",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167337-yr6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:17",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "17",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-17.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

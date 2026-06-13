@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب بقا",
+    "primary_form": "آب بقا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب بقا:abi beka",
+    "spelling_id": "spelling:آب بقا",
+    "display_latin": "abi beka",
+    "normalized": "abi beka",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-beka"
+    ],
+    "forms": [
+      "form:ota:آب بقا",
+      "form:tr-latn:abi beka"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19092"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:osmanli:372099-z64"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب بقا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب بقا",
+      "normalized": "آب بقا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abi beka",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abi beka",
+      "normalized": "abi-beka",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:osmanli:372099-z64",
+      "spelling_id": "spelling:آب بقا",
+      "reading_id": "reading:آب بقا:abi beka",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب بقا",
+      "latin": "abi beka",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:7-24"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372099-z64"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:7-24",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/7-24.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "7",
+        "sequence": "24"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372099-z64",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372099-z64",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372099-z64.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19092",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19092",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19092.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

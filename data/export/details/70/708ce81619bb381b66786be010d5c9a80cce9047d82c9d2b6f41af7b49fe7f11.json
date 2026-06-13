@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب تاب",
+    "primary_form": "آب تاب",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب تاب:ab tab",
+    "spelling_id": "spelling:آب تاب",
+    "display_latin": "ab tab",
+    "normalized": "ab tab",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-tab"
+    ],
+    "forms": [
+      "form:ota:آب تاب",
+      "form:tr-latn:ab tab"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94281"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167375-d13"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب تاب",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب تاب",
+      "normalized": "آب تاب",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ab tab",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ab tab",
+      "normalized": "ab-tab",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167375-d13",
+      "spelling_id": "spelling:آب تاب",
+      "reading_id": "reading:آب تاب:ab tab",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب تاب",
+      "latin": "ab tab",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:5-34"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167375-d13"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:5-34",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/5-34.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "5",
+        "sequence": "34"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167375-d13",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167375-d13",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167375-d13.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94281",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94281",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94281.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

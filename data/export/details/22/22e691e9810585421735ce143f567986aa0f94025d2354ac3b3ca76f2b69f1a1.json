@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:عائم",
+    "primary_form": "عائم",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:عائم:aim",
+    "spelling_id": "spelling:عائم",
+    "display_latin": "aim",
+    "normalized": "aim",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aim"
+    ],
+    "forms": [
+      "form:ota:عائم",
+      "form:tr-latn:aim"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:98538"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:475300-sh5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:عائم",
+      "script": "Arab",
+      "language": "ota",
+      "text": "عائم",
+      "normalized": "عائم",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aim",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aim",
+      "normalized": "aim",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:475300-sh5",
+      "spelling_id": "spelling:عائم",
+      "reading_id": "reading:عائم:aim",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "عائم",
+      "latin": "aim",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:1280-10"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:475300-sh5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:1280-10",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/125/1280-10.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "1280",
+        "sequence": "10"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:475300-sh5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:475300-sh5",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-475300-sh5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:98538",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "98538",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-98538.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

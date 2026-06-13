@@ -1,0 +1,103 @@
+{
+  "spelling": {
+    "id": "spelling:آئوژرت",
+    "primary_form": "آئوژرت",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئوژرت:null",
+    "spelling_id": "spelling:آئوژرت",
+    "display_latin": null,
+    "normalized": null,
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [],
+    "forms": [
+      "form:ota:آئوژرت"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:62049"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:tarihvecografya:92806-k69"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئوژرت",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئوژرت",
+      "normalized": "آئوژرت",
+      "kind": "headword"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:tarihvecografya",
+      "title": "Tarih ve Coğrafya Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:tarihvecografya:92806-k69",
+      "spelling_id": "spelling:آئوژرت",
+      "reading_id": "reading:آئوژرت:null",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئوژرت",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:tarihvecografya:5-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:tarihvecografya:92806-k69"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:5-2",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt1/0/5-2.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "1",
+        "page": "5",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:tarihvecografya:92806-k69",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "tarihvecografya:92806-k69",
+      "url": "https://www.ottomanlexicons.com/tarihvecografya/tafsil-92806-k69.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:62049",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "62049",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-62049.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

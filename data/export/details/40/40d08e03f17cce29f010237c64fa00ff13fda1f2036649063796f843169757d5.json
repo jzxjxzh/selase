@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب سواران",
+    "primary_form": "آب سواران",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب سواران:ab-suvaran",
+    "spelling_id": "spelling:آب سواران",
+    "display_latin": "ab-suvaran",
+    "normalized": "ab-suvaran",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-suvaran"
+    ],
+    "forms": [
+      "form:ota:آب سواران",
+      "form:tr-latn:ab-suvaran"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94322"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167510-vg9"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب سواران",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب سواران",
+      "normalized": "آب سواران",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ab-suvaran",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ab-suvaran",
+      "normalized": "ab-suvaran",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167510-vg9",
+      "spelling_id": "spelling:آب سواران",
+      "reading_id": "reading:آب سواران:ab-suvaran",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب سواران",
+      "latin": "ab-suvaran",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:10-25"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167510-vg9"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:10-25",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/10-25.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "10",
+        "sequence": "25"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167510-vg9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167510-vg9",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167510-vg9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94322",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94322",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94322.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

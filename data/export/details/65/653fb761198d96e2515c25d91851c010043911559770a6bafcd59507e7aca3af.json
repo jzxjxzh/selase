@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:ابه",
+    "primary_form": "ابه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:ابه:aba",
+    "spelling_id": "spelling:ابه",
+    "display_latin": "aba",
+    "normalized": "aba",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aba"
+    ],
+    "forms": [
+      "form:ota:ابه",
+      "form:tr-latn:aba"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:197991"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:144-hz5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:ابه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "ابه",
+      "normalized": "ابه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aba",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aba",
+      "normalized": "aba",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:144-hz5",
+      "spelling_id": "spelling:ابه",
+      "reading_id": "reading:ابه:aba",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ابه",
+      "latin": "Aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:13-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:144-hz5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:13-3",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/13-3.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "13",
+        "sequence": "3"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:144-hz5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:144-hz5",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-144-hz5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:197991",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "197991",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-197991.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

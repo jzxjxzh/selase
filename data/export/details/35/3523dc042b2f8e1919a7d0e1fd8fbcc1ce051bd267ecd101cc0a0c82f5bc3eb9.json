@@ -1,0 +1,209 @@
+{
+  "spelling": {
+    "id": "spelling:آبادانی",
+    "primary_form": "آبادانی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادانی:abadani",
+    "spelling_id": "spelling:آبادانی",
+    "display_latin": "abadani",
+    "normalized": "abadani",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadani"
+    ],
+    "forms": [
+      "form:ota:آبادانی",
+      "form:tr-latn:abadani"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19076"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiosmani:22274-ry5",
+      "entry:ottomanlexicons:ebuzziya:510020-n93",
+      "entry:ottomanlexicons:osmanli:372094-fa3"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادانی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادانی",
+      "normalized": "آبادانی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadani",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadani",
+      "normalized": "abadani",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-ebuzziya",
+      "title": "Lugat-ı Ebuzziya",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22274-ry5",
+      "spelling_id": "spelling:آبادانی",
+      "reading_id": "reading:آبادانی:abadani",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادانی",
+      "latin": "Abadani",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:6-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22274-ry5"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ebuzziya:510020-n93",
+      "spelling_id": "spelling:آبادانی",
+      "reading_id": "reading:آبادانی:abadani",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادانی",
+      "latin": "Abadani",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-ebuzziya:22-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ebuzziya:510020-n93"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:osmanli:372094-fa3",
+      "spelling_id": "spelling:آبادانی",
+      "reading_id": "reading:آبادانی:abadani",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادانی",
+      "latin": "abadani",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:7-19"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372094-fa3"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:6-3",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/6-3.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "6",
+        "sequence": "3"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-ebuzziya:22-3",
+      "kind": "entry-crop",
+      "url": "https://ebuzziya.cagdassozluk.com/rsm/eziya/0/22-3.jpg",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Ebuzziya",
+        "volume": "1",
+        "page": "22",
+        "sequence": "3"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:7-19",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/7-19.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "7",
+        "sequence": "19"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ebuzziya:510020-n93",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ebuzziya:510020-n93",
+      "url": "https://www.ottomanlexicons.com/ebuzziya/tafsil-510020-n93.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22274-ry5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22274-ry5",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22274-ry5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372094-fa3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372094-fa3",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372094-fa3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19076",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19076",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19076.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

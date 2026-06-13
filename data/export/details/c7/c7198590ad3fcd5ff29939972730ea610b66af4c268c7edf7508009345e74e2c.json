@@ -1,0 +1,220 @@
+{
+  "spelling": {
+    "id": "spelling:آبرو",
+    "primary_form": "آبرو",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبرو:abru",
+    "spelling_id": "spelling:آبرو",
+    "display_latin": "abru",
+    "normalized": "abru",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abru"
+    ],
+    "forms": [
+      "form:ota:آبرو",
+      "form:tr-latn:abru"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:141722"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiturki:88677-fn1",
+      "entry:ottomanlexicons:ingilizce:167479-pt6",
+      "entry:ottomanlexicons:almanca:333798-p64"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبرو",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبرو",
+      "normalized": "آبرو",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abru",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abru",
+      "normalized": "abru",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:almanca-osmanlica",
+      "title": "Almanca Osmanlıca Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "de"
+      ]
+    },
+    {
+      "id": "source:kamus-i-turki",
+      "title": "Kamus-ı Türki",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiturki:88677-fn1",
+      "spelling_id": "spelling:آبرو",
+      "reading_id": "reading:آبرو:abru",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبرو",
+      "latin": "abru",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-turki:16-7",
+        "image:ottomanlexicons:kamus-i-turki:16-8"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiturki:88677-fn1"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167479-pt6",
+      "spelling_id": "spelling:آبرو",
+      "reading_id": "reading:آبرو:abru",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبرو",
+      "latin": "abru",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:9-30"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167479-pt6"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:almanca:333798-p64",
+      "spelling_id": "spelling:آبرو",
+      "reading_id": "reading:آبرو:abru",
+      "source_id": "source:almanca-osmanlica",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبرو",
+      "latin": "abru",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:almanca-osmanlica:1-13"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:almanca:333798-p64"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:almanca-osmanlica:1-13",
+      "kind": "entry-crop",
+      "url": "https://almanca.cagdassozluk.com/lugat/rsm/alm/0/1-13.jpg",
+      "source_id": "source:almanca-osmanlica",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Almanca Osmanlıca Sözlük",
+        "page": "1",
+        "sequence": "13"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:16-7",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/0/16-7.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "16",
+        "sequence": "7"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:16-8",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/0/16-8.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "16",
+        "sequence": "8"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:9-30",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/9-30.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "9",
+        "sequence": "30"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:almanca:333798-p64",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "almanca:333798-p64",
+      "url": "https://www.ottomanlexicons.com/almanca/tafsil-333798-p64.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167479-pt6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167479-pt6",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167479-pt6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiturki:88677-fn1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiturki:88677-fn1",
+      "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-88677-fn1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:141722",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "141722",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-141722.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

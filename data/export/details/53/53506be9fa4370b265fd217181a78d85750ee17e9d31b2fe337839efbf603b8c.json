@@ -1,0 +1,184 @@
+{
+  "spelling": {
+    "id": "spelling:دانیه",
+    "primary_form": "دانیه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانیه:daniyye",
+    "spelling_id": "spelling:دانیه",
+    "display_latin": "daniyye",
+    "normalized": "daniyye",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "daniyye"
+    ],
+    "forms": [
+      "form:ota:دانیه",
+      "form:tr-latn:daniyye"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:10988",
+      "source-link:ottomanlexicons:spelling:179659"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:12742-ks1",
+      "entry:ottomanlexicons:ingilizce:461267-zg4"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانیه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانیه",
+      "normalized": "دانیه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:daniyye",
+      "script": "Latn",
+      "language": "tr",
+      "text": "daniyye",
+      "normalized": "daniyye",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:12742-ks1",
+      "spelling_id": "spelling:دانیه",
+      "reading_id": "reading:دانیه:daniyye",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانیه",
+      "latin": "Daniyye",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:508-3",
+        "image:ottomanlexicons:kamusul-alam:509-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:12742-ks1"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:461267-zg4",
+      "spelling_id": "spelling:دانیه",
+      "reading_id": "reading:دانیه:daniyye",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانیه",
+      "latin": "daniyye",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:885-36"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:461267-zg4"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:508-3",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/508-3.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "3",
+        "page": "508",
+        "sequence": "3"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:509-1",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/509-1.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "3",
+        "page": "509",
+        "sequence": "1"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:885-36",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-36.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "885",
+        "sequence": "36"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:461267-zg4",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:461267-zg4",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461267-zg4.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:12742-ks1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:12742-ks1",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-12742-ks1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:10988",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "10988",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10988.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:179659",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "179659",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-179659.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

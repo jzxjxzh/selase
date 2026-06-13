@@ -1,0 +1,128 @@
+{
+  "spelling": {
+    "id": "spelling:دانشمندلی",
+    "primary_form": "دانشمندلی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشمندلی:danişmendli",
+    "spelling_id": "spelling:دانشمندلی",
+    "display_latin": "danişmendli",
+    "normalized": "danişmendli",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danismendli"
+    ],
+    "forms": [
+      "form:ota:دانشمندلی",
+      "form:tr-latn:danişmendli"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:10976"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:12730-ns3"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشمندلی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشمندلی",
+      "normalized": "دانشمندلی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danişmendli",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danişmendli",
+      "normalized": "danismendli",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:12730-ns3",
+      "spelling_id": "spelling:دانشمندلی",
+      "reading_id": "reading:دانشمندلی:danişmendli",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمندلی",
+      "latin": "Danişmendli",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:503-5",
+        "image:ottomanlexicons:kamusul-alam:503-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:12730-ns3"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:503-5",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/503-5.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "3",
+        "page": "503",
+        "sequence": "5"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:503-6",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/503-6.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "3",
+        "page": "503",
+        "sequence": "6"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:12730-ns3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:12730-ns3",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-12730-ns3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:10976",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "10976",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10976.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:ابادان",
+    "primary_form": "ابادان",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:ابادان:abadan",
+    "spelling_id": "spelling:ابادان",
+    "display_latin": "abadan",
+    "normalized": "abadan",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadan"
+    ],
+    "forms": [
+      "form:ota:ابادان",
+      "form:tr-latn:abadan"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:9"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lehceiosmani:434475-vr1"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:ابادان",
+      "script": "Arab",
+      "language": "ota",
+      "text": "ابادان",
+      "normalized": "ابادان",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadan",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadan",
+      "normalized": "abadan",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lehce-i-osmani",
+      "title": "Lehçe-i Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lehceiosmani:434475-vr1",
+      "spelling_id": "spelling:ابادان",
+      "reading_id": "reading:ابادان:abadan",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ابادان",
+      "latin": "Abadan",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lehce-i-osmani:1-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lehceiosmani:434475-vr1"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lehce-i-osmani:1-5",
+      "kind": "entry-crop",
+      "url": "https://lehcei.cagdassozluk.com/rsm/lehce/0/1-5.jpg",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lehçe-i Osmani",
+        "volume": "1",
+        "page": "1",
+        "sequence": "5"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lehceiosmani:434475-vr1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lehceiosmani:434475-vr1",
+      "url": "https://www.ottomanlexicons.com/lehceiosmani/tafsil-434475-vr1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "9",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-9.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

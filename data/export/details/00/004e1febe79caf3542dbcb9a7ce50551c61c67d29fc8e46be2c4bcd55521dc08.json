@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آئن",
+    "primary_form": "آئن",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئن:a'in",
+    "spelling_id": "spelling:آئن",
+    "display_latin": "a'in",
+    "normalized": "a'in",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "a-in"
+    ],
+    "forms": [
+      "form:ota:آئن",
+      "form:tr-latn:a'in"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:98566"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:177464-kv3"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئن",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئن",
+      "normalized": "آئن",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:a'in",
+      "script": "Latn",
+      "language": "tr",
+      "text": "a'in",
+      "normalized": "a-in",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:177464-kv3",
+      "spelling_id": "spelling:آئن",
+      "reading_id": "reading:آئن:a'in",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئن",
+      "latin": "a'in",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:308-16"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:177464-kv3"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:308-16",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/30/308-16.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "308",
+        "sequence": "16"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:177464-kv3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:177464-kv3",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-177464-kv3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:98566",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "98566",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-98566.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

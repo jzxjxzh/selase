@@ -1,0 +1,173 @@
+{
+  "spelling": {
+    "id": "spelling:آب",
+    "primary_form": "آب",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب:âb",
+    "spelling_id": "spelling:آب",
+    "display_latin": "âb",
+    "normalized": "âb",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab"
+    ],
+    "forms": [
+      "form:ota:آب",
+      "form:tr-latn:âb"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:2"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiturki:89708-se8",
+      "entry:ottomanlexicons:fransevi:40923-ma1"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب",
+      "normalized": "آب",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âb",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âb",
+      "normalized": "ab",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-fransevi",
+      "title": "Kamus-ı Fransevi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    },
+    {
+      "id": "source:kamus-i-turki",
+      "title": "Kamus-ı Türki",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiturki:89708-se8",
+      "spelling_id": "spelling:آب",
+      "reading_id": "reading:آب:âb",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب",
+      "latin": "âb",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-turki:63-23"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiturki:89708-se8"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:fransevi:40923-ma1",
+      "spelling_id": "spelling:آب",
+      "reading_id": "reading:آب:âb",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب",
+      "latin": "âb",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-fransevi:1-7",
+        "image:ottomanlexicons:kamus-i-fransevi:2-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransevi:40923-ma1"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-fransevi:1-7",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/0/1-7.png",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Fransevi",
+        "page": "1",
+        "sequence": "7"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-fransevi:2-1",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/0/2-1.png",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Fransevi",
+        "page": "2",
+        "sequence": "1"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:63-23",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/0/63-23.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "63",
+        "sequence": "23"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransevi:40923-ma1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransevi:40923-ma1",
+      "url": "https://www.ottomanlexicons.com/fransevi/tafsil-40923-ma1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiturki:89708-se8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiturki:89708-se8",
+      "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-89708-se8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "2",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-2.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

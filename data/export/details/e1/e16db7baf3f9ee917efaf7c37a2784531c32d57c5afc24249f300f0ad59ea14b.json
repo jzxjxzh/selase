@@ -1,0 +1,256 @@
+{
+  "spelling": {
+    "id": "spelling:دانشور",
+    "primary_form": "دانشور",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشور:danişver",
+    "spelling_id": "spelling:دانشور",
+    "display_latin": "danişver",
+    "normalized": "danişver",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danisver"
+    ],
+    "forms": [
+      "form:ota:دانشور",
+      "form:tr-latn:danişver"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:43469"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:fransevi:52687-v88",
+      "entry:ottomanlexicons:ingilizce:461243-sz5",
+      "entry:ottomanlexicons:osmanli:379958-py8",
+      "entry:ottomanlexicons:muntehab:549253-gf8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشور",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشور",
+      "normalized": "دانشور",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danişver",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danişver",
+      "normalized": "danisver",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-fransevi",
+      "title": "Kamus-ı Fransevi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    },
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:muntehab-i-lugat-i-osmaniyye",
+      "title": "Müntehab-ı Lugat-ı Osmâniyye",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:fransevi:52687-v88",
+      "spelling_id": "spelling:دانشور",
+      "reading_id": "reading:دانشور:danişver",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشور",
+      "latin": "danişver",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-fransevi:564-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransevi:52687-v88"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:461243-sz5",
+      "spelling_id": "spelling:دانشور",
+      "reading_id": "reading:دانشور:danişver",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشور",
+      "latin": "danişver",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:885-11"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:461243-sz5"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:osmanli:379958-py8",
+      "spelling_id": "spelling:دانشور",
+      "reading_id": "reading:دانشور:danişver",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشور",
+      "latin": "danişver",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:367-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:379958-py8"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:muntehab:549253-gf8",
+      "spelling_id": "spelling:دانشور",
+      "reading_id": "reading:دانشور:danişver",
+      "source_id": "source:muntehab-i-lugat-i-osmaniyye",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشور",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:muntehab-i-lugat-i-osmaniyye:312-12"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:muntehab:549253-gf8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-fransevi:564-2",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/55/564-2.png",
+      "source_id": "source:kamus-i-fransevi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Fransevi",
+        "page": "564",
+        "sequence": "2"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:367-7",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/35/367-7.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "367",
+        "sequence": "7"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:muntehab-i-lugat-i-osmaniyye:312-12",
+      "kind": "entry-crop",
+      "url": "https://muntehab.cagdassozluk.com/rsm/munt1/30/312-12.jpg",
+      "source_id": "source:muntehab-i-lugat-i-osmaniyye",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Müntehab-ı Lugat-ı Osmâniyye",
+        "volume": "1",
+        "page": "312",
+        "sequence": "12"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:885-11",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-11.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "885",
+        "sequence": "11"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransevi:52687-v88",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransevi:52687-v88",
+      "url": "https://www.ottomanlexicons.com/fransevi/tafsil-52687-v88.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:461243-sz5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:461243-sz5",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461243-sz5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:muntehab:549253-gf8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "muntehab:549253-gf8",
+      "url": "https://www.ottomanlexicons.com/muntehab/tafsil-549253-gf8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:379958-py8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:379958-py8",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-379958-py8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:43469",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "43469",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43469.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

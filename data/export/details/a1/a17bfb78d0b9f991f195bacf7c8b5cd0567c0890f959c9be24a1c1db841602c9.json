@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آبادیا",
+    "primary_form": "آبادیا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادیا:abbadia alpina",
+    "spelling_id": "spelling:آبادیا",
+    "display_latin": "abbadia alpina",
+    "normalized": "abbadia alpina",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abbadia-alpina"
+    ],
+    "forms": [
+      "form:ota:آبادیا",
+      "form:tr-latn:abbadia alpina"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:15"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:21-ry7"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادیا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادیا",
+      "normalized": "آبادیا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abbadia alpina",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abbadia alpina",
+      "normalized": "abbadia-alpina",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:21-ry7",
+      "spelling_id": "spelling:آبادیا",
+      "reading_id": "reading:آبادیا:abbadia alpina",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادیا",
+      "latin": "Abbadia Alpina",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:3-4"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:21-ry7"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:3-4",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/3-4.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "3",
+        "sequence": "4"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:21-ry7",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:21-ry7",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-21-ry7.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:15",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "15",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-15.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "spelling": {
+    "id": "spelling:دانسقه",
+    "primary_form": "دانسقه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانسقه:null",
+    "spelling_id": "spelling:دانسقه",
+    "display_latin": null,
+    "normalized": null,
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [],
+    "forms": [
+      "form:ota:دانسقه"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:64125"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:tarihvecografya:96206-y12"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانسقه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانسقه",
+      "normalized": "دانسقه",
+      "kind": "headword"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:tarihvecografya",
+      "title": "Tarih ve Coğrafya Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:tarihvecografya:96206-y12",
+      "spelling_id": "spelling:دانسقه",
+      "reading_id": "reading:دانسقه:null",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانسقه",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:tarihvecografya:230-4"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:tarihvecografya:96206-y12"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:230-4",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt3/20/230-4.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "3",
+        "page": "230",
+        "sequence": "4"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:tarihvecografya:96206-y12",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "tarihvecografya:96206-y12",
+      "url": "https://www.ottomanlexicons.com/tarihvecografya/tafsil-96206-y12.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:64125",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "64125",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-64125.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

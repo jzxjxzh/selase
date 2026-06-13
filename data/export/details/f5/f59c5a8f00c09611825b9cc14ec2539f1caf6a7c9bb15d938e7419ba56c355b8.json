@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:ابادی",
+    "primary_form": "ابادی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:ابادی:abadi",
+    "spelling_id": "spelling:ابادی",
+    "display_latin": "abadi",
+    "normalized": "abadi",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadi"
+    ],
+    "forms": [
+      "form:ota:ابادی",
+      "form:tr-latn:abadi"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:159929"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:fransizca:391922-zf9"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:ابادی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "ابادی",
+      "normalized": "ابادی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadi",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadi",
+      "normalized": "abadi",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:hazine-i-lugat",
+      "title": "Hazine-i Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:fransizca:391922-zf9",
+      "spelling_id": "spelling:ابادی",
+      "reading_id": "reading:ابادی:abadi",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ابادی",
+      "latin": "abadi",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:hazine-i-lugat:1-13"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransizca:391922-zf9"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:hazine-i-lugat:1-13",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/0/1-13.jpg",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Hazine-i Lugat",
+        "page": "1",
+        "sequence": "13"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransizca:391922-zf9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransizca:391922-zf9",
+      "url": "https://www.ottomanlexicons.com/fransizca/tafsil-391922-zf9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:159929",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "159929",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-159929.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

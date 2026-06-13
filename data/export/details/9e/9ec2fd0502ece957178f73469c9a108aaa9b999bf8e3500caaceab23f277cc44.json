@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آب حیوآن",
+    "primary_form": "آب حیوآن",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب حیوآن:âb-ı hayvân",
+    "spelling_id": "spelling:آب حیوآن",
+    "display_latin": "âb-ı hayvân",
+    "normalized": "âb-ı hayvân",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-i-hayvan"
+    ],
+    "forms": [
+      "form:ota:آب حیوآن",
+      "form:tr-latn:âb-ı hayvân"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19094"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiosmani:22297-fz2"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب حیوآن",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب حیوآن",
+      "normalized": "آب حیوآن",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âb-ı hayvân",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âb-ı hayvân",
+      "normalized": "ab-i-hayvan",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22297-fz2",
+      "spelling_id": "spelling:آب حیوآن",
+      "reading_id": "reading:آب حیوآن:âb-ı hayvân",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حیوآن",
+      "latin": "Âb-ı hayvân",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:6-12"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22297-fz2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:6-12",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/6-12.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "6",
+        "sequence": "12"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22297-fz2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22297-fz2",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22297-fz2.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19094",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19094",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19094.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

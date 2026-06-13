@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب طرب",
+    "primary_form": "آب طرب",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب طرب:abı tarab",
+    "spelling_id": "spelling:آب طرب",
+    "display_latin": "abı tarab",
+    "normalized": "abı tarab",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-tarab"
+    ],
+    "forms": [
+      "form:ota:آب طرب",
+      "form:tr-latn:abı tarab"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:55128"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:cudi:355428-gd1"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب طرب",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب طرب",
+      "normalized": "آب طرب",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abı tarab",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abı tarab",
+      "normalized": "abi-tarab",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-cudi",
+      "title": "Lugat-ı Cudi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:cudi:355428-gd1",
+      "spelling_id": "spelling:آب طرب",
+      "reading_id": "reading:آب طرب:abı tarab",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب طرب",
+      "latin": "abı tarab",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-cudi:2-11"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:cudi:355428-gd1"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-cudi:2-11",
+      "kind": "entry-crop",
+      "url": "https://cudi.cagdassozluk.com/rsm/cudi/0/2-11.jpg",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Cudi",
+        "page": "2",
+        "sequence": "11"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:cudi:355428-gd1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "cudi:355428-gd1",
+      "url": "https://www.ottomanlexicons.com/cudi/tafsil-355428-gd1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:55128",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "55128",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-55128.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

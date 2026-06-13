@@ -1,0 +1,169 @@
+{
+  "spelling": {
+    "id": "spelling:اباد",
+    "primary_form": "اباد",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:اباد:abad",
+    "spelling_id": "spelling:اباد",
+    "display_latin": "abad",
+    "normalized": "abad",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abad"
+    ],
+    "forms": [
+      "form:ota:اباد",
+      "form:tr-latn:abad"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:209277",
+      "source-link:ottomanlexicons:spelling:8"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lehceiosmani:446108-gh8",
+      "entry:ottomanlexicons:fransizca:391920-b66"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:اباد",
+      "script": "Arab",
+      "language": "ota",
+      "text": "اباد",
+      "normalized": "اباد",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abad",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abad",
+      "normalized": "abad",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:hazine-i-lugat",
+      "title": "Hazine-i Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    },
+    {
+      "id": "source:lehce-i-osmani",
+      "title": "Lehçe-i Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lehceiosmani:446108-gh8",
+      "spelling_id": "spelling:اباد",
+      "reading_id": "reading:اباد:abad",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "اباد",
+      "latin": "abad",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lehce-i-osmani:857-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lehceiosmani:446108-gh8"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:fransizca:391920-b66",
+      "spelling_id": "spelling:اباد",
+      "reading_id": "reading:اباد:abad",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "اباد",
+      "latin": "abad",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:hazine-i-lugat:1-11"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransizca:391920-b66"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:hazine-i-lugat:1-11",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/0/1-11.jpg",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Hazine-i Lugat",
+        "page": "1",
+        "sequence": "11"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lehce-i-osmani:857-6",
+      "kind": "entry-crop",
+      "url": "https://lehcei.cagdassozluk.com/rsm/lehce/85/857-6.jpg",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lehçe-i Osmani",
+        "volume": "2",
+        "page": "857",
+        "sequence": "6"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransizca:391920-b66",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransizca:391920-b66",
+      "url": "https://www.ottomanlexicons.com/fransizca/tafsil-391920-b66.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:lehceiosmani:446108-gh8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lehceiosmani:446108-gh8",
+      "url": "https://www.ottomanlexicons.com/lehceiosmani/tafsil-446108-gh8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:209277",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "209277",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-209277.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "8",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-8.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

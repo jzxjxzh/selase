@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:دانشق",
+    "primary_form": "دانشق",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشق:danışık",
+    "spelling_id": "spelling:دانشق",
+    "display_latin": "danışık",
+    "normalized": "danışık",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danisik"
+    ],
+    "forms": [
+      "form:ota:دانشق",
+      "form:tr-latn:danışık"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:151131"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:fransizca:398280-ha2"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشق",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشق",
+      "normalized": "دانشق",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danışık",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danışık",
+      "normalized": "danisik",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:hazine-i-lugat",
+      "title": "Hazine-i Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:fransizca:398280-ha2",
+      "spelling_id": "spelling:دانشق",
+      "reading_id": "reading:دانشق:danışık",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشق",
+      "latin": "danışık",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:hazine-i-lugat:218-8"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransizca:398280-ha2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:hazine-i-lugat:218-8",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/20/218-8.jpg",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Hazine-i Lugat",
+        "page": "218",
+        "sequence": "8"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransizca:398280-ha2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransizca:398280-ha2",
+      "url": "https://www.ottomanlexicons.com/fransizca/tafsil-398280-ha2.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:151131",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "151131",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-151131.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

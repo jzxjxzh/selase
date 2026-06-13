@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب آتشرْنكْ",
+    "primary_form": "آب آتشرْنكْ",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب آتشرْنكْ:âb adşernak",
+    "spelling_id": "spelling:آب آتشرْنكْ",
+    "display_latin": "âb adşernak",
+    "normalized": "âb adşernak",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-adsernak"
+    ],
+    "forms": [
+      "form:ota:آب آتشرْنكْ",
+      "form:tr-latn:âb adşernak"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19069"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatinaci:70980-du6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب آتشرْنكْ",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب آتشرْنكْ",
+      "normalized": "آب آتشرْنكْ",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âb adşernak",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âb adşernak",
+      "normalized": "ab-adsernak",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-naci",
+      "title": "Lugat-ı Naci",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatinaci:70980-du6",
+      "spelling_id": "spelling:آب آتشرْنكْ",
+      "reading_id": "reading:آب آتشرْنكْ:âb adşernak",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب آتشرْنكْ",
+      "latin": "âb adşernak",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-naci:1-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatinaci:70980-du6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-naci:1-6",
+      "kind": "entry-crop",
+      "url": "https://naci.cagdassozluk.com/rsm/naci/0/1-6.jpg",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Naci",
+        "page": "1",
+        "sequence": "6"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatinaci:70980-du6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatinaci:70980-du6",
+      "url": "https://www.ottomanlexicons.com/lugatinaci/tafsil-70980-du6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19069",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19069",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19069.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

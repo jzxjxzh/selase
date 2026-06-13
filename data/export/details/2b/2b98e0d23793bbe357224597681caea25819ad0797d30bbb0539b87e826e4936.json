@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آب حسرت",
+    "primary_form": "آب حسرت",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب حسرت:abı hasret",
+    "spelling_id": "spelling:آب حسرت",
+    "display_latin": "abı hasret",
+    "normalized": "abı hasret",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-hasret"
+    ],
+    "forms": [
+      "form:ota:آب حسرت",
+      "form:tr-latn:abı hasret"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19071"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiosmani:22265-n65"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب حسرت",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب حسرت",
+      "normalized": "آب حسرت",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abı hasret",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abı hasret",
+      "normalized": "abi-hasret",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22265-n65",
+      "spelling_id": "spelling:آب حسرت",
+      "reading_id": "reading:آب حسرت:abı hasret",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب حسرت",
+      "latin": "Abı Hasret",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:5-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22265-n65"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:5-5",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/5-5.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "5",
+        "sequence": "5"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22265-n65",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22265-n65",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22265-n65.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19071",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19071",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19071.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آبادی",
+    "primary_form": "آبادی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادی:âbâdî",
+    "spelling_id": "spelling:آبادی",
+    "display_latin": "âbâdî",
+    "normalized": "âbâdî",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadi"
+    ],
+    "forms": [
+      "form:ota:آبادی",
+      "form:tr-latn:âbâdî"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:159929"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatinaci:70985-sf9"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادی",
+      "normalized": "آبادی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âbâdî",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âbâdî",
+      "normalized": "abadi",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-naci",
+      "title": "Lugat-ı Naci",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatinaci:70985-sf9",
+      "spelling_id": "spelling:آبادی",
+      "reading_id": "reading:آبادی:âbâdî",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادی",
+      "latin": "âbâdî",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-naci:1-12"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatinaci:70985-sf9"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-naci:1-12",
+      "kind": "entry-crop",
+      "url": "https://naci.cagdassozluk.com/rsm/naci/0/1-12.jpg",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Naci",
+        "page": "1",
+        "sequence": "12"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatinaci:70985-sf9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatinaci:70985-sf9",
+      "url": "https://www.ottomanlexicons.com/lugatinaci/tafsil-70985-sf9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:159929",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "159929",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-159929.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

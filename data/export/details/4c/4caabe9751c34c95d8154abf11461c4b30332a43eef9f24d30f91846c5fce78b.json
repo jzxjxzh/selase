@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آبادانلق، آبادانی",
+    "primary_form": "آبادانلق، آبادانی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادانلق، آبادانی:abadanlk,abadani",
+    "spelling_id": "spelling:آبادانلق، آبادانی",
+    "display_latin": "abadanlk,abadani",
+    "normalized": "abadanlk,abadani",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadanlk-abadani"
+    ],
+    "forms": [
+      "form:ota:آبادانلق، آبادانی",
+      "form:tr-latn:abadanlk,abadani"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94260"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167332-cg7"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادانلق، آبادانی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادانلق، آبادانی",
+      "normalized": "آبادانلق، آبادانی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadanlk,abadani",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadanlk,abadani",
+      "normalized": "abadanlk-abadani",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167332-cg7",
+      "spelling_id": "spelling:آبادانلق، آبادانی",
+      "reading_id": "reading:آبادانلق، آبادانی:abadanlk,abadani",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادانلق، آبادانی",
+      "latin": "abadanlk,abadani",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:4-15"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167332-cg7"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:4-15",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/4-15.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "4",
+        "sequence": "15"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167332-cg7",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167332-cg7",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167332-cg7.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94260",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94260",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94260.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

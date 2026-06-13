@@ -1,0 +1,162 @@
+{
+  "spelling": {
+    "id": "spelling:آئول",
+    "primary_form": "آئول",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئول:aül",
+    "spelling_id": "spelling:آئول",
+    "display_latin": "aül",
+    "normalized": "aül",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aul"
+    ],
+    "forms": [
+      "form:ota:آئول",
+      "form:tr-latn:aül"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19065"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiosmani:22258-t54",
+      "entry:ottomanlexicons:tarihvecografya:92807-s77"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئول",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئول",
+      "normalized": "آئول",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aül",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aül",
+      "normalized": "aul",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:tarihvecografya",
+      "title": "Tarih ve Coğrafya Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22258-t54",
+      "spelling_id": "spelling:آئول",
+      "reading_id": "reading:آئول:aül",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئول",
+      "latin": "Aül",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:4-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22258-t54"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:tarihvecografya:92807-s77",
+      "spelling_id": "spelling:آئول",
+      "reading_id": "reading:آئول:aül",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئول",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:tarihvecografya:5-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:tarihvecografya:92807-s77"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:4-3",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/4-3.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "4",
+        "sequence": "3"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:5-3",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt1/0/5-3.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "1",
+        "page": "5",
+        "sequence": "3"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22258-t54",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22258-t54",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22258-t54.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:tarihvecografya:92807-s77",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "tarihvecografya:92807-s77",
+      "url": "https://www.ottomanlexicons.com/tarihvecografya/tafsil-92807-s77.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19065",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19065",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19065.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

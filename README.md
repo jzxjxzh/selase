@@ -65,6 +65,18 @@ Use `--limit 25` to import a small neighborhood of linked spelling pages. Raw HT
 is cached under `data/raw/ottomanlexicons/`, and generated JSON is written under
 `data/generated/`.
 
+To write the parsed records directly into SQLite as well:
+
+```sh
+node scripts/init-db.mjs
+node scripts/import-ottomanlexicons.mjs --url https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html --limit 1 --db data/build/lexicon.sqlite
+node scripts/db-summary.mjs
+```
+
+Use `--no-json` with `--db` for a DB-only import. Direct DB imports record used
+HTML pages in `cached_page` and write importer warnings/conflicts to
+`import_issue`.
+
 `data/raw/` is ignored for future cache files. If raw cache files were already
 tracked in git, remove them from the index with `git rm --cached -r data/raw`
 before pushing a public repository.
@@ -75,6 +87,29 @@ Current generated examples:
   source-entry graph from live/cached Ottoman Lexicons pages.
 - `data/generated/danis-neighborhood.json` contains a small nearby corpus for
   search and navigation experiments.
+
+## Build Local DB
+
+The import workbench uses SQLite as a private build artifact. The schema lives
+in `db/schema.sql`, and local database files are written under ignored
+`data/build/`.
+
+```sh
+node scripts/init-db.mjs
+node scripts/load-generated-corpus-db.mjs
+node scripts/db-summary.mjs
+node scripts/export-static-corpus.mjs
+```
+
+By default this initializes `data/build/lexicon.sqlite`, loads every
+`data/generated/*.json` corpus file, and prints a compact smoke-test summary.
+Pass `--db` to target another database. Pass one or more `--file` arguments to
+load only specific generated corpus files.
+
+The static exporter writes `data/export/manifest.json`, `search-index.json`, and
+hashed reading-detail shards under `data/export/details/`. The browser app
+prefers this exported data and falls back to `data/generated/danis-neighborhood.json`
+only when no export is present.
 
 ## Checks
 

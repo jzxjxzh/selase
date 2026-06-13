@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:دانشمند",
+    "primary_form": "دانشمند",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشمند:dânışmend",
+    "spelling_id": "spelling:دانشمند",
+    "display_latin": "dânışmend",
+    "normalized": "dânışmend",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danismend"
+    ],
+    "forms": [
+      "form:ota:دانشمند",
+      "form:tr-latn:dânışmend"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:10975"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:122312-f71"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشمند",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشمند",
+      "normalized": "دانشمند",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:dânışmend",
+      "script": "Latn",
+      "language": "tr",
+      "text": "dânışmend",
+      "normalized": "danismend",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:122312-f71",
+      "spelling_id": "spelling:دانشمند",
+      "reading_id": "reading:دانشمند:dânışmend",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشمند",
+      "latin": "Dânışmend",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:530-17"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:122312-f71"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:530-17",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-17.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "530",
+        "sequence": "17"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:122312-f71",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:122312-f71",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122312-f71.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:10975",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "10975",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10975.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

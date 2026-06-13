@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آبادن",
+    "primary_form": "آبادن",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادن:abadin",
+    "spelling_id": "spelling:آبادن",
+    "display_latin": "abadin",
+    "normalized": "abadin",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadin"
+    ],
+    "forms": [
+      "form:ota:آبادن",
+      "form:tr-latn:abadin"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:12"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:16-f87"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادن",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادن",
+      "normalized": "آبادن",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadin",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadin",
+      "normalized": "abadin",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:16-f87",
+      "spelling_id": "spelling:آبادن",
+      "reading_id": "reading:آبادن:abadin",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادن",
+      "latin": "Abadin",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:2-13"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:16-f87"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:2-13",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/2-13.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "2",
+        "sequence": "13"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:16-f87",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:16-f87",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-16-f87.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:12",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "12",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-12.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب روان",
+    "primary_form": "آب روان",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب روان:abirevan",
+    "spelling_id": "spelling:آب روان",
+    "display_latin": "abirevan",
+    "normalized": "abirevan",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abirevan"
+    ],
+    "forms": [
+      "form:ota:آب روان",
+      "form:tr-latn:abirevan"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:55119"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:osmanli:372178-f41"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب روان",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب روان",
+      "normalized": "آب روان",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abirevan",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abirevan",
+      "normalized": "abirevan",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:osmanli:372178-f41",
+      "spelling_id": "spelling:آب روان",
+      "reading_id": "reading:آب روان:abirevan",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب روان",
+      "latin": "abirevan",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:11-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372178-f41"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:11-2",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/11-2.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "11",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372178-f41",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372178-f41",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372178-f41.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:55119",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "55119",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-55119.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

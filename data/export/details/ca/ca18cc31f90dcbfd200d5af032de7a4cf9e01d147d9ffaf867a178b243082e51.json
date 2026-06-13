@@ -1,0 +1,173 @@
+{
+  "spelling": {
+    "id": "spelling:آبا",
+    "primary_form": "آبا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبا:âbâ",
+    "spelling_id": "spelling:آبا",
+    "display_latin": "âbâ",
+    "normalized": "âbâ",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aba"
+    ],
+    "forms": [
+      "form:ota:آبا",
+      "form:tr-latn:âbâ"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:197991"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiturki:89709-n88",
+      "entry:ottomanlexicons:ingilizce:167319-h79"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبا",
+      "normalized": "آبا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âbâ",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âbâ",
+      "normalized": "aba",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-turki",
+      "title": "Kamus-ı Türki",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiturki:89709-n88",
+      "spelling_id": "spelling:آبا",
+      "reading_id": "reading:آبا:âbâ",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبا",
+      "latin": "âbâ",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-turki:63-24"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiturki:89709-n88"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167319-h79",
+      "spelling_id": "spelling:آبا",
+      "reading_id": "reading:آبا:âbâ",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبا",
+      "latin": "âbâ",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:3-3",
+        "image:ottomanlexicons:redhouse:4-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167319-h79"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-turki:63-24",
+      "kind": "entry-crop",
+      "url": "https://turki.cagdassozluk.com/rsm/turki/0/63-24.jpg",
+      "source_id": "source:kamus-i-turki",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Türki",
+        "page": "63",
+        "sequence": "24"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:3-3",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/3-3.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "3",
+        "sequence": "3"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:4-1",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/4-1.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "4",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167319-h79",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167319-h79",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167319-h79.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiturki:89709-n88",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiturki:89709-n88",
+      "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-89709-n88.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:197991",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "197991",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-197991.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

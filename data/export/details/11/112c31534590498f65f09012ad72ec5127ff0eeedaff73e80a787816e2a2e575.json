@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آآیالو",
+    "primary_form": "آآیالو",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آآیالو:ayalı",
+    "spelling_id": "spelling:آآیالو",
+    "display_latin": "ayalı",
+    "normalized": "ayalı",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ayali"
+    ],
+    "forms": [
+      "form:ota:آآیالو",
+      "form:tr-latn:ayalı"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:98036"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:176708-b25"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آآیالو",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آآیالو",
+      "normalized": "آآیالو",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ayalı",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ayalı",
+      "normalized": "ayali",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:176708-b25",
+      "spelling_id": "spelling:آآیالو",
+      "reading_id": "reading:آآیالو:ayalı",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آآیالو",
+      "latin": "ayalı",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:285-17"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:176708-b25"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:285-17",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/25/285-17.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "285",
+        "sequence": "17"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:176708-b25",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:176708-b25",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-176708-b25.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:98036",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "98036",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-98036.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

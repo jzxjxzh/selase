@@ -1,0 +1,572 @@
+{
+  "spelling": {
+    "id": "spelling:آبار",
+    "primary_form": "آبار",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبار:abar",
+    "spelling_id": "spelling:آبار",
+    "display_latin": "abar",
+    "normalized": "abar",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abar"
+    ],
+    "forms": [
+      "form:ota:آبار",
+      "form:tr-latn:abar"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:17"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lehceiosmani:446111-mi6",
+      "entry:ottomanlexicons:kamusiosmani:22276-cs6",
+      "entry:ottomanlexicons:kamusiosmani:22277-gb7",
+      "entry:ottomanlexicons:kamusulalam:24-y84",
+      "entry:ottomanlexicons:ingilizce:167335-mz1",
+      "entry:ottomanlexicons:ingilizce:167336-b55",
+      "entry:ottomanlexicons:ebuzziya:510022-nv5",
+      "entry:ottomanlexicons:resimlikamus:518460-m54",
+      "entry:ottomanlexicons:cudi:355417-vh2",
+      "entry:ottomanlexicons:osmanli:372097-yc9",
+      "entry:ottomanlexicons:tarihvecografya:92813-t74"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبار",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبار",
+      "normalized": "آبار",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abar",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abar",
+      "normalized": "abar",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lehce-i-osmani",
+      "title": "Lehçe-i Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-cudi",
+      "title": "Lugat-ı Cudi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-ebuzziya",
+      "title": "Lugat-ı Ebuzziya",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:resimli-kamus-i-osmani",
+      "title": "Resimli Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:tarihvecografya",
+      "title": "Tarih ve Coğrafya Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lehceiosmani:446111-mi6",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lehce-i-osmani:857-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lehceiosmani:446111-mi6"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22276-cs6",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "Abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:6-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22276-cs6"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22277-gb7",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "Abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:6-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22277-gb7"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:24-y84",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:3-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:24-y84"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167335-mz1",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:4-18"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167335-mz1"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167336-b55",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:4-19"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167336-b55"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ebuzziya:510022-nv5",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-ebuzziya:22-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ebuzziya:510022-nv5"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:resimlikamus:518460-m54",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "Abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-kamus-i-osmani:14-8"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:resimlikamus:518460-m54"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:cudi:355417-vh2",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-cudi:1-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:cudi:355417-vh2"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:osmanli:372097-yc9",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": "abar",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:7-22"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372097-yc9"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:tarihvecografya:92813-t74",
+      "spelling_id": "spelling:آبار",
+      "reading_id": "reading:آبار:abar",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبار",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:tarihvecografya:7-4"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:tarihvecografya:92813-t74"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:6-5",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/6-5.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "6",
+        "sequence": "5"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:6-6",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/6-6.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "6",
+        "sequence": "6"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:3-7",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/3-7.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "3",
+        "sequence": "7"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lehce-i-osmani:857-9",
+      "kind": "entry-crop",
+      "url": "https://lehcei.cagdassozluk.com/rsm/lehce/85/857-9.jpg",
+      "source_id": "source:lehce-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lehçe-i Osmani",
+        "volume": "2",
+        "page": "857",
+        "sequence": "9"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-cudi:1-9",
+      "kind": "entry-crop",
+      "url": "https://cudi.cagdassozluk.com/rsm/cudi/0/1-9.jpg",
+      "source_id": "source:lugat-i-cudi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Cudi",
+        "page": "1",
+        "sequence": "9"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-ebuzziya:22-5",
+      "kind": "entry-crop",
+      "url": "https://ebuzziya.cagdassozluk.com/rsm/eziya/0/22-5.jpg",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Ebuzziya",
+        "volume": "1",
+        "page": "22",
+        "sequence": "5"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:7-22",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/7-22.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "7",
+        "sequence": "22"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:4-18",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/4-18.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "4",
+        "sequence": "18"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:4-19",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/4-19.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "4",
+        "sequence": "19"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:resimli-kamus-i-osmani:14-8",
+      "kind": "entry-crop",
+      "url": "https://resimli.cagdassozluk.com/rsm/seydi/0/14-8.jpg",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Kamus-ı Osmani",
+        "volume": "1",
+        "page": "14",
+        "sequence": "8"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:7-4",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt1/0/7-4.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "1",
+        "page": "7",
+        "sequence": "4"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:cudi:355417-vh2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "cudi:355417-vh2",
+      "url": "https://www.ottomanlexicons.com/cudi/tafsil-355417-vh2.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ebuzziya:510022-nv5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ebuzziya:510022-nv5",
+      "url": "https://www.ottomanlexicons.com/ebuzziya/tafsil-510022-nv5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167335-mz1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167335-mz1",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167335-mz1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167336-b55",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167336-b55",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167336-b55.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22276-cs6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22276-cs6",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22276-cs6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22277-gb7",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22277-gb7",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22277-gb7.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:24-y84",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:24-y84",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-24-y84.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:lehceiosmani:446111-mi6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lehceiosmani:446111-mi6",
+      "url": "https://www.ottomanlexicons.com/lehceiosmani/tafsil-446111-mi6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372097-yc9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372097-yc9",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372097-yc9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:resimlikamus:518460-m54",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "resimlikamus:518460-m54",
+      "url": "https://www.ottomanlexicons.com/resimlikamus/tafsil-518460-m54.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:tarihvecografya:92813-t74",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "tarihvecografya:92813-t74",
+      "url": "https://www.ottomanlexicons.com/tarihvecografya/tafsil-92813-t74.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:17",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "17",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-17.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

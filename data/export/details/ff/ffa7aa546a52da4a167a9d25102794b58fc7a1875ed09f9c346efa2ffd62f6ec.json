@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:دانشكر",
+    "primary_form": "دانشكر",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانشكر:danişger",
+    "spelling_id": "spelling:دانشكر",
+    "display_latin": "danişger",
+    "normalized": "danişger",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "danisger"
+    ],
+    "forms": [
+      "form:ota:دانشكر",
+      "form:tr-latn:danişger"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:106944"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:461240-n88"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانشكر",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانشكر",
+      "normalized": "دانشكر",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:danişger",
+      "script": "Latn",
+      "language": "tr",
+      "text": "danişger",
+      "normalized": "danisger",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:461240-n88",
+      "spelling_id": "spelling:دانشكر",
+      "reading_id": "reading:دانشكر:danişger",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانشكر",
+      "latin": "danişger",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:885-8"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:461240-n88"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:885-8",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-8.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "885",
+        "sequence": "8"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:461240-n88",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:461240-n88",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461240-n88.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:106944",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "106944",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-106944.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "spelling": {
+    "id": "spelling:آبادی",
+    "primary_form": "آبادی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبادی:abadiy",
+    "spelling_id": "spelling:آبادی",
+    "display_latin": "abadiy",
+    "normalized": "abadiy",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abadiy"
+    ],
+    "forms": [
+      "form:ota:آبادی",
+      "form:tr-latn:abadiy"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:159929"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:97658-rv9",
+      "entry:ottomanlexicons:ebuzziya:510021-r48"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبادی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبادی",
+      "normalized": "آبادی",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abadiy",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abadiy",
+      "normalized": "abadiy",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-ebuzziya",
+      "title": "Lugat-ı Ebuzziya",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:97658-rv9",
+      "spelling_id": "spelling:آبادی",
+      "reading_id": "reading:آبادی:abadiy",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادی",
+      "latin": "abadiy",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:2-23"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:97658-rv9"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ebuzziya:510021-r48",
+      "spelling_id": "spelling:آبادی",
+      "reading_id": "reading:آبادی:abadiy",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبادی",
+      "latin": "abadiy",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-ebuzziya:22-4"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ebuzziya:510021-r48"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-ebuzziya:22-4",
+      "kind": "entry-crop",
+      "url": "https://ebuzziya.cagdassozluk.com/rsm/eziya/0/22-4.jpg",
+      "source_id": "source:lugat-i-ebuzziya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Ebuzziya",
+        "volume": "1",
+        "page": "22",
+        "sequence": "4"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:2-23",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/0/2-23.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "2",
+        "sequence": "23"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ebuzziya:510021-r48",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ebuzziya:510021-r48",
+      "url": "https://www.ottomanlexicons.com/ebuzziya/tafsil-510021-r48.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:97658-rv9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:97658-rv9",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-97658-rv9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:159929",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "159929",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-159929.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

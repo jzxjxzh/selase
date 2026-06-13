@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب شناس",
+    "primary_form": "آب شناس",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب شناس:ab şinas",
+    "spelling_id": "spelling:آب شناس",
+    "display_latin": "ab şinas",
+    "normalized": "ab şinas",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-sinas"
+    ],
+    "forms": [
+      "form:ota:آب شناس",
+      "form:tr-latn:ab şinas"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94325"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167516-sm5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب شناس",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب شناس",
+      "normalized": "آب شناس",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ab şinas",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ab şinas",
+      "normalized": "ab-sinas",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167516-sm5",
+      "spelling_id": "spelling:آب شناس",
+      "reading_id": "reading:آب شناس:ab şinas",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب شناس",
+      "latin": "ab şinas",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:10-31"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167516-sm5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:10-31",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/10-31.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "10",
+        "sequence": "31"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167516-sm5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167516-sm5",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167516-sm5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94325",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94325",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94325.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

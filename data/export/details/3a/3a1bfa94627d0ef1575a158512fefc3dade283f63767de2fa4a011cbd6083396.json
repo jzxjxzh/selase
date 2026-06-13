@@ -1,0 +1,117 @@
+{
+  "spelling": {
+    "id": "spelling:آئییون",
+    "primary_form": "آئییون",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئییون:null",
+    "spelling_id": "spelling:آئییون",
+    "display_latin": null,
+    "normalized": null,
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [],
+    "forms": [
+      "form:ota:آئییون"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:62050"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:tarihvecografya:92808-k87"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئییون",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئییون",
+      "normalized": "آئییون",
+      "kind": "headword"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:tarihvecografya",
+      "title": "Tarih ve Coğrafya Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:tarihvecografya:92808-k87",
+      "spelling_id": "spelling:آئییون",
+      "reading_id": "reading:آئییون:null",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئییون",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:tarihvecografya:5-4",
+        "image:ottomanlexicons:tarihvecografya:6-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:tarihvecografya:92808-k87"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:5-4",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt1/0/5-4.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "1",
+        "page": "5",
+        "sequence": "4"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:tarihvecografya:6-1",
+      "kind": "entry-crop",
+      "url": "https://cografya.cagdassozluk.com/rsm/tarih/cilt1/0/6-1.jpg",
+      "source_id": "source:tarihvecografya",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Tarih ve Coğrafya Lugatı",
+        "volume": "1",
+        "page": "6",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:tarihvecografya:92808-k87",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "tarihvecografya:92808-k87",
+      "url": "https://www.ottomanlexicons.com/tarihvecografya/tafsil-92808-k87.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:62050",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "62050",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-62050.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

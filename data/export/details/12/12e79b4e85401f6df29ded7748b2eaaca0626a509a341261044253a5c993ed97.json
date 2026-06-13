@@ -1,0 +1,159 @@
+{
+  "spelling": {
+    "id": "spelling:آئنه",
+    "primary_form": "آئنه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئنه:a'ine",
+    "spelling_id": "spelling:آئنه",
+    "display_latin": "a'ine",
+    "normalized": "a'ine",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "a-ine"
+    ],
+    "forms": [
+      "form:ota:آئنه",
+      "form:tr-latn:a'ine"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:98646",
+      "source-link:ottomanlexicons:spelling:98704"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:177561-h63",
+      "entry:ottomanlexicons:ingilizce:177562-mn5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئنه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئنه",
+      "normalized": "آئنه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:a'ine",
+      "script": "Latn",
+      "language": "tr",
+      "text": "a'ine",
+      "normalized": "a-ine",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:177561-h63",
+      "spelling_id": "spelling:آئنه",
+      "reading_id": "reading:آئنه:a'ine",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئنه",
+      "latin": "a'ine",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:311-8"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:177561-h63"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:ingilizce:177562-mn5",
+      "spelling_id": "spelling:آئنه",
+      "reading_id": "reading:آئنه:a'ine",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئنه",
+      "latin": "a'ine",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:311-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:177562-mn5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:311-8",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/30/311-8.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "311",
+        "sequence": "8"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:311-9",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/30/311-9.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "311",
+        "sequence": "9"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:177561-h63",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:177561-h63",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-177561-h63.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:177562-mn5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:177562-mn5",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-177562-mn5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:98646",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "98646",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-98646.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:98704",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "98704",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-98704.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

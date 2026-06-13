@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آباریر",
+    "primary_form": "آباریر",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آباریر:ebarir",
+    "spelling_id": "spelling:آباریر",
+    "display_latin": "ebarir",
+    "normalized": "ebarir",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ebarir"
+    ],
+    "forms": [
+      "form:ota:آباریر",
+      "form:tr-latn:ebarir"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:65075"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:97663-f85"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آباریر",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آباریر",
+      "normalized": "آباریر",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ebarir",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ebarir",
+      "normalized": "ebarir",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:97663-f85",
+      "spelling_id": "spelling:آباریر",
+      "reading_id": "reading:آباریر:ebarir",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباریر",
+      "latin": "ebarir",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:3-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:97663-f85"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:3-5",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/0/3-5.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "3",
+        "sequence": "5"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:97663-f85",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:97663-f85",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-97663-f85.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:65075",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "65075",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-65075.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

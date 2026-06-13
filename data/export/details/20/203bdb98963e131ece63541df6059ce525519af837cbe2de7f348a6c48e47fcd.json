@@ -1,0 +1,115 @@
+{
+  "spelling": {
+    "id": "spelling:آب آشامی",
+    "primary_form": "آب آشامی",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب آشامی:null",
+    "spelling_id": "spelling:آب آشامی",
+    "display_latin": null,
+    "normalized": null,
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [],
+    "forms": [
+      "form:ota:آب آشامی"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94343"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167587-be4"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب آشامی",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب آشامی",
+      "normalized": "آب آشامی",
+      "kind": "headword"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167587-be4",
+      "spelling_id": "spelling:آب آشامی",
+      "reading_id": "reading:آب آشامی:null",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب آشامی",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:13-1",
+        "image:ottomanlexicons:redhouse:13-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167587-be4"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:13-1",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/13-1.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "13",
+        "sequence": "1"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:13-2",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/13-2.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "13",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167587-be4",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167587-be4",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167587-be4.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94343",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94343",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94343.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

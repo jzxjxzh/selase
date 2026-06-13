@@ -1,0 +1,153 @@
+{
+  "spelling": {
+    "id": "spelling:آباران",
+    "primary_form": "آباران",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آباران:abaran",
+    "spelling_id": "spelling:آباران",
+    "display_latin": "abaran",
+    "normalized": "abaran",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abaran"
+    ],
+    "forms": [
+      "form:ota:آباران",
+      "form:tr-latn:abaran"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:26-d43",
+      "entry:ottomanlexicons:kamusulalam:27-dr5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آباران",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آباران",
+      "normalized": "آباران",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abaran",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abaran",
+      "normalized": "abaran",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:26-d43",
+      "spelling_id": "spelling:آباران",
+      "reading_id": "reading:آباران:abaran",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباران",
+      "latin": "abaran",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:3-9"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:26-d43"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:27-dr5",
+      "spelling_id": "spelling:آباران",
+      "reading_id": "reading:آباران:abaran",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباران",
+      "latin": "abaran",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:3-10"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:27-dr5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:3-10",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/3-10.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "3",
+        "sequence": "10"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:3-9",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/3-9.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "3",
+        "sequence": "9"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:26-d43",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:26-d43",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-26-d43.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:27-dr5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:27-dr5",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-27-dr5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:آؤس",
+    "primary_form": "آؤس",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آؤس:aous",
+    "spelling_id": "spelling:آؤس",
+    "display_latin": "aous",
+    "normalized": "aous",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aous"
+    ],
+    "forms": [
+      "form:ota:آؤس",
+      "form:tr-latn:aous"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:2359"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:2904-kt8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آؤس",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آؤس",
+      "normalized": "آؤس",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aous",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aous",
+      "normalized": "aous",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:2904-kt8",
+      "spelling_id": "spelling:آؤس",
+      "reading_id": "reading:آؤس:aous",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آؤس",
+      "latin": "Aous",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:471-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:2904-kt8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:471-2",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/45/471-2.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "471",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:2904-kt8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:2904-kt8",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-2904-kt8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:2359",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "2359",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-2359.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

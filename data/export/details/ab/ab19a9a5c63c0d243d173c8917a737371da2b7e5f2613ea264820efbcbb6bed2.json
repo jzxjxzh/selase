@@ -1,0 +1,153 @@
+{
+  "spelling": {
+    "id": "spelling:آباخ",
+    "primary_form": "آباخ",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آباخ:abach",
+    "spelling_id": "spelling:آباخ",
+    "display_latin": "abach",
+    "normalized": "abach",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abach"
+    ],
+    "forms": [
+      "form:ota:آباخ",
+      "form:tr-latn:abach"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:7"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:8-bi3",
+      "entry:ottomanlexicons:kamusulalam:9-bk4"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آباخ",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آباخ",
+      "normalized": "آباخ",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abach",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abach",
+      "normalized": "abach",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:8-bi3",
+      "spelling_id": "spelling:آباخ",
+      "reading_id": "reading:آباخ:abach",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباخ",
+      "latin": "Abach",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:2-4"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:8-bi3"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:9-bk4",
+      "spelling_id": "spelling:آباخ",
+      "reading_id": "reading:آباخ:abach",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباخ",
+      "latin": "Abach",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:2-5"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:9-bk4"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:2-4",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/2-4.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "2",
+        "sequence": "4"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:2-5",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/2-5.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "2",
+        "sequence": "5"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:8-bi3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:8-bi3",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-8-bi3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:9-bk4",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:9-bk4",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-9-bk4.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:7",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "7",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-7.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

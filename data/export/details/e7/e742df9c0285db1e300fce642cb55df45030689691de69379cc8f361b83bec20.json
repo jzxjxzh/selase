@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آئبْ",
+    "primary_form": "آئبْ",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئبْ:aib",
+    "spelling_id": "spelling:آئبْ",
+    "display_latin": "aib",
+    "normalized": "aib",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aib"
+    ],
+    "forms": [
+      "form:ota:آئبْ",
+      "form:tr-latn:aib"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19064"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatinaci:70977-my8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئبْ",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئبْ",
+      "normalized": "آئبْ",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aib",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aib",
+      "normalized": "aib",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-naci",
+      "title": "Lugat-ı Naci",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatinaci:70977-my8",
+      "spelling_id": "spelling:آئبْ",
+      "reading_id": "reading:آئبْ:aib",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئبْ",
+      "latin": "aib",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-naci:1-3"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatinaci:70977-my8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-naci:1-3",
+      "kind": "entry-crop",
+      "url": "https://naci.cagdassozluk.com/rsm/naci/0/1-3.jpg",
+      "source_id": "source:lugat-i-naci",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Naci",
+        "page": "1",
+        "sequence": "3"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatinaci:70977-my8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatinaci:70977-my8",
+      "url": "https://www.ottomanlexicons.com/lugatinaci/tafsil-70977-my8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19064",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19064",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19064.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

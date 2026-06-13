@@ -1,0 +1,161 @@
+{
+  "spelling": {
+    "id": "spelling:آب شیرین",
+    "primary_form": "آب شیرین",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب شیرین:abı şirin",
+    "spelling_id": "spelling:آب شیرین",
+    "display_latin": "abı şirin",
+    "normalized": "abı şirin",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abi-sirin"
+    ],
+    "forms": [
+      "form:ota:آب شیرین",
+      "form:tr-latn:abı şirin"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:19073"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusiosmani:22267-sv5",
+      "entry:ottomanlexicons:osmanli:372199-by2"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب شیرین",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب شیرین",
+      "normalized": "آب شیرین",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abı şirin",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abı şirin",
+      "normalized": "abi-sirin",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamus-i-osmani",
+      "title": "Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:mukemmel-osmanli-lugati",
+      "title": "Mükemmel Osmanlı Lugatı",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusiosmani:22267-sv5",
+      "spelling_id": "spelling:آب شیرین",
+      "reading_id": "reading:آب شیرین:abı şirin",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب شیرین",
+      "latin": "Abı şirin",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamus-i-osmani:5-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusiosmani:22267-sv5"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:osmanli:372199-by2",
+      "spelling_id": "spelling:آب شیرین",
+      "reading_id": "reading:آب شیرین:abı şirin",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب شیرین",
+      "latin": "abı şirin",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:mukemmel-osmanli-lugati:11-23"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:osmanli:372199-by2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamus-i-osmani:5-7",
+      "kind": "entry-crop",
+      "url": "https://osmani.cagdassozluk.com/rsm/osmani1/0/5-7.jpg",
+      "source_id": "source:kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus-ı Osmani",
+        "volume": "1",
+        "page": "5",
+        "sequence": "7"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:mukemmel-osmanli-lugati:11-23",
+      "kind": "entry-crop",
+      "url": "https://osmanli.cagdassozluk.com/rsm/osm/0/11-23.jpg",
+      "source_id": "source:mukemmel-osmanli-lugati",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Mükemmel Osmanlı Lugatı",
+        "page": "11",
+        "sequence": "23"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusiosmani:22267-sv5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusiosmani:22267-sv5",
+      "url": "https://www.ottomanlexicons.com/kamusiosmani/tafsil-22267-sv5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:osmanli:372199-by2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "osmanli:372199-by2",
+      "url": "https://www.ottomanlexicons.com/osmanli/tafsil-372199-by2.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:19073",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "19073",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-19073.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

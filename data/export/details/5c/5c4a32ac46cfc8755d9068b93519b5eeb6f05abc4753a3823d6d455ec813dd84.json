@@ -1,0 +1,128 @@
+{
+  "spelling": {
+    "id": "spelling:آبارقه",
+    "primary_form": "آبارقه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبارقه:abarca",
+    "spelling_id": "spelling:آبارقه",
+    "display_latin": "abarca",
+    "normalized": "abarca",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abarca"
+    ],
+    "forms": [
+      "form:ota:آبارقه",
+      "form:tr-latn:abarca"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:20"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:28-gz8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبارقه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبارقه",
+      "normalized": "آبارقه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abarca",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abarca",
+      "normalized": "abarca",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:28-gz8",
+      "spelling_id": "spelling:آبارقه",
+      "reading_id": "reading:آبارقه:abarca",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبارقه",
+      "latin": "abarca",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:3-11",
+        "image:ottomanlexicons:kamusul-alam:3-12"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:28-gz8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:3-11",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/3-11.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "3",
+        "sequence": "11"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:3-12",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt1/0/3-12.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "1",
+        "page": "3",
+        "sequence": "12"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:28-gz8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:28-gz8",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-28-gz8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:20",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "20",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-20.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

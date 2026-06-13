@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آئسه",
+    "primary_form": "آئسه",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئسه:a'ise",
+    "spelling_id": "spelling:آئسه",
+    "display_latin": "a'ise",
+    "normalized": "a'ise",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "a-ise"
+    ],
+    "forms": [
+      "form:ota:آئسه",
+      "form:tr-latn:a'ise"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:98320"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:177066-mc5"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئسه",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئسه",
+      "normalized": "آئسه",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:a'ise",
+      "script": "Latn",
+      "language": "tr",
+      "text": "a'ise",
+      "normalized": "a-ise",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:177066-mc5",
+      "spelling_id": "spelling:آئسه",
+      "reading_id": "reading:آئسه:a'ise",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئسه",
+      "latin": "a'ise",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:296-37"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:177066-mc5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:296-37",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/25/296-37.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "296",
+        "sequence": "37"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:177066-mc5",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:177066-mc5",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-177066-mc5.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:98320",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "98320",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-98320.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

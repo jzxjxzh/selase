@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-13T07:03:44.739Z",
+  "source_db": "data/build/app-dev.sqlite",
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  },
+  "counts": {
+    "providers": 1,
+    "sources": 19,
+    "spellings": 143,
+    "readings": 183,
+    "entries": 351,
+    "images": 392
+  },
+  "search_index": "search-index.json",
+  "detail_base": "details/"
+}

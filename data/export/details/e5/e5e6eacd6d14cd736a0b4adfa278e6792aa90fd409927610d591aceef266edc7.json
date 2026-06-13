@@ -1,0 +1,162 @@
+{
+  "spelling": {
+    "id": "spelling:عاب",
+    "primary_form": "عاب",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:عاب:âb",
+    "spelling_id": "spelling:عاب",
+    "display_latin": "âb",
+    "normalized": "âb",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab"
+    ],
+    "forms": [
+      "form:ota:عاب",
+      "form:tr-latn:âb"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:2"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:128118-r65",
+      "entry:ottomanlexicons:resimlikamus:531418-ga1"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:عاب",
+      "script": "Arab",
+      "language": "ota",
+      "text": "عاب",
+      "normalized": "عاب",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:âb",
+      "script": "Latn",
+      "language": "tr",
+      "text": "âb",
+      "normalized": "ab",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    },
+    {
+      "id": "source:resimli-kamus-i-osmani",
+      "title": "Resimli Kamus-ı Osmani",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:128118-r65",
+      "spelling_id": "spelling:عاب",
+      "reading_id": "reading:عاب:âb",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "عاب",
+      "latin": "Âb",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:810-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:128118-r65"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:resimlikamus:531418-ga1",
+      "spelling_id": "spelling:عاب",
+      "reading_id": "reading:عاب:âb",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "عاب",
+      "latin": "Âb",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-kamus-i-osmani:677-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:resimlikamus:531418-ga1"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:810-6",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/80/810-6.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "810",
+        "sequence": "6"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:resimli-kamus-i-osmani:677-2",
+      "kind": "entry-crop",
+      "url": "https://resimli.cagdassozluk.com/rsm/seydi/65/677-2.jpg",
+      "source_id": "source:resimli-kamus-i-osmani",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Kamus-ı Osmani",
+        "volume": "2",
+        "page": "677",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:128118-r65",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:128118-r65",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-128118-r65.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:resimlikamus:531418-ga1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "resimlikamus:531418-ga1",
+      "url": "https://www.ottomanlexicons.com/resimlikamus/tafsil-531418-ga1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:2",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "2",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-2.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آئه‌رودروم",
+    "primary_form": "آئه‌رودروم",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آئه‌رودروم:aerodrom",
+    "spelling_id": "spelling:آئه‌رودروم",
+    "display_latin": "aerodrom",
+    "normalized": "aerodrom",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aerodrom"
+    ],
+    "forms": [
+      "form:ota:آئه‌رودروم",
+      "form:tr-latn:aerodrom"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:207233"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:turkcelugat:244842-zy6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آئه‌رودروم",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آئه‌رودروم",
+      "normalized": "آئه‌رودروم",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aerodrom",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aerodrom",
+      "normalized": "aerodrom",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:yeni-turkce-lugat",
+      "title": "Yeni Türkçe Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:turkcelugat:244842-zy6",
+      "spelling_id": "spelling:آئه‌رودروم",
+      "reading_id": "reading:آئه‌رودروم:aerodrom",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آئه‌رودروم",
+      "latin": "aerodrom",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:yeni-turkce-lugat:1-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcelugat:244842-zy6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:yeni-turkce-lugat:1-7",
+      "kind": "entry-crop",
+      "url": "https://toven.cagdassozluk.com/rsm/ytl/0/1-7.jpg",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Yeni Türkçe Lugat",
+        "page": "1",
+        "sequence": "7"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcelugat:244842-zy6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcelugat:244842-zy6",
+      "url": "https://www.ottomanlexicons.com/turkcelugat/tafsil-244842-zy6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:207233",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "207233",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-207233.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

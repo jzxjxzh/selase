@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آبرق",
+    "primary_form": "آبرق",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آبرق:abru",
+    "spelling_id": "spelling:آبرق",
+    "display_latin": "abru",
+    "normalized": "abru",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abru"
+    ],
+    "forms": [
+      "form:ota:آبرق",
+      "form:tr-latn:abru"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:141722"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:turkcelugat:244914-zs3"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آبرق",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آبرق",
+      "normalized": "آبرق",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abru",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abru",
+      "normalized": "abru",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:yeni-turkce-lugat",
+      "title": "Yeni Türkçe Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:turkcelugat:244914-zs3",
+      "spelling_id": "spelling:آبرق",
+      "reading_id": "reading:آبرق:abru",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آبرق",
+      "latin": "abru",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:yeni-turkce-lugat:4-14"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcelugat:244914-zs3"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:yeni-turkce-lugat:4-14",
+      "kind": "entry-crop",
+      "url": "https://toven.cagdassozluk.com/rsm/ytl/0/4-14.jpg",
+      "source_id": "source:yeni-turkce-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Yeni Türkçe Lugat",
+        "page": "4",
+        "sequence": "14"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcelugat:244914-zs3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcelugat:244914-zs3",
+      "url": "https://www.ottomanlexicons.com/turkcelugat/tafsil-244914-zs3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:141722",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "141722",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-141722.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "spelling": {
+    "id": "spelling:آب اندام",
+    "primary_form": "آب اندام",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آب اندام:ab endam",
+    "spelling_id": "spelling:آب اندام",
+    "display_latin": "ab endam",
+    "normalized": "ab endam",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "ab-endam"
+    ],
+    "forms": [
+      "form:ota:آب اندام",
+      "form:tr-latn:ab endam"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:94273"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167366-zm6"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آب اندام",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آب اندام",
+      "normalized": "آب اندام",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:ab endam",
+      "script": "Latn",
+      "language": "tr",
+      "text": "ab endam",
+      "normalized": "ab-endam",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167366-zm6",
+      "spelling_id": "spelling:آب اندام",
+      "reading_id": "reading:آب اندام:ab endam",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آب اندام",
+      "latin": "ab endam",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:5-25"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167366-zm6"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:5-25",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/5-25.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "5",
+        "sequence": "25"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167366-zm6",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167366-zm6",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167366-zm6.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:94273",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "94273",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-94273.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

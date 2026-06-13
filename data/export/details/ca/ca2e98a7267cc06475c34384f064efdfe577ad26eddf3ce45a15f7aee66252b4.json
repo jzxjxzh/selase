@@ -1,0 +1,102 @@
+{
+  "spelling": {
+    "id": "spelling:آ.",
+    "primary_form": "آ.",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آ.:null",
+    "spelling_id": "spelling:آ.",
+    "display_latin": null,
+    "normalized": null,
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [],
+    "forms": [
+      "form:ota:آ."
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:232078"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:almanca:539924-yi8"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آ.",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آ.",
+      "normalized": "آ.",
+      "kind": "headword"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:almanca-osmanlica",
+      "title": "Almanca Osmanlıca Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "de"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:almanca:539924-yi8",
+      "spelling_id": "spelling:آ.",
+      "reading_id": "reading:آ.:null",
+      "source_id": "source:almanca-osmanlica",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آ.",
+      "latin": null,
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:almanca-osmanlica:9-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:almanca:539924-yi8"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:almanca-osmanlica:9-1",
+      "kind": "entry-crop",
+      "url": "https://almanca.cagdassozluk.com/lugat/rsm/alm/0/9-1.jpg",
+      "source_id": "source:almanca-osmanlica",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Almanca Osmanlıca Sözlük",
+        "page": "9",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:almanca:539924-yi8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "almanca:539924-yi8",
+      "url": "https://www.ottomanlexicons.com/almanca/tafsil-539924-yi8.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:232078",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "232078",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-232078.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { createHash } from "node:crypto";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -13,9 +13,12 @@ const DEFAULT_SPELLING_URL = `${BASE_URL}/turkish-ottoman-dictionary-10973.html`
 
 const args = parseArgs(process.argv.slice(2));
 const startUrl = args.url || DEFAULT_SPELLING_URL;
-const limit = Number(args.limit || 1);
+const limit = args.limit == null ? null : Number(args.limit);
 const delayMs = Number(args.delay || 250);
 const outFile = args.out || path.join(OUT_DIR, limit > 1 ? "danis-neighborhood.json" : "danis-ottomanlexicons.imported.json");
+const dbFile = args.db ? path.resolve(ROOT, args.db) : null;
+const writeJsonOutput = !args.noJson;
+const cachedPages = new Map();
 
 const sourceIdByPath = {
   almanca: "source:almanca-osmanlica",
@@ -52,11 +55,17 @@ await main();
 
 async function main() {
   await mkdir(RAW_DIR, { recursive: true });
-  await mkdir(path.dirname(outFile), { recursive: true });
+  if (writeJsonOutput) await mkdir(path.dirname(outFile), { recursive: true });
 
   const seedHtml = await fetchCached(startUrl);
-  const spellingUrls = [absoluteUrl(startUrl), ...parseNearbySpellingUrls(seedHtml)].slice(0, limit);
+  const discoveredSpellingUrls = discoverSeedSpellingUrls(startUrl, seedHtml);
+  const effectiveLimit = limit ?? (isSpellingUrl(startUrl) ? 1 : discoveredSpellingUrls.length);
+  const spellingUrls = discoveredSpellingUrls.slice(0, effectiveLimit);
   const uniqueSpellingUrls = [...new Set(spellingUrls)];
+  if (uniqueSpellingUrls.length === 0) {
+    throw new Error(`No spelling URLs found at ${absoluteUrl(startUrl)}`);
+  }
+  console.log(`Discovered ${discoveredSpellingUrls.length} spelling URL(s); importing ${uniqueSpellingUrls.length}`);
 
   const pageRecords = [];
   for (const [index, spellingUrl] of uniqueSpellingUrls.entries()) {
@@ -64,6 +73,7 @@ async function main() {
     pageRecords.push(await importSpelling(spellingUrl));
   }
   const records = groupReadingRecords(pageRecords);
+  const issues = pageRecords.flatMap((record) => record.issues || []);
 
   const payload = {
     generated_at: new Date().toISOString(),
@@ -74,12 +84,37 @@ async function main() {
     },
     start_url: absoluteUrl(startUrl),
     count: records.length,
-    records
+    records,
+    issues
   };
 
-  await writeJson(outFile, payload);
+  if (writeJsonOutput) {
+    await writeJson(outFile, payload);
+  }
+
+  if (dbFile) {
+    const { openLexiconDb, prepareLexiconWriter } = await import("./lib/lexicon-db-writer.mjs");
+    const db = openLexiconDb(dbFile);
+    const writer = prepareLexiconWriter(db);
+    db.exec("BEGIN");
+    try {
+      const result = writer.loadCorpus(payload, {
+        cachedPages: [...cachedPages.values()],
+        sourceFile: writeJsonOutput ? path.relative(ROOT, outFile) : `direct:${absoluteUrl(startUrl)}`
+      });
+      db.exec("COMMIT");
+      console.log(`Wrote ${result.records} reading record(s) to ${path.relative(ROOT, dbFile)}`);
+      if (result.issues > 0) console.log(`Logged ${result.issues} import issue(s)`);
+    } catch (error) {
+      db.exec("ROLLBACK");
+      throw error;
+    } finally {
+      db.close();
+    }
+  }
+
   console.log(`Imported ${records.length} reading record(s)`);
-  console.log(`Wrote ${path.relative(ROOT, outFile)}`);
+  if (writeJsonOutput) console.log(`Wrote ${path.relative(ROOT, outFile)}`);
 }
 
 async function importSpelling(spellingUrl) {
@@ -91,6 +126,7 @@ async function importSpelling(spellingUrl) {
   const images = [];
   const sourceLinks = [];
   const entries = [];
+  const issues = [];
 
   for (const sourceEntry of sourceEntries) {
     await sleep(delayMs);
@@ -101,6 +137,19 @@ async function importSpelling(spellingUrl) {
 
     const entryId = `entry:ottomanlexicons:${sourceEntry.path}:${sourceEntry.externalId}`;
     const imageIds = detail.images.map((scan) => scan.id);
+    if (imageIds.length === 0) {
+      issues.push({
+        severity: "warn",
+        kind: "missing_crop",
+        subject_id: entryId,
+        message: "Source entry did not expose any dictionary crop images",
+        details: {
+          url: sourceEntry.url,
+          source_path: sourceEntry.path,
+          external_id: sourceEntry.externalId
+        }
+      });
+    }
 
     entries.push({
       id: entryId,
@@ -160,7 +209,8 @@ async function importSpelling(spellingUrl) {
         url: spellingMeta.url
       },
       ...sourceLinks
-    ]
+    ],
+    issues
   };
 }
 
@@ -474,16 +524,26 @@ function buildSource(sourcePath, title) {
   };
 }
 
-function parseNearbySpellingUrls(html) {
+function discoverSeedSpellingUrls(seedUrl, html) {
+  const urls = parseSpellingUrls(html);
+  return isSpellingUrl(seedUrl) ? [absoluteUrl(seedUrl), ...urls] : urls;
+}
+
+function parseSpellingUrls(html) {
   const urls = [];
   const seen = new Set();
-  const re = /href="(https:\/\/www\.ottomanlexicons\.com\/turkish-ottoman-dictionary-\d+\.html)"/gi;
+  const re = /href="([^"]*turkish-ottoman-dictionary-\d+\.html)"/gi;
   for (const [, url] of html.matchAll(re)) {
-    if (seen.has(url)) continue;
-    seen.add(url);
-    urls.push(url);
+    const absolute = absoluteUrl(url);
+    if (seen.has(absolute)) continue;
+    seen.add(absolute);
+    urls.push(absolute);
   }
   return urls;
+}
+
+function isSpellingUrl(url) {
+  return /\/turkish-ottoman-dictionary-\d+\.html(?:[?#].*)?$/i.test(absoluteUrl(url));
 }
 
 async function fetchCached(url) {
@@ -491,7 +551,11 @@ async function fetchCached(url) {
   const file = path.join(RAW_DIR, `${hashId(absolute)}.html`);
 
   try {
-    return await readFile(file, "utf8");
+    const html = await readFile(file, "utf8");
+    await rememberCachedPage(absolute, file, html, {
+      fetchedAt: (await stat(file)).mtime.toISOString()
+    });
+    return html;
   } catch {
     const response = await fetch(absolute, {
       headers: {
@@ -501,8 +565,25 @@ async function fetchCached(url) {
     if (!response.ok) throw new Error(`Fetch failed ${response.status}: ${absolute}`);
     const html = await response.text();
     await writeFile(file, html);
+    await rememberCachedPage(absolute, file, html, {
+      fetchedAt: new Date().toISOString(),
+      status: response.status,
+      contentType: response.headers.get("content-type") || null
+    });
     return html;
   }
+}
+
+async function rememberCachedPage(url, file, html, options = {}) {
+  const existing = cachedPages.get(url) || {};
+  cachedPages.set(url, {
+    url,
+    cache_path: path.relative(ROOT, file),
+    fetched_at: options.fetchedAt || existing.fetched_at || null,
+    sha256: hashId(html),
+    status: options.status || existing.status || 200,
+    content_type: options.contentType || existing.content_type || "text/html"
+  });
 }
 
 async function writeJson(file, data) {
@@ -518,6 +599,8 @@ function parseArgs(argv) {
     else if (arg === "--limit") parsed.limit = argv[++i];
     else if (arg === "--delay") parsed.delay = argv[++i];
     else if (arg === "--out") parsed.out = argv[++i];
+    else if (arg === "--db") parsed.db = argv[++i];
+    else if (arg === "--no-json") parsed.noJson = true;
   }
   return parsed;
 }

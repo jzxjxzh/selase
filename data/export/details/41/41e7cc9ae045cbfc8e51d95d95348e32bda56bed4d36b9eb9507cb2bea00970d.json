@@ -1,0 +1,128 @@
+{
+  "spelling": {
+    "id": "spelling:مماجرت",
+    "primary_form": "مماجرت",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:مماجرت:mümaceret",
+    "spelling_id": "spelling:مماجرت",
+    "display_latin": "mümaceret",
+    "normalized": "mümaceret",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "mumaceret"
+    ],
+    "forms": [
+      "form:ota:مماجرت",
+      "form:tr-latn:mümaceret"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:204442"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:500597-sz9"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:مماجرت",
+      "script": "Arab",
+      "language": "ota",
+      "text": "مماجرت",
+      "normalized": "مماجرت",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:mümaceret",
+      "script": "Latn",
+      "language": "tr",
+      "text": "mümaceret",
+      "normalized": "mumaceret",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:500597-sz9",
+      "spelling_id": "spelling:مماجرت",
+      "reading_id": "reading:مماجرت:mümaceret",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "مماجرت",
+      "latin": "mümaceret",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:1974-49",
+        "image:ottomanlexicons:redhouse:1975-1"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:500597-sz9"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:redhouse:1974-49",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/195/1974-49.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "1974",
+        "sequence": "49"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:1975-1",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/195/1975-1.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "volume": "2",
+        "page": "1975",
+        "sequence": "1"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:500597-sz9",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:500597-sz9",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-500597-sz9.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:204442",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "204442",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-204442.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

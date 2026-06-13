@@ -1,0 +1,161 @@
+{
+  "spelling": {
+    "id": "spelling:آباد",
+    "primary_form": "آباد",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آباد:abade",
+    "spelling_id": "spelling:آباد",
+    "display_latin": "abade",
+    "normalized": "abade",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abade"
+    ],
+    "forms": [
+      "form:ota:آباد",
+      "form:tr-latn:abade"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:197992",
+      "source-link:ottomanlexicons:spelling:8"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:lugatiremzi:97654-kc3",
+      "entry:ottomanlexicons:lugatiremzi:97655-kk3"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آباد",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آباد",
+      "normalized": "آباد",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abade",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abade",
+      "normalized": "abade",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:lugat-i-remzi",
+      "title": "Lugat-ı Remzi",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:97654-kc3",
+      "spelling_id": "spelling:آباد",
+      "reading_id": "reading:آباد:abade",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباد",
+      "latin": "abade",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:2-19"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:97654-kc3"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:lugatiremzi:97655-kk3",
+      "spelling_id": "spelling:آباد",
+      "reading_id": "reading:آباد:abade",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباد",
+      "latin": "abade",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:lugat-i-remzi:2-20"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:lugatiremzi:97655-kk3"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:2-19",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/0/2-19.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "2",
+        "sequence": "19"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:lugat-i-remzi:2-20",
+      "kind": "entry-crop",
+      "url": "https://remzi.cagdassozluk.com/rsm/cilt1/0/2-20.jpg",
+      "source_id": "source:lugat-i-remzi",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Lugat-ı Remzi",
+        "volume": "1",
+        "page": "2",
+        "sequence": "20"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:97654-kc3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:97654-kc3",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-97654-kc3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:lugatiremzi:97655-kk3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "lugatiremzi:97655-kk3",
+      "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-97655-kk3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:197992",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "197992",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-197992.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "8",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-8.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

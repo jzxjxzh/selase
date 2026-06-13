@@ -1,0 +1,114 @@
+{
+  "spelling": {
+    "id": "spelling:دانسیغ",
+    "primary_form": "دانسیغ",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانسیغ:dantzig",
+    "spelling_id": "spelling:دانسیغ",
+    "display_latin": "dantzig",
+    "normalized": "dantzig",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "dantzig"
+    ],
+    "forms": [
+      "form:ota:دانسیغ",
+      "form:tr-latn:dantzig"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:10972"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:kamusulalam:12725-z37"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:دانسیغ",
+      "script": "Arab",
+      "language": "ota",
+      "text": "دانسیغ",
+      "normalized": "دانسیغ",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:dantzig",
+      "script": "Latn",
+      "language": "tr",
+      "text": "dantzig",
+      "normalized": "dantzig",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kamusul-alam",
+      "title": "Kamus'ul Alam",
+      "kind": "encyclopedia",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:kamusulalam:12725-z37",
+      "spelling_id": "spelling:دانسیغ",
+      "reading_id": "reading:دانسیغ:dantzig",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "دانسیغ",
+      "latin": "Dantzig",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:kamusul-alam:502-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:kamusulalam:12725-z37"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:kamusul-alam:502-6",
+      "kind": "entry-crop",
+      "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/502-6.jpg",
+      "source_id": "source:kamusul-alam",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Kamus'ul Alam",
+        "volume": "3",
+        "page": "502",
+        "sequence": "6"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:kamusulalam:12725-z37",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "kamusulalam:12725-z37",
+      "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-12725-z37.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:10972",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "10972",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10972.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

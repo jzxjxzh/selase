@@ -1,0 +1,198 @@
+{
+  "spelling": {
+    "id": "spelling:ابا",
+    "primary_form": "ابا",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:ابا:aba",
+    "spelling_id": "spelling:ابا",
+    "display_latin": "aba",
+    "normalized": "aba",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "aba"
+    ],
+    "forms": [
+      "form:ota:ابا",
+      "form:tr-latn:aba"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:197991"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:ingilizce:167320-gy3",
+      "entry:ottomanlexicons:fransizca:391915-vi1",
+      "entry:ottomanlexicons:fransizca:391916-yu4"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:ابا",
+      "script": "Arab",
+      "language": "ota",
+      "text": "ابا",
+      "normalized": "ابا",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:aba",
+      "script": "Latn",
+      "language": "tr",
+      "text": "aba",
+      "normalized": "aba",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:hazine-i-lugat",
+      "title": "Hazine-i Lugat",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "fr"
+      ]
+    },
+    {
+      "id": "source:redhouse",
+      "title": "İngilizce Sözlük",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "en"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:ingilizce:167320-gy3",
+      "spelling_id": "spelling:ابا",
+      "reading_id": "reading:ابا:aba",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ابا",
+      "latin": "aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:redhouse:4-2"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:ingilizce:167320-gy3"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:fransizca:391915-vi1",
+      "spelling_id": "spelling:ابا",
+      "reading_id": "reading:ابا:aba",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ابا",
+      "latin": "aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:hazine-i-lugat:1-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransizca:391915-vi1"
+      ]
+    },
+    {
+      "id": "entry:ottomanlexicons:fransizca:391916-yu4",
+      "spelling_id": "spelling:ابا",
+      "reading_id": "reading:ابا:aba",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "ابا",
+      "latin": "aba",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:hazine-i-lugat:1-7"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:fransizca:391916-yu4"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:hazine-i-lugat:1-6",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/0/1-6.jpg",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Hazine-i Lugat",
+        "page": "1",
+        "sequence": "6"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:hazine-i-lugat:1-7",
+      "kind": "entry-crop",
+      "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/0/1-7.jpg",
+      "source_id": "source:hazine-i-lugat",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Hazine-i Lugat",
+        "page": "1",
+        "sequence": "7"
+      }
+    },
+    {
+      "id": "image:ottomanlexicons:redhouse:4-2",
+      "kind": "entry-crop",
+      "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/0/4-2.png",
+      "source_id": "source:redhouse",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "İngilizce Sözlük",
+        "page": "4",
+        "sequence": "2"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:fransizca:391915-vi1",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransizca:391915-vi1",
+      "url": "https://www.ottomanlexicons.com/fransizca/tafsil-391915-vi1.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:fransizca:391916-yu4",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "fransizca:391916-yu4",
+      "url": "https://www.ottomanlexicons.com/fransizca/tafsil-391916-yu4.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:entry:ingilizce:167320-gy3",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "ingilizce:167320-gy3",
+      "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-167320-gy3.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:197991",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "197991",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-197991.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}

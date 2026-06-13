@@ -1,0 +1,121 @@
+{
+  "spelling": {
+    "id": "spelling:آباد، آبادان",
+    "primary_form": "آباد، آبادان",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:آباد، آبادان:abad",
+    "spelling_id": "spelling:آباد، آبادان",
+    "display_latin": "abad",
+    "normalized": "abad",
+    "languages_attested": [
+      "ota"
+    ],
+    "slugs": [
+      "abad"
+    ],
+    "forms": [
+      "form:ota:آباد، آبادان",
+      "form:tr-latn:abad"
+    ],
+    "source_links": [
+      "source-link:ottomanlexicons:spelling:209277",
+      "source-link:ottomanlexicons:spelling:8"
+    ],
+    "entries": [
+      "entry:ottomanlexicons:turkcekamus:275732-b39"
+    ]
+  },
+  "forms": [
+    {
+      "id": "form:ota:آباد، آبادان",
+      "script": "Arab",
+      "language": "ota",
+      "text": "آباد، آبادان",
+      "normalized": "آباد، آبادان",
+      "kind": "headword"
+    },
+    {
+      "id": "form:tr-latn:abad",
+      "script": "Latn",
+      "language": "tr",
+      "text": "abad",
+      "normalized": "abad",
+      "kind": "transliteration"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:resimli-turkce-kamus",
+      "title": "Resimli Türkçe Kamus",
+      "kind": "dictionary",
+      "languages": [
+        "ota",
+        "tr"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry:ottomanlexicons:turkcekamus:275732-b39",
+      "spelling_id": "spelling:آباد، آبادان",
+      "reading_id": "reading:آباد، آبادان:abad",
+      "source_id": "source:resimli-turkce-kamus",
+      "provider_id": "provider:ottomanlexicons",
+      "headword": "آباد، آبادان",
+      "latin": "abad",
+      "content": {
+        "kind": "facsimile"
+      },
+      "images": [
+        "image:ottomanlexicons:resimli-turkce-kamus:1-6"
+      ],
+      "source_links": [
+        "source-link:ottomanlexicons:entry:turkcekamus:275732-b39"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "image:ottomanlexicons:resimli-turkce-kamus:1-6",
+      "kind": "entry-crop",
+      "url": "https://kestelli.cagdassozluk.com/rsm/tkamus/0/1-6.jpg",
+      "source_id": "source:resimli-turkce-kamus",
+      "provider_id": "provider:ottomanlexicons",
+      "citation": {
+        "title": "Resimli Türkçe Kamus",
+        "page": "1",
+        "sequence": "6"
+      }
+    }
+  ],
+  "source_links": [
+    {
+      "id": "source-link:ottomanlexicons:entry:turkcekamus:275732-b39",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "entry",
+      "external_id": "turkcekamus:275732-b39",
+      "url": "https://www.ottomanlexicons.com/turkcekamus/tafsil-275732-b39.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:209277",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "209277",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-209277.html"
+    },
+    {
+      "id": "source-link:ottomanlexicons:spelling:8",
+      "provider_id": "provider:ottomanlexicons",
+      "external_type": "spelling",
+      "external_id": "8",
+      "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-8.html"
+    }
+  ],
+  "provider": {
+    "id": "provider:ottomanlexicons",
+    "title": "Ottoman Lexicons",
+    "base_url": "https://www.ottomanlexicons.com/"
+  }
+}
