@@ -1,38 +1,62 @@
 # Unified Lexicon Data Model
 
 This project treats each external dictionary site as an evidence source, not as
-the master structure. A local canonical lemma can collect entries from Ottoman
-Lexicons, Cagdas, Steingass, scanned dictionaries, and hand-authored notes.
+the master structure. A local Arabic-script spelling can collect one or more
+readings, and each reading collects entries from Ottoman Lexicons, Cagdas,
+Steingass, scanned dictionaries, and hand-authored notes.
 
 ## Core Objects
 
-### Lemma
+### Spelling
 
-A lemma is the local concept users search for and read.
+A spelling is the Arabic-script spelling node.
 
 ```json
 {
-  "id": "lemma:ota:دانش",
+  "id": "spelling:دانش",
   "primary_form": "دانش",
-  "display_latin": "daniş",
-  "language": "ota",
-  "slugs": ["danis"],
-  "forms": ["form:ota:دانش", "form:tr-latn:daniş"],
-  "source_links": ["source-link:ottomanlexicons:lemma:10973"],
-  "entries": ["entry:ottomanlexicons:ingilizce:461239-k46"]
+  "language": "ota"
 }
 ```
 
-The local `id` should be stable and non-lossy. Do not build canonical IDs from
-diacritic-folded Latin search keys such as `danis`, because Turkish
-transliterations can collide across `s/ş`, `c/ç`, `g/ğ`, `i/ı`, and related
-pairs. A folded ASCII value can be stored as a slug or search key, but it is not
-the lemma identity.
+The local spelling `id` is source-neutral and reading-neutral. It preserves the
+written-form boundary; it does not try to decide that two spellings are the same
+word. For example, `دانشگر` and `دانشکر` remain distinct spellings even if
+search normalization can surface both.
 
-If two historical spellings later prove to be the same lexical item, they can
-both attach to the same lemma through forms. If two lemmas share the same
-primary written form, add an explicit disambiguator rather than falling back to
-a lossy transliteration.
+### Reading
+
+A reading is the unit users select in the result list and read in the detail
+pane. It pairs one Arabic-script spelling with one transliteration/reading.
+Unknown readings use `null`.
+
+```json
+{
+  "id": "reading:دانش:daniş",
+  "spelling_id": "spelling:دانش",
+  "display_latin": "daniş",
+  "normalized": "daniş",
+  "languages_attested": ["ota"],
+  "slugs": ["danis"],
+  "forms": ["form:ota:دانش", "form:tr-latn:daniş"],
+  "source_links": ["source-link:ottomanlexicons:spelling:10973"],
+  "entries": [
+    "entry:ottomanlexicons:ingilizce:461239-k46"
+  ]
+}
+```
+
+Provider-specific pages stay in `source_links`, and dictionary-specific evidence
+stays in `entries`. Do not include provider labels such as `ottomanlexicons` or
+`steingass` in the reading ID unless they are part of an explicit disambiguator.
+
+Do not build canonical IDs from diacritic-folded Latin search keys such as
+`danis`, because Turkish transliterations can collide across `s/ş`, `c/ç`,
+`g/ğ`, `i/ı`, and related pairs. A folded ASCII value can be stored as a slug or
+search key, but it is not the spelling identity.
+
+If two spelling+reading records later prove to be the same lexical item, connect
+them through an editorial relation rather than merging them by machine.
 
 ### Form
 
@@ -68,12 +92,13 @@ A source is a dictionary, site, edition, scan set, or imported database.
 
 ### Entry
 
-An entry is one source's treatment of a lemma.
+An entry is one source's treatment of a spelling.
 
 ```json
 {
   "id": "entry:ottomanlexicons:ingilizce:461239-k46",
-  "lemma_id": "lemma:ota:دانش",
+  "spelling_id": "spelling:دانش",
+  "reading_id": "reading:دانش:daniş",
   "source_id": "source:redhouse",
   "provider_id": "provider:ottomanlexicons",
   "headword": "دانش",
@@ -114,9 +139,9 @@ A source link preserves opaque external IDs and URLs.
 
 ```json
 {
-  "id": "source-link:ottomanlexicons:lemma:10973",
+  "id": "source-link:ottomanlexicons:spelling:10973",
   "provider_id": "provider:ottomanlexicons",
-  "external_type": "lemma",
+  "external_type": "spelling",
   "external_id": "10973",
   "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html"
 }
@@ -129,7 +154,7 @@ truth.
 
 Search should index:
 
-- canonical lemma forms
+- canonical spelling forms
 - all variant forms
 - source headwords
 - Latin transliterations
@@ -137,8 +162,8 @@ Search should index:
 - external IDs for debugging
 - OCR or corrected entry text when available
 
-Search results should return lemmas first, with source entries nested under the
-selected lemma.
+Search results should group readings by spelling first, with source entries
+nested under the selected reading.
 
 ## Import Policy
 

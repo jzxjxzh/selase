@@ -1,7 +1,7 @@
 # Ottoman Lexicons Import Notes
 
 Ottoman Lexicons already exposes a useful relation graph. The importer should
-harvest that graph and store it as evidence attached to local canonical lemmas.
+harvest that graph and store it as evidence attached to local canonical spellings.
 
 ## Observed URL Types
 
@@ -13,13 +13,13 @@ Example:
 https://www.ottomanlexicons.com/ara?...&q=دانش
 ```
 
-The rendered HTML includes result cards linking to canonical lemma pages:
+The rendered HTML includes result cards linking to canonical spelling pages:
 
 ```text
 https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html
 ```
 
-### Lemma pages
+### Spelling pages
 
 Example:
 
@@ -27,7 +27,7 @@ Example:
 https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html
 ```
 
-The numeric ID is an Ottoman Lexicons lemma/container ID. The page lists source
+The numeric ID is an Ottoman Lexicons spelling/container ID. The page lists source
 dictionary entries, such as:
 
 ```text
@@ -61,11 +61,11 @@ and visible citation metadata:
 
 ## Import Stages
 
-1. Discover lemma URLs from search pages, alphabetic pages, or dictionary pages.
-2. Fetch lemma pages and parse headword, Latin display form, and source entries.
+1. Discover spelling URLs from search pages, alphabetic pages, or dictionary pages.
+2. Fetch spelling pages and parse headword, Latin display form, and source entries.
 3. Fetch source entry pages and parse image URLs, citations, and nearby entries.
 4. Store raw HTML snapshots separately from normalized JSON.
-5. Build local lemma records from the parsed source graph.
+5. Build local spelling records from the parsed source graph.
 
 ## Provider Mapping
 

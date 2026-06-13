@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Unified Elsine-i Selase Dictionary</title>
-    <link rel="stylesheet" href="./styles.css?v=url-state-image-loading">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div class="app-shell">
@@ -14,7 +14,11 @@
             <p class="eyebrow">Unified Lexicon</p>
             <h1>Elsine-i Selase</h1>
           </div>
-          <span class="status-pill">Prototype</span>
+          <img
+            class="brand-mark"
+            src="../assets/ottoman-coat-of-arms.png"
+            alt="Ottoman coat of arms"
+          >
         </header>
 
         <label class="search-box">
@@ -48,16 +52,16 @@
       </aside>
 
       <main class="reader">
-        <section class="lemma-panel" aria-label="Lemma">
-          <div class="lemma-title-row">
+        <section class="spelling-panel" aria-label="Spelling">
+          <div class="spelling-title-row">
             <div>
-              <p class="eyebrow">Canonical lemma</p>
-              <div class="lemma-title">
-                <span id="lemmaArabic" lang="ota" dir="rtl">دانش</span>
-                <span id="lemmaLatin">daniş</span>
+              <p class="eyebrow">Canonical spelling</p>
+              <div class="spelling-title">
+                <span id="spellingArabic" lang="ota" dir="rtl">دانش</span>
+                <span id="spellingLatin">daniş</span>
               </div>
             </div>
-            <a id="lemmaSourceLink" class="source-link" href="#" target="_blank" rel="noreferrer">Original</a>
+            <a id="spellingSourceLink" class="source-link" href="#" target="_blank" rel="noreferrer">Original</a>
           </div>
 
           <div id="formStrip" class="form-strip"></div>
@@ -83,7 +87,7 @@
               <div id="entryImages" class="entry-images"></div>
               <div id="missingImage" class="missing-image" hidden>
                 <h3>No crop in sample</h3>
-                <p>This source is known from the lemma page, but this prototype only includes the Redhouse crop.</p>
+                <p>This source is known from the spelling page, but this prototype only includes the Redhouse crop.</p>
               </div>
             </div>
 
@@ -105,6 +109,6 @@
       </main>
     </div>
 
-    <script src="./main.js?v=url-state-model" type="module"></script>
+    <script src="./main.js" type="module"></script>
   </body>
 </html>

@@ -1,19 +1,27 @@
 {
-  "generated_at": "2026-06-12T21:26:02.139Z",
+  "generated_at": "2026-06-12T22:54:34.948Z",
   "provider": {
     "id": "provider:ottomanlexicons",
     "title": "Ottoman Lexicons",
     "base_url": "https://www.ottomanlexicons.com/"
   },
   "start_url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html",
-  "count": 22,
+  "count": 31,
   "records": [
     {
-      "lemma": {
-        "id": "lemma:ota:دانش",
+      "spelling": {
+        "id": "spelling:دانش",
         "primary_form": "دانش",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانش:daniş",
+        "spelling_id": "spelling:دانش",
         "display_latin": "daniş",
-        "language": "ota",
+        "normalized": "daniş",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danis"
         ],
@@ -22,7 +30,7 @@
           "form:tr-latn:daniş"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10973"
+          "source-link:ottomanlexicons:spelling:10973"
         ],
         "entries": [
           "entry:ottomanlexicons:lehceiosmani:451693-cs9",
@@ -37,9 +45,6 @@
           "entry:ottomanlexicons:cudi:364160-zc5",
           "entry:ottomanlexicons:osmanli:379956-hu5",
           "entry:ottomanlexicons:fransizca:398279-df1",
-          "entry:ottomanlexicons:kamusiturki:257771-ry2",
-          "entry:ottomanlexicons:fransevi:52684-yk1",
-          "entry:ottomanlexicons:lugatiremzi:122310-c67",
           "entry:ottomanlexicons:almanca:341697-yy5",
           "entry:ottomanlexicons:muntehab:549249-t74"
         ]
@@ -172,33 +177,6 @@
           ]
         },
         {
-          "id": "source:kamus-i-turki",
-          "title": "Kamus-ı Türki",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
-        },
-        {
-          "id": "source:kamus-i-fransevi",
-          "title": "Kamus-ı Fransevi",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "fr"
-          ]
-        },
-        {
-          "id": "source:lugat-i-remzi",
-          "title": "Lugat-ı Remzi",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
-        },
-        {
           "id": "source:almanca-osmanlica",
           "title": "Almanca Osmanlıca Sözlük",
           "kind": "dictionary",
@@ -220,7 +198,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:lehceiosmani:451693-cs9",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:lehce-i-osmani",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -238,7 +217,8 @@
         },
         {
           "id": "entry:ottomanlexicons:lugatinaci:77873-pr4",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:lugat-i-naci",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -255,7 +235,8 @@
         },
         {
           "id": "entry:ottomanlexicons:kamusiosmani:32144-kn5",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:kamus-i-osmani",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -272,7 +253,8 @@
         },
         {
           "id": "entry:ottomanlexicons:kamusulalam:12726-v33",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -290,7 +272,8 @@
         },
         {
           "id": "entry:ottomanlexicons:ingilizce:461239-k46",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -307,7 +290,8 @@
         },
         {
           "id": "entry:ottomanlexicons:turkcelugat:252753-da2",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:yeni-turkce-lugat",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -324,7 +308,8 @@
         },
         {
           "id": "entry:ottomanlexicons:turkcekamus:282803-fv7",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:resimli-turkce-kamus",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -341,7 +326,8 @@
         },
         {
           "id": "entry:ottomanlexicons:ebuzziya:516350-gf9",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:lugat-i-ebuzziya",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -359,7 +345,8 @@
         },
         {
           "id": "entry:ottomanlexicons:resimlikamus:527457-rc9",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:resimli-kamus-i-osmani",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -378,7 +365,8 @@
         },
         {
           "id": "entry:ottomanlexicons:cudi:364160-zc5",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:lugat-i-cudi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -395,7 +383,8 @@
         },
         {
           "id": "entry:ottomanlexicons:osmanli:379956-hu5",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:mukemmel-osmanli-lugati",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -412,7 +401,8 @@
         },
         {
           "id": "entry:ottomanlexicons:fransizca:398279-df1",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:hazine-i-lugat",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -428,59 +418,9 @@
           ]
         },
         {
-          "id": "entry:ottomanlexicons:kamusiturki:257771-ry2",
-          "lemma_id": "lemma:ota:دانش",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانش",
-          "latin": "Dânış",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:kamus-i-turki:600-2"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:kamusiturki:257771-ry2"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:fransevi:52684-yk1",
-          "lemma_id": "lemma:ota:دانش",
-          "source_id": "source:kamus-i-fransevi",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانش",
-          "latin": "danış",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:kamus-i-fransevi:563-19"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:fransevi:52684-yk1"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:lugatiremzi:122310-c67",
-          "lemma_id": "lemma:ota:دانش",
-          "source_id": "source:lugat-i-remzi",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانش",
-          "latin": "Dânış",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:lugat-i-remzi:530-15"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:lugatiremzi:122310-c67"
-          ]
-        },
-        {
           "id": "entry:ottomanlexicons:almanca:341697-yy5",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:almanca-osmanlica",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -497,7 +437,8 @@
         },
         {
           "id": "entry:ottomanlexicons:muntehab:549249-t74",
-          "lemma_id": "lemma:ota:دانش",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:daniş",
           "source_id": "source:muntehab-i-lugat-i-osmaniyye",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش",
@@ -730,43 +671,6 @@
           }
         },
         {
-          "id": "image:ottomanlexicons:kamus-i-turki:600-2",
-          "kind": "entry-crop",
-          "url": "https://turki.cagdassozluk.com/rsm/turki/6/600-2.jpg",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus-ı Türki",
-            "page": "600",
-            "sequence": "2"
-          }
-        },
-        {
-          "id": "image:ottomanlexicons:kamus-i-fransevi:563-19",
-          "kind": "entry-crop",
-          "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/55/563-19.png",
-          "source_id": "source:kamus-i-fransevi",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus-ı Fransevi",
-            "page": "563",
-            "sequence": "19"
-          }
-        },
-        {
-          "id": "image:ottomanlexicons:lugat-i-remzi:530-15",
-          "kind": "entry-crop",
-          "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-15.jpg",
-          "source_id": "source:lugat-i-remzi",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Lugat-ı Remzi",
-            "volume": "1",
-            "page": "530",
-            "sequence": "15"
-          }
-        },
-        {
           "id": "image:ottomanlexicons:almanca-osmanlica:147-32",
           "kind": "entry-crop",
           "url": "https://almanca.cagdassozluk.com/lugat/rsm/alm/10/147-32.jpg",
@@ -794,9 +698,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10973",
+          "id": "source-link:ottomanlexicons:spelling:10973",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10973",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html"
         },
@@ -885,27 +789,6 @@
           "url": "https://www.ottomanlexicons.com/fransizca/tafsil-398279-df1.html"
         },
         {
-          "id": "source-link:ottomanlexicons:entry:kamusiturki:257771-ry2",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "kamusiturki:257771-ry2",
-          "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-257771-ry2.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:fransevi:52684-yk1",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "fransevi:52684-yk1",
-          "url": "https://www.ottomanlexicons.com/fransevi/tafsil-52684-yk1.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:lugatiremzi:122310-c67",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "lugatiremzi:122310-c67",
-          "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122310-c67.html"
-        },
-        {
           "id": "source-link:ottomanlexicons:entry:almanca:341697-yy5",
           "provider_id": "provider:ottomanlexicons",
           "external_type": "entry",
@@ -922,11 +805,283 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانسته",
+      "spelling": {
+        "id": "spelling:دانش",
+        "primary_form": "دانش",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانش:dânış",
+        "spelling_id": "spelling:دانش",
+        "display_latin": "dânış",
+        "normalized": "dânış",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danis"
+        ],
+        "forms": [
+          "form:ota:دانش",
+          "form:tr-latn:dânış"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:10973"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:kamusiturki:257771-ry2",
+          "entry:ottomanlexicons:lugatiremzi:122310-c67"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانش",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانش",
+          "normalized": "دانش",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:dânış",
+          "script": "Latn",
+          "language": "tr",
+          "text": "dânış",
+          "normalized": "danis",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:kamus-i-turki",
+          "title": "Kamus-ı Türki",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        },
+        {
+          "id": "source:lugat-i-remzi",
+          "title": "Lugat-ı Remzi",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "id": "entry:ottomanlexicons:kamusiturki:257771-ry2",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:dânış",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانش",
+          "latin": "Dânış",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:kamus-i-turki:600-2"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:kamusiturki:257771-ry2"
+          ]
+        },
+        {
+          "id": "entry:ottomanlexicons:lugatiremzi:122310-c67",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:dânış",
+          "source_id": "source:lugat-i-remzi",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانش",
+          "latin": "Dânış",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:lugat-i-remzi:530-15"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:lugatiremzi:122310-c67"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:kamus-i-turki:600-2",
+          "kind": "entry-crop",
+          "url": "https://turki.cagdassozluk.com/rsm/turki/6/600-2.jpg",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Kamus-ı Türki",
+            "page": "600",
+            "sequence": "2"
+          }
+        },
+        {
+          "id": "image:ottomanlexicons:lugat-i-remzi:530-15",
+          "kind": "entry-crop",
+          "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-15.jpg",
+          "source_id": "source:lugat-i-remzi",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Lugat-ı Remzi",
+            "volume": "1",
+            "page": "530",
+            "sequence": "15"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:10973",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "10973",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html"
+        },
+        {
+          "id": "source-link:ottomanlexicons:entry:kamusiturki:257771-ry2",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "kamusiturki:257771-ry2",
+          "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-257771-ry2.html"
+        },
+        {
+          "id": "source-link:ottomanlexicons:entry:lugatiremzi:122310-c67",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "lugatiremzi:122310-c67",
+          "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122310-c67.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانش",
+        "primary_form": "دانش",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانش:danış",
+        "spelling_id": "spelling:دانش",
+        "display_latin": "danış",
+        "normalized": "danış",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danis"
+        ],
+        "forms": [
+          "form:ota:دانش",
+          "form:tr-latn:danış"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:10973"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:fransevi:52684-yk1"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانش",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانش",
+          "normalized": "دانش",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:danış",
+          "script": "Latn",
+          "language": "tr",
+          "text": "danış",
+          "normalized": "danis",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:kamus-i-fransevi",
+          "title": "Kamus-ı Fransevi",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "fr"
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "id": "entry:ottomanlexicons:fransevi:52684-yk1",
+          "spelling_id": "spelling:دانش",
+          "reading_id": "reading:دانش:danış",
+          "source_id": "source:kamus-i-fransevi",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانش",
+          "latin": "danış",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:kamus-i-fransevi:563-19"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:fransevi:52684-yk1"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:kamus-i-fransevi:563-19",
+          "kind": "entry-crop",
+          "url": "https://fransizca.cagdassozluk.com/fransevi/rsm/fr/55/563-19.png",
+          "source_id": "source:kamus-i-fransevi",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Kamus-ı Fransevi",
+            "page": "563",
+            "sequence": "19"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:10973",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "10973",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html"
+        },
+        {
+          "id": "source-link:ottomanlexicons:entry:fransevi:52684-yk1",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "fransevi:52684-yk1",
+          "url": "https://www.ottomanlexicons.com/fransevi/tafsil-52684-yk1.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانسته",
         "primary_form": "دانسته",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانسته:daniste",
+        "spelling_id": "spelling:دانسته",
         "display_latin": "daniste",
-        "language": "ota",
+        "normalized": "daniste",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "daniste"
         ],
@@ -935,7 +1090,7 @@
           "form:tr-latn:daniste"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:106943"
+          "source-link:ottomanlexicons:spelling:106943"
         ],
         "entries": [
           "entry:ottomanlexicons:ingilizce:461238-b43"
@@ -973,7 +1128,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:ingilizce:461238-b43",
-          "lemma_id": "lemma:ota:دانسته",
+          "spelling_id": "spelling:دانسته",
+          "reading_id": "reading:دانسته:daniste",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانسته",
@@ -1006,9 +1162,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:106943",
+          "id": "source-link:ottomanlexicons:spelling:106943",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "106943",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-106943.html"
         },
@@ -1022,17 +1178,25 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانسقه",
+      "spelling": {
+        "id": "spelling:دانسقه",
         "primary_form": "دانسقه",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانسقه:null",
+        "spelling_id": "spelling:دانسقه",
         "display_latin": "",
-        "language": "ota",
+        "normalized": "",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [],
         "forms": [
           "form:ota:دانسقه"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:64125"
+          "source-link:ottomanlexicons:spelling:64125"
         ],
         "entries": [
           "entry:ottomanlexicons:tarihvecografya:96206-y12"
@@ -1062,7 +1226,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:tarihvecografya:96206-y12",
-          "lemma_id": "lemma:ota:دانسقه",
+          "spelling_id": "spelling:دانسقه",
+          "reading_id": "reading:دانسقه:null",
           "source_id": "source:tarihvecografya",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانسقه",
@@ -1095,9 +1260,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:64125",
+          "id": "source-link:ottomanlexicons:spelling:64125",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "64125",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-64125.html"
         },
@@ -1111,20 +1276,28 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانسیغ",
+      "spelling": {
+        "id": "spelling:دانسیغ",
         "primary_form": "دانسیغ",
-        "display_latin": "Dantzig",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانسیغ:dantzig",
+        "spelling_id": "spelling:دانسیغ",
+        "display_latin": "dantzig",
+        "normalized": "dantzig",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "dantzig"
         ],
         "forms": [
           "form:ota:دانسیغ",
-          "form:tr-latn:Dantzig"
+          "form:tr-latn:dantzig"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10972"
+          "source-link:ottomanlexicons:spelling:10972"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusulalam:12725-z37"
@@ -1140,10 +1313,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Dantzig",
+          "id": "form:tr-latn:dantzig",
           "script": "Latn",
           "language": "tr",
-          "text": "Dantzig",
+          "text": "dantzig",
           "normalized": "dantzig",
           "kind": "transliteration"
         }
@@ -1162,7 +1335,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusulalam:12725-z37",
-          "lemma_id": "lemma:ota:دانسیغ",
+          "spelling_id": "spelling:دانسیغ",
+          "reading_id": "reading:دانسیغ:dantzig",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانسیغ",
@@ -1195,9 +1369,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10972",
+          "id": "source-link:ottomanlexicons:spelling:10972",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10972",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10972.html"
         },
@@ -1211,11 +1385,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانسینغ",
+      "spelling": {
+        "id": "spelling:دانسینغ",
         "primary_form": "دانسینغ",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانسینغ:danısıng",
+        "spelling_id": "spelling:دانسینغ",
         "display_latin": "danısıng",
-        "language": "ota",
+        "normalized": "danısıng",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danising"
         ],
@@ -1224,7 +1406,7 @@
           "form:tr-latn:danısıng"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:137962"
+          "source-link:ottomanlexicons:spelling:137962"
         ],
         "entries": [
           "entry:ottomanlexicons:turkcekamus:282802-m12"
@@ -1262,7 +1444,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:turkcekamus:282802-m12",
-          "lemma_id": "lemma:ota:دانسینغ",
+          "spelling_id": "spelling:دانسینغ",
+          "reading_id": "reading:دانسینغ:danısıng",
           "source_id": "source:resimli-turkce-kamus",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانسینغ",
@@ -1294,9 +1477,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:137962",
+          "id": "source-link:ottomanlexicons:spelling:137962",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "137962",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-137962.html"
         },
@@ -1310,20 +1493,28 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانش بك",
+      "spelling": {
+        "id": "spelling:دانش بك",
         "primary_form": "دانش بك",
-        "display_latin": "Daniş Bey",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانش بك:daniş bey",
+        "spelling_id": "spelling:دانش بك",
+        "display_latin": "daniş bey",
+        "normalized": "daniş bey",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danis-bey"
         ],
         "forms": [
           "form:ota:دانش بك",
-          "form:tr-latn:Daniş Bey"
+          "form:tr-latn:daniş bey"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10974"
+          "source-link:ottomanlexicons:spelling:10974"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusulalam:12727-bp3"
@@ -1339,10 +1530,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Daniş Bey",
+          "id": "form:tr-latn:daniş bey",
           "script": "Latn",
           "language": "tr",
-          "text": "Daniş Bey",
+          "text": "daniş bey",
           "normalized": "danis-bey",
           "kind": "transliteration"
         }
@@ -1361,7 +1552,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusulalam:12727-bp3",
-          "lemma_id": "lemma:ota:دانش بك",
+          "spelling_id": "spelling:دانش بك",
+          "reading_id": "reading:دانش بك:daniş bey",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانش بك",
@@ -1394,9 +1586,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10974",
+          "id": "source-link:ottomanlexicons:spelling:10974",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10974",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10974.html"
         },
@@ -1410,20 +1602,28 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشپذیر",
+      "spelling": {
+        "id": "spelling:دانشپذیر",
         "primary_form": "دانشپذیر",
-        "display_latin": "Dânışpezîr",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشپذیر:dânışpezîr",
+        "spelling_id": "spelling:دانشپذیر",
+        "display_latin": "dânışpezîr",
+        "normalized": "dânışpezîr",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danispezir"
         ],
         "forms": [
           "form:ota:دانشپذیر",
-          "form:tr-latn:Dânışpezîr"
+          "form:tr-latn:dânışpezîr"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:77018"
+          "source-link:ottomanlexicons:spelling:77018"
         ],
         "entries": [
           "entry:ottomanlexicons:lugatiremzi:122311-kn6",
@@ -1440,10 +1640,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Dânışpezîr",
+          "id": "form:tr-latn:dânışpezîr",
           "script": "Latn",
           "language": "tr",
-          "text": "Dânışpezîr",
+          "text": "dânışpezîr",
           "normalized": "danispezir",
           "kind": "transliteration"
         }
@@ -1471,7 +1671,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:lugatiremzi:122311-kn6",
-          "lemma_id": "lemma:ota:دانشپذیر",
+          "spelling_id": "spelling:دانشپذیر",
+          "reading_id": "reading:دانشپذیر:dânışpezîr",
           "source_id": "source:lugat-i-remzi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشپذیر",
@@ -1488,7 +1689,8 @@
         },
         {
           "id": "entry:ottomanlexicons:muntehab:549250-t81",
-          "lemma_id": "lemma:ota:دانشپذیر",
+          "spelling_id": "spelling:دانشپذیر",
+          "reading_id": "reading:دانشپذیر:dânışpezîr",
           "source_id": "source:muntehab-i-lugat-i-osmaniyye",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشپذیر",
@@ -1534,9 +1736,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:77018",
+          "id": "source-link:ottomanlexicons:spelling:77018",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "77018",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-77018.html"
         },
@@ -1557,11 +1759,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشق",
+      "spelling": {
+        "id": "spelling:دانشق",
         "primary_form": "دانشق",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشق:danışık",
+        "spelling_id": "spelling:دانشق",
         "display_latin": "danışık",
-        "language": "ota",
+        "normalized": "danışık",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danisik"
         ],
@@ -1570,12 +1780,10 @@
           "form:tr-latn:danışık"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:151131"
+          "source-link:ottomanlexicons:spelling:151131"
         ],
         "entries": [
-          "entry:ottomanlexicons:fransizca:398280-ha2",
-          "entry:ottomanlexicons:kamusiturki:263155-n28",
-          "entry:ottomanlexicons:turkcekamus:282810-r21"
+          "entry:ottomanlexicons:fransizca:398280-ha2"
         ]
       },
       "forms": [
@@ -1605,30 +1813,13 @@
             "ota",
             "fr"
           ]
-        },
-        {
-          "id": "source:kamus-i-turki",
-          "title": "Kamus-ı Türki",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
-        },
-        {
-          "id": "source:resimli-turkce-kamus",
-          "title": "Resimli Türkçe Kamus",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
         }
       ],
       "entries": [
         {
           "id": "entry:ottomanlexicons:fransizca:398280-ha2",
-          "lemma_id": "lemma:ota:دانشق",
+          "spelling_id": "spelling:دانشق",
+          "reading_id": "reading:دانشق:danışık",
           "source_id": "source:hazine-i-lugat",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشق",
@@ -1642,10 +1833,101 @@
           "source_links": [
             "source-link:ottomanlexicons:entry:fransizca:398280-ha2"
           ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:hazine-i-lugat:218-8",
+          "kind": "entry-crop",
+          "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/20/218-8.jpg",
+          "source_id": "source:hazine-i-lugat",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Hazine-i Lugat",
+            "page": "218",
+            "sequence": "8"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:151131",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "151131",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-151131.html"
         },
         {
+          "id": "source-link:ottomanlexicons:entry:fransizca:398280-ha2",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "fransizca:398280-ha2",
+          "url": "https://www.ottomanlexicons.com/fransizca/tafsil-398280-ha2.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:طانیشیق",
+        "primary_form": "طانیشیق",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:طانیشیق:danışık",
+        "spelling_id": "spelling:طانیشیق",
+        "display_latin": "danışık",
+        "normalized": "danışık",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danisik"
+        ],
+        "forms": [
+          "form:ota:طانیشیق",
+          "form:tr-latn:danışık"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:151131"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:kamusiturki:263155-n28"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:طانیشیق",
+          "script": "Arab",
+          "language": "ota",
+          "text": "طانیشیق",
+          "normalized": "طانیشیق",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:danışık",
+          "script": "Latn",
+          "language": "tr",
+          "text": "danışık",
+          "normalized": "danisik",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:kamus-i-turki",
+          "title": "Kamus-ı Türki",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
           "id": "entry:ottomanlexicons:kamusiturki:263155-n28",
-          "lemma_id": "lemma:ota:دانشق",
+          "spelling_id": "spelling:طانیشیق",
+          "reading_id": "reading:طانیشیق:danışık",
           "source_id": "source:kamus-i-turki",
           "provider_id": "provider:ottomanlexicons",
           "headword": "طانیشیق",
@@ -1659,10 +1941,101 @@
           "source_links": [
             "source-link:ottomanlexicons:entry:kamusiturki:263155-n28"
           ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:kamus-i-turki:871-13",
+          "kind": "entry-crop",
+          "url": "https://turki.cagdassozluk.com/rsm/turki/8/871-13.jpg",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Kamus-ı Türki",
+            "page": "871",
+            "sequence": "13"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:151131",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "151131",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-151131.html"
         },
         {
+          "id": "source-link:ottomanlexicons:entry:kamusiturki:263155-n28",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "kamusiturki:263155-n28",
+          "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-263155-n28.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانیشیق",
+        "primary_form": "دانیشیق",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانیشیق:danışık",
+        "spelling_id": "spelling:دانیشیق",
+        "display_latin": "danışık",
+        "normalized": "danışık",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danisik"
+        ],
+        "forms": [
+          "form:ota:دانیشیق",
+          "form:tr-latn:danışık"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:151131"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:turkcekamus:282810-r21"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانیشیق",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانیشیق",
+          "normalized": "دانیشیق",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:danışık",
+          "script": "Latn",
+          "language": "tr",
+          "text": "danışık",
+          "normalized": "danisik",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:resimli-turkce-kamus",
+          "title": "Resimli Türkçe Kamus",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
           "id": "entry:ottomanlexicons:turkcekamus:282810-r21",
-          "lemma_id": "lemma:ota:دانشق",
+          "spelling_id": "spelling:دانیشیق",
+          "reading_id": "reading:دانیشیق:danışık",
           "source_id": "source:resimli-turkce-kamus",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانیشیق",
@@ -1680,30 +2053,6 @@
       ],
       "images": [
         {
-          "id": "image:ottomanlexicons:hazine-i-lugat:218-8",
-          "kind": "entry-crop",
-          "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/20/218-8.jpg",
-          "source_id": "source:hazine-i-lugat",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Hazine-i Lugat",
-            "page": "218",
-            "sequence": "8"
-          }
-        },
-        {
-          "id": "image:ottomanlexicons:kamus-i-turki:871-13",
-          "kind": "entry-crop",
-          "url": "https://turki.cagdassozluk.com/rsm/turki/8/871-13.jpg",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus-ı Türki",
-            "page": "871",
-            "sequence": "13"
-          }
-        },
-        {
           "id": "image:ottomanlexicons:resimli-turkce-kamus:338-5",
           "kind": "entry-crop",
           "url": "https://kestelli.cagdassozluk.com/rsm/tkamus/30/338-5.jpg",
@@ -1718,25 +2067,11 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:151131",
+          "id": "source-link:ottomanlexicons:spelling:151131",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "151131",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-151131.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:fransizca:398280-ha2",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "fransizca:398280-ha2",
-          "url": "https://www.ottomanlexicons.com/fransizca/tafsil-398280-ha2.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:kamusiturki:263155-n28",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "kamusiturki:263155-n28",
-          "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-263155-n28.html"
         },
         {
           "id": "source-link:ottomanlexicons:entry:turkcekamus:282810-r21",
@@ -1748,11 +2083,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشكر",
+      "spelling": {
+        "id": "spelling:دانشكر",
         "primary_form": "دانشكر",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشكر:danişger",
+        "spelling_id": "spelling:دانشكر",
         "display_latin": "danişger",
-        "language": "ota",
+        "normalized": "danişger",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danisger"
         ],
@@ -1761,7 +2104,7 @@
           "form:tr-latn:danişger"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:106944"
+          "source-link:ottomanlexicons:spelling:106944"
         ],
         "entries": [
           "entry:ottomanlexicons:ingilizce:461240-n88"
@@ -1799,7 +2142,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:ingilizce:461240-n88",
-          "lemma_id": "lemma:ota:دانشكر",
+          "spelling_id": "spelling:دانشكر",
+          "reading_id": "reading:دانشكر:danişger",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشكر",
@@ -1832,9 +2176,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:106944",
+          "id": "source-link:ottomanlexicons:spelling:106944",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "106944",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-106944.html"
         },
@@ -1848,20 +2192,28 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشگر",
+      "spelling": {
+        "id": "spelling:دانشگر",
         "primary_form": "دانشگر",
-        "display_latin": "Dânışger",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشگر:dânışger",
+        "spelling_id": "spelling:دانشگر",
+        "display_latin": "dânışger",
+        "normalized": "dânışger",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danisger"
         ],
         "forms": [
           "form:ota:دانشگر",
-          "form:tr-latn:Dânışger"
+          "form:tr-latn:dânışger"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:77013"
+          "source-link:ottomanlexicons:spelling:77013"
         ],
         "entries": [
           "entry:ottomanlexicons:lugatiremzi:122302-kz2"
@@ -1877,10 +2229,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Dânışger",
+          "id": "form:tr-latn:dânışger",
           "script": "Latn",
           "language": "tr",
-          "text": "Dânışger",
+          "text": "dânışger",
           "normalized": "danisger",
           "kind": "transliteration"
         }
@@ -1899,7 +2251,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:lugatiremzi:122302-kz2",
-          "lemma_id": "lemma:ota:دانشگر",
+          "spelling_id": "spelling:دانشگر",
+          "reading_id": "reading:دانشگر:dânışger",
           "source_id": "source:lugat-i-remzi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشگر",
@@ -1932,9 +2285,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:77013",
+          "id": "source-link:ottomanlexicons:spelling:77013",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "77013",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-77013.html"
         },
@@ -1948,11 +2301,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشمق",
+      "spelling": {
+        "id": "spelling:دانشمق",
         "primary_form": "دانشمق",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشمق:danışmak",
+        "spelling_id": "spelling:دانشمق",
         "display_latin": "danışmak",
-        "language": "ota",
+        "normalized": "danışmak",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danismak"
         ],
@@ -1961,16 +2322,14 @@
           "form:tr-latn:danışmak"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:43468"
+          "source-link:ottomanlexicons:spelling:43468"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusiturki:257772-gs6",
           "entry:ottomanlexicons:fransevi:52685-va4",
           "entry:ottomanlexicons:ingilizce:461241-b19",
           "entry:ottomanlexicons:resimlikamus:527458-dc8",
-          "entry:ottomanlexicons:kamusiturki:263154-td6",
-          "entry:ottomanlexicons:almanca:341698-z93",
-          "entry:ottomanlexicons:fransizca:398281-ps7"
+          "entry:ottomanlexicons:almanca:341698-z93"
         ]
       },
       "forms": [
@@ -2036,21 +2395,13 @@
             "ota",
             "de"
           ]
-        },
-        {
-          "id": "source:hazine-i-lugat",
-          "title": "Hazine-i Lugat",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "fr"
-          ]
         }
       ],
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusiturki:257772-gs6",
-          "lemma_id": "lemma:ota:دانشمق",
+          "spelling_id": "spelling:دانشمق",
+          "reading_id": "reading:دانشمق:danışmak",
           "source_id": "source:kamus-i-turki",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمق",
@@ -2067,7 +2418,8 @@
         },
         {
           "id": "entry:ottomanlexicons:fransevi:52685-va4",
-          "lemma_id": "lemma:ota:دانشمق",
+          "spelling_id": "spelling:دانشمق",
+          "reading_id": "reading:دانشمق:danışmak",
           "source_id": "source:kamus-i-fransevi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمق",
@@ -2084,7 +2436,8 @@
         },
         {
           "id": "entry:ottomanlexicons:ingilizce:461241-b19",
-          "lemma_id": "lemma:ota:دانشمق",
+          "spelling_id": "spelling:دانشمق",
+          "reading_id": "reading:دانشمق:danışmak",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمق",
@@ -2101,7 +2454,8 @@
         },
         {
           "id": "entry:ottomanlexicons:resimlikamus:527458-dc8",
-          "lemma_id": "lemma:ota:دانشمق",
+          "spelling_id": "spelling:دانشمق",
+          "reading_id": "reading:دانشمق:danışmak",
           "source_id": "source:resimli-kamus-i-osmani",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمق",
@@ -2117,25 +2471,9 @@
           ]
         },
         {
-          "id": "entry:ottomanlexicons:kamusiturki:263154-td6",
-          "lemma_id": "lemma:ota:دانشمق",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "طانیشمق",
-          "latin": "Danışmak",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:kamus-i-turki:871-12"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:kamusiturki:263154-td6"
-          ]
-        },
-        {
           "id": "entry:ottomanlexicons:almanca:341698-z93",
-          "lemma_id": "lemma:ota:دانشمق",
+          "spelling_id": "spelling:دانشمق",
+          "reading_id": "reading:دانشمق:danışmak",
           "source_id": "source:almanca-osmanlica",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمق",
@@ -2148,23 +2486,6 @@
           ],
           "source_links": [
             "source-link:ottomanlexicons:entry:almanca:341698-z93"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:fransizca:398281-ps7",
-          "lemma_id": "lemma:ota:دانشمق",
-          "source_id": "source:hazine-i-lugat",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانشمق",
-          "latin": "tanışmak",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:hazine-i-lugat:218-9"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:fransizca:398281-ps7"
           ]
         }
       ],
@@ -2220,18 +2541,6 @@
           }
         },
         {
-          "id": "image:ottomanlexicons:kamus-i-turki:871-12",
-          "kind": "entry-crop",
-          "url": "https://turki.cagdassozluk.com/rsm/turki/8/871-12.jpg",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus-ı Türki",
-            "page": "871",
-            "sequence": "12"
-          }
-        },
-        {
           "id": "image:ottomanlexicons:almanca-osmanlica:147-33",
           "kind": "entry-crop",
           "url": "https://almanca.cagdassozluk.com/lugat/rsm/alm/10/147-33.jpg",
@@ -2242,25 +2551,13 @@
             "page": "147",
             "sequence": "33"
           }
-        },
-        {
-          "id": "image:ottomanlexicons:hazine-i-lugat:218-9",
-          "kind": "entry-crop",
-          "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/20/218-9.jpg",
-          "source_id": "source:hazine-i-lugat",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Hazine-i Lugat",
-            "page": "218",
-            "sequence": "9"
-          }
         }
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:43468",
+          "id": "source-link:ottomanlexicons:spelling:43468",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "43468",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43468.html"
         },
@@ -2293,18 +2590,220 @@
           "url": "https://www.ottomanlexicons.com/resimlikamus/tafsil-527458-dc8.html"
         },
         {
-          "id": "source-link:ottomanlexicons:entry:kamusiturki:263154-td6",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "kamusiturki:263154-td6",
-          "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-263154-td6.html"
-        },
-        {
           "id": "source-link:ottomanlexicons:entry:almanca:341698-z93",
           "provider_id": "provider:ottomanlexicons",
           "external_type": "entry",
           "external_id": "almanca:341698-z93",
           "url": "https://www.ottomanlexicons.com/almanca/tafsil-341698-z93.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:طانیشمق",
+        "primary_form": "طانیشمق",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:طانیشمق:danışmak",
+        "spelling_id": "spelling:طانیشمق",
+        "display_latin": "danışmak",
+        "normalized": "danışmak",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danismak"
+        ],
+        "forms": [
+          "form:ota:طانیشمق",
+          "form:tr-latn:danışmak"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:43468"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:kamusiturki:263154-td6"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:طانیشمق",
+          "script": "Arab",
+          "language": "ota",
+          "text": "طانیشمق",
+          "normalized": "طانیشمق",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:danışmak",
+          "script": "Latn",
+          "language": "tr",
+          "text": "danışmak",
+          "normalized": "danismak",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:kamus-i-turki",
+          "title": "Kamus-ı Türki",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "id": "entry:ottomanlexicons:kamusiturki:263154-td6",
+          "spelling_id": "spelling:طانیشمق",
+          "reading_id": "reading:طانیشمق:danışmak",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "طانیشمق",
+          "latin": "Danışmak",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:kamus-i-turki:871-12"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:kamusiturki:263154-td6"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:kamus-i-turki:871-12",
+          "kind": "entry-crop",
+          "url": "https://turki.cagdassozluk.com/rsm/turki/8/871-12.jpg",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Kamus-ı Türki",
+            "page": "871",
+            "sequence": "12"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:43468",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "43468",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43468.html"
+        },
+        {
+          "id": "source-link:ottomanlexicons:entry:kamusiturki:263154-td6",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "kamusiturki:263154-td6",
+          "url": "https://www.ottomanlexicons.com/kamusiturki/tafsil-263154-td6.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانشمق",
+        "primary_form": "دانشمق",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشمق:tanışmak",
+        "spelling_id": "spelling:دانشمق",
+        "display_latin": "tanışmak",
+        "normalized": "tanışmak",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "tanismak"
+        ],
+        "forms": [
+          "form:ota:دانشمق",
+          "form:tr-latn:tanışmak"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:43468"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:fransizca:398281-ps7"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانشمق",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانشمق",
+          "normalized": "دانشمق",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:tanışmak",
+          "script": "Latn",
+          "language": "tr",
+          "text": "tanışmak",
+          "normalized": "tanismak",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:hazine-i-lugat",
+          "title": "Hazine-i Lugat",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "fr"
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "id": "entry:ottomanlexicons:fransizca:398281-ps7",
+          "spelling_id": "spelling:دانشمق",
+          "reading_id": "reading:دانشمق:tanışmak",
+          "source_id": "source:hazine-i-lugat",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانشمق",
+          "latin": "tanışmak",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:hazine-i-lugat:218-9"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:fransizca:398281-ps7"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:hazine-i-lugat:218-9",
+          "kind": "entry-crop",
+          "url": "https://fransizca.cagdassozluk.com/lugat/rsm/haz/20/218-9.jpg",
+          "source_id": "source:hazine-i-lugat",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Hazine-i Lugat",
+            "page": "218",
+            "sequence": "9"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:43468",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "43468",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43468.html"
         },
         {
           "id": "source-link:ottomanlexicons:entry:fransizca:398281-ps7",
@@ -2316,11 +2815,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشمند",
+      "spelling": {
+        "id": "spelling:دانشمند",
         "primary_form": "دانشمند",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشمند:danişmend",
+        "spelling_id": "spelling:دانشمند",
         "display_latin": "danişmend",
-        "language": "ota",
+        "normalized": "danişmend",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danismend"
         ],
@@ -2329,7 +2836,7 @@
           "form:tr-latn:danişmend"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10975"
+          "source-link:ottomanlexicons:spelling:10975"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusiturki:257773-kr1",
@@ -2341,7 +2848,6 @@
           "entry:ottomanlexicons:cudi:364161-bd9",
           "entry:ottomanlexicons:osmanli:379957-ca4",
           "entry:ottomanlexicons:fransizca:398282-vf2",
-          "entry:ottomanlexicons:lugatiremzi:122312-f71",
           "entry:ottomanlexicons:almanca:341699-ga1",
           "entry:ottomanlexicons:muntehab:549251-ff1"
         ]
@@ -2438,15 +2944,6 @@
           ]
         },
         {
-          "id": "source:lugat-i-remzi",
-          "title": "Lugat-ı Remzi",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
-        },
-        {
           "id": "source:almanca-osmanlica",
           "title": "Almanca Osmanlıca Sözlük",
           "kind": "dictionary",
@@ -2468,7 +2965,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusiturki:257773-kr1",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:kamus-i-turki",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2485,7 +2983,8 @@
         },
         {
           "id": "entry:ottomanlexicons:kamusulalam:12728-ds6",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2502,7 +3001,8 @@
         },
         {
           "id": "entry:ottomanlexicons:kamusulalam:12729-by7",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2519,7 +3019,8 @@
         },
         {
           "id": "entry:ottomanlexicons:fransevi:52686-c62",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:kamus-i-fransevi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2537,7 +3038,8 @@
         },
         {
           "id": "entry:ottomanlexicons:ingilizce:461242-vb2",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2554,7 +3056,8 @@
         },
         {
           "id": "entry:ottomanlexicons:turkcekamus:282804-zc8",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:resimli-turkce-kamus",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2571,7 +3074,8 @@
         },
         {
           "id": "entry:ottomanlexicons:cudi:364161-bd9",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:lugat-i-cudi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2588,7 +3092,8 @@
         },
         {
           "id": "entry:ottomanlexicons:osmanli:379957-ca4",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:mukemmel-osmanli-lugati",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2605,7 +3110,8 @@
         },
         {
           "id": "entry:ottomanlexicons:fransizca:398282-vf2",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:hazine-i-lugat",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2621,25 +3127,9 @@
           ]
         },
         {
-          "id": "entry:ottomanlexicons:lugatiremzi:122312-f71",
-          "lemma_id": "lemma:ota:دانشمند",
-          "source_id": "source:lugat-i-remzi",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانشمند",
-          "latin": "Dânışmend",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:lugat-i-remzi:530-17"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:lugatiremzi:122312-f71"
-          ]
-        },
-        {
           "id": "entry:ottomanlexicons:almanca:341699-ga1",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:almanca-osmanlica",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2656,7 +3146,8 @@
         },
         {
           "id": "entry:ottomanlexicons:muntehab:549251-ff1",
-          "lemma_id": "lemma:ota:دانشمند",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:danişmend",
           "source_id": "source:muntehab-i-lugat-i-osmaniyye",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمند",
@@ -2797,19 +3288,6 @@
           }
         },
         {
-          "id": "image:ottomanlexicons:lugat-i-remzi:530-17",
-          "kind": "entry-crop",
-          "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-17.jpg",
-          "source_id": "source:lugat-i-remzi",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Lugat-ı Remzi",
-            "volume": "1",
-            "page": "530",
-            "sequence": "17"
-          }
-        },
-        {
           "id": "image:ottomanlexicons:almanca-osmanlica:147-34",
           "kind": "entry-crop",
           "url": "https://almanca.cagdassozluk.com/lugat/rsm/alm/10/147-34.jpg",
@@ -2837,9 +3315,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10975",
+          "id": "source-link:ottomanlexicons:spelling:10975",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10975",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10975.html"
         },
@@ -2907,13 +3385,6 @@
           "url": "https://www.ottomanlexicons.com/fransizca/tafsil-398282-vf2.html"
         },
         {
-          "id": "source-link:ottomanlexicons:entry:lugatiremzi:122312-f71",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "lugatiremzi:122312-f71",
-          "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122312-f71.html"
-        },
-        {
           "id": "source-link:ottomanlexicons:entry:almanca:341699-ga1",
           "provider_id": "provider:ottomanlexicons",
           "external_type": "entry",
@@ -2930,11 +3401,128 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشمندلو",
+      "spelling": {
+        "id": "spelling:دانشمند",
+        "primary_form": "دانشمند",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشمند:dânışmend",
+        "spelling_id": "spelling:دانشمند",
+        "display_latin": "dânışmend",
+        "normalized": "dânışmend",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danismend"
+        ],
+        "forms": [
+          "form:ota:دانشمند",
+          "form:tr-latn:dânışmend"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:10975"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:lugatiremzi:122312-f71"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانشمند",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانشمند",
+          "normalized": "دانشمند",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:dânışmend",
+          "script": "Latn",
+          "language": "tr",
+          "text": "dânışmend",
+          "normalized": "danismend",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:lugat-i-remzi",
+          "title": "Lugat-ı Remzi",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "id": "entry:ottomanlexicons:lugatiremzi:122312-f71",
+          "spelling_id": "spelling:دانشمند",
+          "reading_id": "reading:دانشمند:dânışmend",
+          "source_id": "source:lugat-i-remzi",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانشمند",
+          "latin": "Dânışmend",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:lugat-i-remzi:530-17"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:lugatiremzi:122312-f71"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:lugat-i-remzi:530-17",
+          "kind": "entry-crop",
+          "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-17.jpg",
+          "source_id": "source:lugat-i-remzi",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Lugat-ı Remzi",
+            "volume": "1",
+            "page": "530",
+            "sequence": "17"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:10975",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "10975",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10975.html"
+        },
+        {
+          "id": "source-link:ottomanlexicons:entry:lugatiremzi:122312-f71",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "lugatiremzi:122312-f71",
+          "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122312-f71.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانشمندلو",
         "primary_form": "دانشمندلو",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشمندلو:danişmentli",
+        "spelling_id": "spelling:دانشمندلو",
         "display_latin": "danişmentli",
-        "language": "ota",
+        "normalized": "danişmentli",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danismentli"
         ],
@@ -2943,7 +3531,7 @@
           "form:tr-latn:danişmentli"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:226474"
+          "source-link:ottomanlexicons:spelling:226474"
         ],
         "entries": [
           "entry:ottomanlexicons:lehceiosmani:439295-kz9"
@@ -2981,7 +3569,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:lehceiosmani:439295-kz9",
-          "lemma_id": "lemma:ota:دانشمندلو",
+          "spelling_id": "spelling:دانشمندلو",
+          "reading_id": "reading:دانشمندلو:danişmentli",
           "source_id": "source:lehce-i-osmani",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمندلو",
@@ -3014,9 +3603,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:226474",
+          "id": "source-link:ottomanlexicons:spelling:226474",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "226474",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-226474.html"
         },
@@ -3030,20 +3619,28 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشمندلی",
+      "spelling": {
+        "id": "spelling:دانشمندلی",
         "primary_form": "دانشمندلی",
-        "display_latin": "Danişmendli",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشمندلی:danişmendli",
+        "spelling_id": "spelling:دانشمندلی",
+        "display_latin": "danişmendli",
+        "normalized": "danişmendli",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danismendli"
         ],
         "forms": [
           "form:ota:دانشمندلی",
-          "form:tr-latn:Danişmendli"
+          "form:tr-latn:danişmendli"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10976"
+          "source-link:ottomanlexicons:spelling:10976"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusulalam:12730-ns3"
@@ -3059,10 +3656,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Danişmendli",
+          "id": "form:tr-latn:danişmendli",
           "script": "Latn",
           "language": "tr",
-          "text": "Danişmendli",
+          "text": "danişmendli",
           "normalized": "danismendli",
           "kind": "transliteration"
         }
@@ -3081,7 +3678,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusulalam:12730-ns3",
-          "lemma_id": "lemma:ota:دانشمندلی",
+          "spelling_id": "spelling:دانشمندلی",
+          "reading_id": "reading:دانشمندلی:danişmendli",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشمندلی",
@@ -3128,9 +3726,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10976",
+          "id": "source-link:ottomanlexicons:spelling:10976",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10976",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10976.html"
         },
@@ -3144,11 +3742,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشور",
+      "spelling": {
+        "id": "spelling:دانشور",
         "primary_form": "دانشور",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشور:danişver",
+        "spelling_id": "spelling:دانشور",
         "display_latin": "danişver",
-        "language": "ota",
+        "normalized": "danişver",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danisver"
         ],
@@ -3157,14 +3763,12 @@
           "form:tr-latn:danişver"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:43469"
+          "source-link:ottomanlexicons:spelling:43469"
         ],
         "entries": [
           "entry:ottomanlexicons:fransevi:52687-v88",
           "entry:ottomanlexicons:ingilizce:461243-sz5",
           "entry:ottomanlexicons:osmanli:379958-py8",
-          "entry:ottomanlexicons:kamusiturki:257774-c96",
-          "entry:ottomanlexicons:lugatiremzi:122313-b77",
           "entry:ottomanlexicons:muntehab:549253-gf8"
         ]
       },
@@ -3215,24 +3819,6 @@
           ]
         },
         {
-          "id": "source:kamus-i-turki",
-          "title": "Kamus-ı Türki",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
-        },
-        {
-          "id": "source:lugat-i-remzi",
-          "title": "Lugat-ı Remzi",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
-        },
-        {
           "id": "source:muntehab-i-lugat-i-osmaniyye",
           "title": "Müntehab-ı Lugat-ı Osmâniyye",
           "kind": "dictionary",
@@ -3245,7 +3831,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:fransevi:52687-v88",
-          "lemma_id": "lemma:ota:دانشور",
+          "spelling_id": "spelling:دانشور",
+          "reading_id": "reading:دانشور:danişver",
           "source_id": "source:kamus-i-fransevi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشور",
@@ -3262,7 +3849,8 @@
         },
         {
           "id": "entry:ottomanlexicons:ingilizce:461243-sz5",
-          "lemma_id": "lemma:ota:دانشور",
+          "spelling_id": "spelling:دانشور",
+          "reading_id": "reading:دانشور:danişver",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشور",
@@ -3279,7 +3867,8 @@
         },
         {
           "id": "entry:ottomanlexicons:osmanli:379958-py8",
-          "lemma_id": "lemma:ota:دانشور",
+          "spelling_id": "spelling:دانشور",
+          "reading_id": "reading:دانشور:danişver",
           "source_id": "source:mukemmel-osmanli-lugati",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشور",
@@ -3295,42 +3884,9 @@
           ]
         },
         {
-          "id": "entry:ottomanlexicons:kamusiturki:257774-c96",
-          "lemma_id": "lemma:ota:دانشور",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانشور",
-          "latin": "Dânışver",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:kamus-i-turki:600-5"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:kamusiturki:257774-c96"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:lugatiremzi:122313-b77",
-          "lemma_id": "lemma:ota:دانشور",
-          "source_id": "source:lugat-i-remzi",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانشور",
-          "latin": "Dânışver",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:lugat-i-remzi:530-18"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:lugatiremzi:122313-b77"
-          ]
-        },
-        {
           "id": "entry:ottomanlexicons:muntehab:549253-gf8",
-          "lemma_id": "lemma:ota:دانشور",
+          "spelling_id": "spelling:دانشور",
+          "reading_id": "reading:دانشور:danişver",
           "source_id": "source:muntehab-i-lugat-i-osmaniyye",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشور",
@@ -3385,31 +3941,6 @@
           }
         },
         {
-          "id": "image:ottomanlexicons:kamus-i-turki:600-5",
-          "kind": "entry-crop",
-          "url": "https://turki.cagdassozluk.com/rsm/turki/6/600-5.jpg",
-          "source_id": "source:kamus-i-turki",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus-ı Türki",
-            "page": "600",
-            "sequence": "5"
-          }
-        },
-        {
-          "id": "image:ottomanlexicons:lugat-i-remzi:530-18",
-          "kind": "entry-crop",
-          "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-18.jpg",
-          "source_id": "source:lugat-i-remzi",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Lugat-ı Remzi",
-            "volume": "1",
-            "page": "530",
-            "sequence": "18"
-          }
-        },
-        {
           "id": "image:ottomanlexicons:muntehab-i-lugat-i-osmaniyye:312-12",
           "kind": "entry-crop",
           "url": "https://muntehab.cagdassozluk.com/rsm/munt1/30/312-12.jpg",
@@ -3425,9 +3956,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:43469",
+          "id": "source-link:ottomanlexicons:spelling:43469",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "43469",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43469.html"
         },
@@ -3453,6 +3984,155 @@
           "url": "https://www.ottomanlexicons.com/osmanli/tafsil-379958-py8.html"
         },
         {
+          "id": "source-link:ottomanlexicons:entry:muntehab:549253-gf8",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "muntehab:549253-gf8",
+          "url": "https://www.ottomanlexicons.com/muntehab/tafsil-549253-gf8.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانشور",
+        "primary_form": "دانشور",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشور:dânışver",
+        "spelling_id": "spelling:دانشور",
+        "display_latin": "dânışver",
+        "normalized": "dânışver",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danisver"
+        ],
+        "forms": [
+          "form:ota:دانشور",
+          "form:tr-latn:dânışver"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:43469"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:kamusiturki:257774-c96",
+          "entry:ottomanlexicons:lugatiremzi:122313-b77"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانشور",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانشور",
+          "normalized": "دانشور",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:dânışver",
+          "script": "Latn",
+          "language": "tr",
+          "text": "dânışver",
+          "normalized": "danisver",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:kamus-i-turki",
+          "title": "Kamus-ı Türki",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        },
+        {
+          "id": "source:lugat-i-remzi",
+          "title": "Lugat-ı Remzi",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "id": "entry:ottomanlexicons:kamusiturki:257774-c96",
+          "spelling_id": "spelling:دانشور",
+          "reading_id": "reading:دانشور:dânışver",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانشور",
+          "latin": "Dânışver",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:kamus-i-turki:600-5"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:kamusiturki:257774-c96"
+          ]
+        },
+        {
+          "id": "entry:ottomanlexicons:lugatiremzi:122313-b77",
+          "spelling_id": "spelling:دانشور",
+          "reading_id": "reading:دانشور:dânışver",
+          "source_id": "source:lugat-i-remzi",
+          "provider_id": "provider:ottomanlexicons",
+          "headword": "دانشور",
+          "latin": "Dânışver",
+          "content": {
+            "kind": "facsimile"
+          },
+          "images": [
+            "image:ottomanlexicons:lugat-i-remzi:530-18"
+          ],
+          "source_links": [
+            "source-link:ottomanlexicons:entry:lugatiremzi:122313-b77"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:kamus-i-turki:600-5",
+          "kind": "entry-crop",
+          "url": "https://turki.cagdassozluk.com/rsm/turki/6/600-5.jpg",
+          "source_id": "source:kamus-i-turki",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Kamus-ı Türki",
+            "page": "600",
+            "sequence": "5"
+          }
+        },
+        {
+          "id": "image:ottomanlexicons:lugat-i-remzi:530-18",
+          "kind": "entry-crop",
+          "url": "https://remzi.cagdassozluk.com/rsm/cilt1/50/530-18.jpg",
+          "source_id": "source:lugat-i-remzi",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Lugat-ı Remzi",
+            "volume": "1",
+            "page": "530",
+            "sequence": "18"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:43469",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "43469",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-43469.html"
+        },
+        {
           "id": "source-link:ottomanlexicons:entry:kamusiturki:257774-c96",
           "provider_id": "provider:ottomanlexicons",
           "external_type": "entry",
@@ -3465,31 +4145,32 @@
           "external_type": "entry",
           "external_id": "lugatiremzi:122313-b77",
           "url": "https://www.ottomanlexicons.com/lugatiremzi/tafsil-122313-b77.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:muntehab:549253-gf8",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "muntehab:549253-gf8",
-          "url": "https://www.ottomanlexicons.com/muntehab/tafsil-549253-gf8.html"
         }
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:ضنینة",
+      "spelling": {
+        "id": "spelling:ضنینة",
         "primary_form": "ضنینة",
-        "display_latin": "Danîne",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:ضنینة:danîne",
+        "spelling_id": "spelling:ضنینة",
+        "display_latin": "danîne",
+        "normalized": "danîne",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danine"
         ],
         "forms": [
           "form:ota:ضنینة",
-          "form:tr-latn:Danîne"
+          "form:tr-latn:danîne"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:79692"
+          "source-link:ottomanlexicons:spelling:79692"
         ],
         "entries": [
           "entry:ottomanlexicons:lugatiremzi:127614-dm6"
@@ -3505,10 +4186,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Danîne",
+          "id": "form:tr-latn:danîne",
           "script": "Latn",
           "language": "tr",
-          "text": "Danîne",
+          "text": "danîne",
           "normalized": "danine",
           "kind": "transliteration"
         }
@@ -3527,7 +4208,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:lugatiremzi:127614-dm6",
-          "lemma_id": "lemma:ota:ضنینة",
+          "spelling_id": "spelling:ضنینة",
+          "reading_id": "reading:ضنینة:danîne",
           "source_id": "source:lugat-i-remzi",
           "provider_id": "provider:ottomanlexicons",
           "headword": "ضنینة",
@@ -3560,9 +4242,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:79692",
+          "id": "source-link:ottomanlexicons:spelling:79692",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "79692",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-79692.html"
         },
@@ -3576,11 +4258,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانس",
+      "spelling": {
+        "id": "spelling:دانس",
         "primary_form": "دانس",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانس:danis",
+        "spelling_id": "spelling:دانس",
         "display_latin": "danis",
-        "language": "ota",
+        "normalized": "danis",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danis"
         ],
@@ -3589,11 +4279,10 @@
           "form:tr-latn:danis"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:131632"
+          "source-link:ottomanlexicons:spelling:131632"
         ],
         "entries": [
-          "entry:ottomanlexicons:turkcelugat:252752-sk2",
-          "entry:ottomanlexicons:turkcekamus:282801-vz8"
+          "entry:ottomanlexicons:turkcelugat:252752-sk2"
         ]
       },
       "forms": [
@@ -3623,21 +4312,13 @@
             "ota",
             "tr"
           ]
-        },
-        {
-          "id": "source:resimli-turkce-kamus",
-          "title": "Resimli Türkçe Kamus",
-          "kind": "dictionary",
-          "languages": [
-            "ota",
-            "tr"
-          ]
         }
       ],
       "entries": [
         {
           "id": "entry:ottomanlexicons:turkcelugat:252752-sk2",
-          "lemma_id": "lemma:ota:دانس",
+          "spelling_id": "spelling:دانس",
+          "reading_id": "reading:دانس:danis",
           "source_id": "source:yeni-turkce-lugat",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانس",
@@ -3651,10 +4332,101 @@
           "source_links": [
             "source-link:ottomanlexicons:entry:turkcelugat:252752-sk2"
           ]
+        }
+      ],
+      "images": [
+        {
+          "id": "image:ottomanlexicons:yeni-turkce-lugat:319-6",
+          "kind": "entry-crop",
+          "url": "https://toven.cagdassozluk.com/rsm/ytl/30/319-6.jpg",
+          "source_id": "source:yeni-turkce-lugat",
+          "provider_id": "provider:ottomanlexicons",
+          "citation": {
+            "title": "Yeni Türkçe Lugat",
+            "page": "319",
+            "sequence": "6"
+          }
+        }
+      ],
+      "source_links": [
+        {
+          "id": "source-link:ottomanlexicons:spelling:131632",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "spelling",
+          "external_id": "131632",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-131632.html"
         },
         {
+          "id": "source-link:ottomanlexicons:entry:turkcelugat:252752-sk2",
+          "provider_id": "provider:ottomanlexicons",
+          "external_type": "entry",
+          "external_id": "turkcelugat:252752-sk2",
+          "url": "https://www.ottomanlexicons.com/turkcelugat/tafsil-252752-sk2.html"
+        }
+      ]
+    },
+    {
+      "spelling": {
+        "id": "spelling:دانس",
+        "primary_form": "دانس",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانس:dans",
+        "spelling_id": "spelling:دانس",
+        "display_latin": "dans",
+        "normalized": "dans",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "dans"
+        ],
+        "forms": [
+          "form:ota:دانس",
+          "form:tr-latn:dans"
+        ],
+        "source_links": [
+          "source-link:ottomanlexicons:spelling:131632"
+        ],
+        "entries": [
+          "entry:ottomanlexicons:turkcekamus:282801-vz8"
+        ]
+      },
+      "forms": [
+        {
+          "id": "form:ota:دانس",
+          "script": "Arab",
+          "language": "ota",
+          "text": "دانس",
+          "normalized": "دانس",
+          "kind": "headword"
+        },
+        {
+          "id": "form:tr-latn:dans",
+          "script": "Latn",
+          "language": "tr",
+          "text": "dans",
+          "normalized": "dans",
+          "kind": "transliteration"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source:resimli-turkce-kamus",
+          "title": "Resimli Türkçe Kamus",
+          "kind": "dictionary",
+          "languages": [
+            "ota",
+            "tr"
+          ]
+        }
+      ],
+      "entries": [
+        {
           "id": "entry:ottomanlexicons:turkcekamus:282801-vz8",
-          "lemma_id": "lemma:ota:دانس",
+          "spelling_id": "spelling:دانس",
+          "reading_id": "reading:دانس:dans",
           "source_id": "source:resimli-turkce-kamus",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانس",
@@ -3672,18 +4444,6 @@
       ],
       "images": [
         {
-          "id": "image:ottomanlexicons:yeni-turkce-lugat:319-6",
-          "kind": "entry-crop",
-          "url": "https://toven.cagdassozluk.com/rsm/ytl/30/319-6.jpg",
-          "source_id": "source:yeni-turkce-lugat",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Yeni Türkçe Lugat",
-            "page": "319",
-            "sequence": "6"
-          }
-        },
-        {
           "id": "image:ottomanlexicons:resimli-turkce-kamus:337-14",
           "kind": "entry-crop",
           "url": "https://kestelli.cagdassozluk.com/rsm/tkamus/30/337-14.jpg",
@@ -3698,18 +4458,11 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:131632",
+          "id": "source-link:ottomanlexicons:spelling:131632",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "131632",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-131632.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:turkcelugat:252752-sk2",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "turkcelugat:252752-sk2",
-          "url": "https://www.ottomanlexicons.com/turkcelugat/tafsil-252752-sk2.html"
         },
         {
           "id": "source-link:ottomanlexicons:entry:turkcekamus:282801-vz8",
@@ -3721,11 +4474,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانستن",
+      "spelling": {
+        "id": "spelling:دانستن",
         "primary_form": "دانستن",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانستن:danisten",
+        "spelling_id": "spelling:دانستن",
         "display_latin": "danisten",
-        "language": "ota",
+        "normalized": "danisten",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danisten"
         ],
@@ -3734,7 +4495,7 @@
           "form:tr-latn:danisten"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:151130"
+          "source-link:ottomanlexicons:spelling:151130"
         ],
         "entries": [
           "entry:ottomanlexicons:fransizca:398278-zh6"
@@ -3772,7 +4533,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:fransizca:398278-zh6",
-          "lemma_id": "lemma:ota:دانستن",
+          "spelling_id": "spelling:دانستن",
+          "reading_id": "reading:دانستن:danisten",
           "source_id": "source:hazine-i-lugat",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانستن",
@@ -3804,9 +4566,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:151130",
+          "id": "source-link:ottomanlexicons:spelling:151130",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "151130",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-151130.html"
         },
@@ -3820,20 +4582,28 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانشی",
+      "spelling": {
+        "id": "spelling:دانشی",
         "primary_form": "دانشی",
-        "display_latin": "Danişi",
-        "language": "ota",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانشی:danişi",
+        "spelling_id": "spelling:دانشی",
+        "display_latin": "danişi",
+        "normalized": "danişi",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "danisi"
         ],
         "forms": [
           "form:ota:دانشی",
-          "form:tr-latn:Danişi"
+          "form:tr-latn:danişi"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10977"
+          "source-link:ottomanlexicons:spelling:10977"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusulalam:12731-g84"
@@ -3849,10 +4619,10 @@
           "kind": "headword"
         },
         {
-          "id": "form:tr-latn:Danişi",
+          "id": "form:tr-latn:danişi",
           "script": "Latn",
           "language": "tr",
-          "text": "Danişi",
+          "text": "danişi",
           "normalized": "danisi",
           "kind": "transliteration"
         }
@@ -3871,7 +4641,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusulalam:12731-g84",
-          "lemma_id": "lemma:ota:دانشی",
+          "spelling_id": "spelling:دانشی",
+          "reading_id": "reading:دانشی:danişi",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانشی",
@@ -3904,9 +4675,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10977",
+          "id": "source-link:ottomanlexicons:spelling:10977",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10977",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10977.html"
         },
@@ -3920,11 +4691,19 @@
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانیه",
+      "spelling": {
+        "id": "spelling:دانیه",
         "primary_form": "دانیه",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانیه:daniye",
+        "spelling_id": "spelling:دانیه",
         "display_latin": "daniye",
-        "language": "ota",
+        "normalized": "daniye",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "daniye"
         ],
@@ -3933,12 +4712,11 @@
           "form:tr-latn:daniye"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:10988"
+          "source-link:ottomanlexicons:spelling:10988",
+          "source-link:ottomanlexicons:spelling:179659"
         ],
         "entries": [
-          "entry:ottomanlexicons:ingilizce:461266-s69",
-          "entry:ottomanlexicons:kamusulalam:12742-ks1",
-          "entry:ottomanlexicons:ingilizce:461267-zg4"
+          "entry:ottomanlexicons:ingilizce:461266-s69"
         ]
       },
       "forms": [
@@ -3968,21 +4746,13 @@
             "ota",
             "en"
           ]
-        },
-        {
-          "id": "source:kamusul-alam",
-          "title": "Kamus'ul Alam",
-          "kind": "encyclopedia",
-          "languages": [
-            "ota",
-            "tr"
-          ]
         }
       ],
       "entries": [
         {
           "id": "entry:ottomanlexicons:ingilizce:461266-s69",
-          "lemma_id": "lemma:ota:دانیه",
+          "spelling_id": "spelling:دانیه",
+          "reading_id": "reading:دانیه:daniye",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانیه",
@@ -3995,41 +4765,6 @@
           ],
           "source_links": [
             "source-link:ottomanlexicons:entry:ingilizce:461266-s69"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:kamusulalam:12742-ks1",
-          "lemma_id": "lemma:ota:دانیه",
-          "source_id": "source:kamusul-alam",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانیه",
-          "latin": "Daniyye",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:kamusul-alam:508-3",
-            "image:ottomanlexicons:kamusul-alam:509-1"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:kamusulalam:12742-ks1"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:ingilizce:461267-zg4",
-          "lemma_id": "lemma:ota:دانیه",
-          "source_id": "source:redhouse",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانیه",
-          "latin": "daniyye",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:redhouse:885-36"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:ingilizce:461267-zg4"
           ]
         }
       ],
@@ -4046,52 +4781,13 @@
             "page": "885",
             "sequence": "35"
           }
-        },
-        {
-          "id": "image:ottomanlexicons:kamusul-alam:508-3",
-          "kind": "entry-crop",
-          "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/508-3.jpg",
-          "source_id": "source:kamusul-alam",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus'ul Alam",
-            "volume": "3",
-            "page": "508",
-            "sequence": "3"
-          }
-        },
-        {
-          "id": "image:ottomanlexicons:kamusul-alam:509-1",
-          "kind": "entry-crop",
-          "url": "https://alam.cagdassozluk.com/rsm/cilt3/50/509-1.jpg",
-          "source_id": "source:kamusul-alam",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "Kamus'ul Alam",
-            "volume": "3",
-            "page": "509",
-            "sequence": "1"
-          }
-        },
-        {
-          "id": "image:ottomanlexicons:redhouse:885-36",
-          "kind": "entry-crop",
-          "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-36.png",
-          "source_id": "source:redhouse",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "İngilizce Sözlük",
-            "volume": "2",
-            "page": "885",
-            "sequence": "36"
-          }
         }
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:10988",
+          "id": "source-link:ottomanlexicons:spelling:10988",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "10988",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10988.html"
         },
@@ -4103,27 +4799,28 @@
           "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461266-s69.html"
         },
         {
-          "id": "source-link:ottomanlexicons:entry:kamusulalam:12742-ks1",
+          "id": "source-link:ottomanlexicons:spelling:179659",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "kamusulalam:12742-ks1",
-          "url": "https://www.ottomanlexicons.com/kamusulalam/tafsil-12742-ks1.html"
-        },
-        {
-          "id": "source-link:ottomanlexicons:entry:ingilizce:461267-zg4",
-          "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "ingilizce:461267-zg4",
-          "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461267-zg4.html"
+          "external_type": "spelling",
+          "external_id": "179659",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-179659.html"
         }
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانیه",
+      "spelling": {
+        "id": "spelling:دانیه",
         "primary_form": "دانیه",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانیه:daniyye",
+        "spelling_id": "spelling:دانیه",
         "display_latin": "daniyye",
-        "language": "ota",
+        "normalized": "daniyye",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "daniyye"
         ],
@@ -4132,12 +4829,12 @@
           "form:tr-latn:daniyye"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:179659"
+          "source-link:ottomanlexicons:spelling:10988",
+          "source-link:ottomanlexicons:spelling:179659"
         ],
         "entries": [
           "entry:ottomanlexicons:kamusulalam:12742-ks1",
-          "entry:ottomanlexicons:ingilizce:461267-zg4",
-          "entry:ottomanlexicons:ingilizce:461266-s69"
+          "entry:ottomanlexicons:ingilizce:461267-zg4"
         ]
       },
       "forms": [
@@ -4181,7 +4878,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:kamusulalam:12742-ks1",
-          "lemma_id": "lemma:ota:دانیه",
+          "spelling_id": "spelling:دانیه",
+          "reading_id": "reading:دانیه:daniyye",
           "source_id": "source:kamusul-alam",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانیه",
@@ -4199,7 +4897,8 @@
         },
         {
           "id": "entry:ottomanlexicons:ingilizce:461267-zg4",
-          "lemma_id": "lemma:ota:دانیه",
+          "spelling_id": "spelling:دانیه",
+          "reading_id": "reading:دانیه:daniyye",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانیه",
@@ -4212,23 +4911,6 @@
           ],
           "source_links": [
             "source-link:ottomanlexicons:entry:ingilizce:461267-zg4"
-          ]
-        },
-        {
-          "id": "entry:ottomanlexicons:ingilizce:461266-s69",
-          "lemma_id": "lemma:ota:دانیه",
-          "source_id": "source:redhouse",
-          "provider_id": "provider:ottomanlexicons",
-          "headword": "دانیه",
-          "latin": "daniye",
-          "content": {
-            "kind": "facsimile"
-          },
-          "images": [
-            "image:ottomanlexicons:redhouse:885-35"
-          ],
-          "source_links": [
-            "source-link:ottomanlexicons:entry:ingilizce:461266-s69"
           ]
         }
       ],
@@ -4271,28 +4953,15 @@
             "page": "885",
             "sequence": "36"
           }
-        },
-        {
-          "id": "image:ottomanlexicons:redhouse:885-35",
-          "kind": "entry-crop",
-          "url": "https://ingilizce.cagdassozluk.com/kamus/rsm/red/85/885-35.png",
-          "source_id": "source:redhouse",
-          "provider_id": "provider:ottomanlexicons",
-          "citation": {
-            "title": "İngilizce Sözlük",
-            "volume": "2",
-            "page": "885",
-            "sequence": "35"
-          }
         }
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:179659",
+          "id": "source-link:ottomanlexicons:spelling:10988",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
-          "external_id": "179659",
-          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-179659.html"
+          "external_type": "spelling",
+          "external_id": "10988",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10988.html"
         },
         {
           "id": "source-link:ottomanlexicons:entry:kamusulalam:12742-ks1",
@@ -4309,20 +4978,28 @@
           "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461267-zg4.html"
         },
         {
-          "id": "source-link:ottomanlexicons:entry:ingilizce:461266-s69",
+          "id": "source-link:ottomanlexicons:spelling:179659",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "entry",
-          "external_id": "ingilizce:461266-s69",
-          "url": "https://www.ottomanlexicons.com/ingilizce/tafsil-461266-s69.html"
+          "external_type": "spelling",
+          "external_id": "179659",
+          "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-179659.html"
         }
       ]
     },
     {
-      "lemma": {
-        "id": "lemma:ota:دانیه لو",
+      "spelling": {
+        "id": "spelling:دانیه لو",
         "primary_form": "دانیه لو",
+        "language": "ota"
+      },
+      "reading": {
+        "id": "reading:دانیه لو:daniyyeci",
+        "spelling_id": "spelling:دانیه لو",
         "display_latin": "daniyyeci",
-        "language": "ota",
+        "normalized": "daniyyeci",
+        "languages_attested": [
+          "ota"
+        ],
         "slugs": [
           "daniyyeci"
         ],
@@ -4331,7 +5008,7 @@
           "form:tr-latn:daniyyeci"
         ],
         "source_links": [
-          "source-link:ottomanlexicons:lemma:106955"
+          "source-link:ottomanlexicons:spelling:106955"
         ],
         "entries": [
           "entry:ottomanlexicons:ingilizce:461268-g78"
@@ -4369,7 +5046,8 @@
       "entries": [
         {
           "id": "entry:ottomanlexicons:ingilizce:461268-g78",
-          "lemma_id": "lemma:ota:دانیه لو",
+          "spelling_id": "spelling:دانیه لو",
+          "reading_id": "reading:دانیه لو:daniyyeci",
           "source_id": "source:redhouse",
           "provider_id": "provider:ottomanlexicons",
           "headword": "دانیه لو",
@@ -4402,9 +5080,9 @@
       ],
       "source_links": [
         {
-          "id": "source-link:ottomanlexicons:lemma:106955",
+          "id": "source-link:ottomanlexicons:spelling:106955",
           "provider_id": "provider:ottomanlexicons",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "106955",
           "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-106955.html"
         },

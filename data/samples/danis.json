@@ -1,9 +1,17 @@
 {
-  "lemma": {
-    "id": "lemma:ota:دانش",
+  "spelling": {
+    "id": "spelling:دانش",
     "primary_form": "دانش",
+    "language": "ota"
+  },
+  "reading": {
+    "id": "reading:دانش:daniş",
+    "spelling_id": "spelling:دانش",
     "display_latin": "daniş",
-    "language": "ota",
+    "normalized": "daniş",
+    "languages_attested": [
+      "ota"
+    ],
     "slugs": [
       "danis"
     ],
@@ -12,7 +20,7 @@
       "form:tr-latn:daniş"
     ],
     "source_links": [
-      "source-link:ottomanlexicons:lemma:10973"
+      "source-link:ottomanlexicons:spelling:10973"
     ],
     "entries": [
       "entry:ottomanlexicons:ingilizce:461239-k46"
@@ -58,7 +66,8 @@
   "entries": [
     {
       "id": "entry:ottomanlexicons:ingilizce:461239-k46",
-      "lemma_id": "lemma:ota:دانش",
+      "spelling_id": "spelling:دانش",
+      "reading_id": "reading:دانش:daniş",
       "source_id": "source:redhouse",
       "provider_id": "provider:ottomanlexicons",
       "headword": "دانش",
@@ -90,9 +99,9 @@
   ],
   "source_links": [
     {
-      "id": "source-link:ottomanlexicons:lemma:10973",
+      "id": "source-link:ottomanlexicons:spelling:10973",
       "provider_id": "provider:ottomanlexicons",
-      "external_type": "lemma",
+      "external_type": "spelling",
       "external_id": "10973",
       "url": "https://www.ottomanlexicons.com/turkish-ottoman-dictionary-10973.html"
     },

@@ -1,6 +1,6 @@
 import { normalizeOttomanSearchText } from "./search-normalization.js";
 
-const corpusUrl = "../data/generated/danis-neighborhood.json?v=image-id-slugs";
+const corpusUrl = "../data/generated/danis-neighborhood.json";
 
 let corpus;
 let selectedRecord;
@@ -9,6 +9,7 @@ let searchMode = "all";
 let showResultMeta = false;
 let zoom = 1;
 let isRestoringUrlState = false;
+const expandedSpellingIds = new Set();
 
 const preferredSources = [
   {
@@ -34,26 +35,16 @@ async function init() {
   applyUrlState();
 
   $("searchInput").addEventListener("input", () => {
-    const matches = getRankedMatches();
-    if (matches.length && matches[0].record.lemma.id !== selectedRecord.lemma.id) {
-      selectRecord(matches[0].record, { focusSearch: false, history: "replace", urlState: "search" });
-    } else {
-      renderResults(matches);
-      updateUrlState({ history: "replace", state: "search" });
-    }
+    renderResults(getRankedMatches());
+    updateUrlState({ history: "replace", state: "search" });
   });
 
   document.querySelectorAll(".mode-button").forEach((button) => {
     button.addEventListener("click", () => {
       searchMode = button.dataset.mode;
       renderModeButtons();
-      const matches = getRankedMatches();
-      if (matches.length && matches[0].record.lemma.id !== selectedRecord.lemma.id) {
-        selectRecord(matches[0].record, { focusSearch: false, history: "replace", urlState: "search" });
-      } else {
-        renderResults(matches);
-        updateUrlState({ history: "replace", state: "search" });
-      }
+      renderResults(getRankedMatches());
+      updateUrlState({ history: "replace", state: "search" });
     });
   });
 
@@ -102,9 +93,37 @@ function hydrateRecord(record, provider) {
   };
 }
 
+function recordId(record) {
+  return record.reading?.id || record.spelling.id;
+}
+
+function recordLatin(record) {
+  return record.reading?.display_latin ?? record.spelling.display_latin ?? "";
+}
+
+function recordForms(record) {
+  return record.reading?.forms || record.spelling.forms || [];
+}
+
+function recordSourceLinks(record) {
+  return record.reading?.source_links || record.spelling.source_links || [];
+}
+
+function recordSlugs(record) {
+  return record.reading?.slugs || record.spelling.slugs || [];
+}
+
+function recordEntryIds(record) {
+  return record.reading?.entries || record.spelling.entries || [];
+}
+
+function recordEntryCount(record) {
+  return recordEntryIds(record).length;
+}
+
 function render() {
   renderModeButtons();
-  renderLemma();
+  renderSpelling();
   renderResults();
   renderNearby();
   renderSources();
@@ -113,14 +132,15 @@ function render() {
 
 function selectRecord(record, options = {}) {
   selectedRecord = record;
+  expandedSpellingIds.clear();
   selectedEntryId = getValidEntryId(record, options.entryId);
   zoom = 1;
-  renderLemma();
+  renderSpelling();
   renderResults();
   renderNearby();
   renderSources();
   renderEntry();
-  updateUrlState({ history: options.history || "replace", state: options.urlState || "lemma" });
+  updateUrlState({ history: options.history || "replace", state: options.urlState || "spelling" });
   if (options.focusSearch) $("searchInput").focus();
 }
 
@@ -133,7 +153,7 @@ function getValidEntryId(record, entryId) {
 }
 
 function getOrderedEntryIds(record) {
-  return record.lemma.entries
+  return recordEntryIds(record)
     .map((entryId, index) => {
       const entry = record.maps.entries[entryId];
       const source = record.maps.sources[entry?.source_id];
@@ -151,6 +171,16 @@ function getSourcePriority(entry, source) {
   return preferredSources.find((preferred) => preferred.matches(entry, source))?.priority ?? preferredSources.length;
 }
 
+function getRecordSourcePriority(record) {
+  return Math.min(
+    ...recordEntryIds(record).map((entryId) => {
+      const entry = record.maps.entries[entryId];
+      return getSourcePriority(entry, record.maps.sources[entry?.source_id]);
+    }),
+    preferredSources.length
+  );
+}
+
 function sourceText(source) {
   return `${source?.id || ""} ${source?.title || ""}`.toLocaleLowerCase("tr");
 }
@@ -162,10 +192,12 @@ function applyUrlState() {
   searchMode = ["all", "ota", "latin"].includes(state.mode) ? state.mode : "all";
   $("searchInput").value = state.query || $("searchInput").value || "";
 
-  const recordFromLemma = corpus.records.find((record) => record.lemma.id === state.lemma);
+  const recordFromReading = corpus.records.find((record) => recordId(record) === state.reading);
+  const recordFromSpelling = corpus.records.find((record) => record.spelling.id === state.spelling);
   const recordFromQuery = state.query ? getRankedMatches()[0]?.record : null;
-  selectedRecord = recordFromLemma || recordFromQuery || corpus.records[0];
-  if (!state.query && state.lemma) $("searchInput").value = selectedRecord.lemma.primary_form;
+  selectedRecord = recordFromReading || recordFromSpelling || recordFromQuery || corpus.records[0];
+  expandedSpellingIds.clear();
+  if (!state.query && (state.reading || state.spelling)) $("searchInput").value = selectedRecord.spelling.primary_form;
   selectedEntryId = getValidEntryId(selectedRecord, state.entry);
   zoom = 1;
 
@@ -177,7 +209,8 @@ function readUrlState() {
   const params = new URLSearchParams(window.location.search);
   return {
     query: params.get("q") || "",
-    lemma: params.get("lemma") || "",
+    reading: params.get("reading") || "",
+    spelling: params.get("spelling") || "",
     entry: params.get("entry") || "",
     mode: params.get("mode") || "all"
   };
@@ -188,19 +221,20 @@ function updateUrlState(options = {}) {
 
   const params = new URLSearchParams(window.location.search);
   params.delete("q");
-  params.delete("lemma");
+  params.delete("reading");
+  params.delete("spelling");
   params.delete("entry");
   params.delete("mode");
 
-  const state = options.state || "lemma";
+  const state = options.state || "spelling";
   const query = $("searchInput").value.trim();
-  const hasNontrivialQuery = query && query !== selectedRecord.lemma.primary_form;
+  const hasNontrivialQuery = query && query !== selectedRecord.spelling.primary_form;
 
   if (state === "search") {
     if (query) params.set("q", query);
   } else {
     if (hasNontrivialQuery) params.set("q", query);
-    params.set("lemma", selectedRecord.lemma.id);
+    params.set("reading", recordId(selectedRecord));
 
     const defaultEntryId = getDefaultEntryId(selectedRecord);
     if (state === "entry" && selectedEntryId !== defaultEntryId) {
@@ -226,14 +260,14 @@ function renderModeButtons() {
   });
 }
 
-function renderLemma() {
-  $("lemmaArabic").textContent = selectedRecord.lemma.primary_form;
-  $("lemmaLatin").textContent = selectedRecord.lemma.display_latin || "—";
+function renderSpelling() {
+  $("spellingArabic").textContent = selectedRecord.spelling.primary_form;
+  $("spellingLatin").textContent = recordLatin(selectedRecord) || "—";
 
-  const lemmaLink = selectedRecord.maps.sourceLinks[selectedRecord.lemma.source_links[0]];
-  $("lemmaSourceLink").href = lemmaLink?.url || "#";
+  const spellingLink = selectedRecord.maps.sourceLinks[recordSourceLinks(selectedRecord)[0]];
+  $("spellingSourceLink").href = spellingLink?.url || "#";
 
-  $("formStrip").replaceChildren(...selectedRecord.lemma.forms.map((formId) => {
+  $("formStrip").replaceChildren(...recordForms(selectedRecord).map((formId) => {
     const form = selectedRecord.maps.forms[formId];
     const item = document.createElement("span");
     item.className = "form-item";
@@ -249,9 +283,10 @@ function renderLemma() {
 }
 
 function renderResults(matches = getRankedMatches()) {
-  $("resultCount").textContent = String(matches.length);
+  const groups = groupMatchesBySpelling(matches);
+  $("resultCount").textContent = String(groups.length);
 
-  if (!matches.length) {
+  if (!groups.length) {
     const empty = document.createElement("div");
     empty.className = "result-card";
     empty.innerHTML = `<div class="result-empty">No local prototype result yet.</div>`;
@@ -259,24 +294,120 @@ function renderResults(matches = getRankedMatches()) {
     return;
   }
 
-  $("results").replaceChildren(...matches.map(({ record, match }) => {
+  $("results").replaceChildren(...groups.map((group) => {
+    const wrapper = document.createElement("div");
+    const isExpanded = isSpellingExpanded(group.spellingId);
+    wrapper.className = [
+      "result-group",
+      group.spellingId === selectedRecord.spelling.id ? "active" : "",
+      isExpanded ? "expanded" : ""
+    ].filter(Boolean).join(" ");
+
     const card = document.createElement("button");
-    card.className = `result-card ${showResultMeta ? "with-meta" : ""} ${record.lemma.id === selectedRecord.lemma.id ? "active" : ""}`;
+    card.className = `result-card spelling-card ${showResultMeta ? "with-meta" : ""}`;
     card.type = "button";
+    card.setAttribute("aria-expanded", String(isExpanded));
     card.innerHTML = `
       <div class="result-main">
-        <span class="result-ota" dir="rtl" lang="ota">${record.lemma.primary_form}</span>
-        <span class="result-latin">${formatResultLatin(record.lemma.display_latin)}</span>
+        <span class="result-ota" dir="rtl" lang="ota">${group.primaryForm}</span>
+        <span class="result-latin">${formatReadingSummary(group)} <span class="result-entry-count">(${formatEntryCount(group.entryCount)})</span></span>
       </div>
       <div class="result-meta" ${showResultMeta ? "" : "hidden"}>
-        <span>${match.reason}</span>
-        <span>${record.lemma.entries.length} source entries</span>
-        <span>${record.lemma.id}</span>
+        <span>${group.bestMatch.reason}</span>
+        <span>${group.readings.length} readings</span>
+        <span>${group.spellingId}</span>
       </div>
     `;
-    card.addEventListener("click", () => selectRecord(record, { focusSearch: true, history: "push", urlState: "lemma" }));
-    return card;
+    card.addEventListener("click", () => {
+      toggleSpellingExpansion(group.spellingId);
+      renderResults(matches);
+    });
+    wrapper.append(card);
+
+    if (isExpanded) {
+      const table = document.createElement("div");
+      table.className = "reading-table";
+      table.setAttribute("role", "table");
+      table.append(...group.readings.map(({ record }) => {
+        const row = document.createElement("button");
+        row.className = `reading-row ${recordId(record) === recordId(selectedRecord) ? "active" : ""}`;
+        row.type = "button";
+        row.setAttribute("role", "row");
+        row.innerHTML = `
+          <span class="reading-row-latin">${formatResultLatin(recordLatin(record)) || "unknown"}</span>
+          <span class="reading-row-count">${formatEntryCount(recordEntryCount(record))}</span>
+        `;
+        row.addEventListener("click", () => {
+          selectRecord(record, { focusSearch: true, history: "push", urlState: "spelling" });
+        });
+        return row;
+      }));
+      wrapper.append(table);
+    }
+
+    return wrapper;
   }));
+}
+
+function groupMatchesBySpelling(matches) {
+  const groups = new Map();
+
+  for (const item of matches) {
+    const spellingId = item.record.spelling.id;
+    if (!groups.has(spellingId)) {
+      groups.set(spellingId, {
+        spellingId,
+        primaryForm: item.record.spelling.primary_form,
+        bestMatch: item.match,
+        readings: getRecordsForSpelling(spellingId)
+          .map((record) => ({ record, match: item.match })),
+        entryCount: corpus.records
+          .filter((record) => record.spelling.id === spellingId)
+          .reduce((total, record) => total + recordEntryCount(record), 0)
+      });
+    }
+  }
+
+  return [...groups.values()];
+}
+
+function getRecordsForSpelling(spellingId) {
+  return corpus.records
+    .filter((record) => record.spelling.id === spellingId)
+    .sort(compareReadingRecords);
+}
+
+function compareReadingRecords(a, b) {
+  return (
+    getRecordSourcePriority(a) - getRecordSourcePriority(b) ||
+    recordEntryCount(b) - recordEntryCount(a) ||
+    recordLatin(a).localeCompare(recordLatin(b), "tr") ||
+    recordId(a).localeCompare(recordId(b), "tr")
+  );
+}
+
+function formatReadingSummary(group) {
+  const firstReading = formatResultLatin(recordLatin(group.readings[0].record)) || "unknown";
+  const remaining = group.readings.length - 1;
+  return remaining > 0 ? `${firstReading}+${remaining}` : firstReading;
+}
+
+function formatEntryCount(count) {
+  return `${count} ${count === 1 ? "entry" : "entries"}`;
+}
+
+function isSpellingExpanded(spellingId) {
+  return spellingId === selectedRecord?.spelling.id || expandedSpellingIds.has(spellingId);
+}
+
+function toggleSpellingExpansion(spellingId) {
+  if (spellingId === selectedRecord?.spelling.id) return;
+  if (expandedSpellingIds.has(spellingId)) {
+    expandedSpellingIds.delete(spellingId);
+    return;
+  }
+  expandedSpellingIds.clear();
+  expandedSpellingIds.add(spellingId);
 }
 
 function getRankedMatches() {
@@ -296,19 +427,20 @@ function getRankedMatches() {
 
 function scoreRecord(record, query, index) {
   const foldedQuery = foldTurkish(query);
-  const forms = record.lemma.forms.map((id) => record.maps.forms[id]).filter(Boolean);
+  const forms = recordForms(record).map((id) => record.maps.forms[id]).filter(Boolean);
   const sourceLabels = record.sources.map((source) => source.title);
   const externalIds = record.source_links.map((link) => link.external_id);
   const entryHeadwords = record.entries.flatMap((entry) => [entry.headword, entry.latin]);
+  const latin = recordLatin(record);
 
   const candidates = [
-    ...(searchMode !== "latin" ? [{ values: [record.lemma.primary_form], score: 100, reason: "exact headword", type: "exact" }] : []),
-    ...(searchMode !== "ota" ? [{ values: [record.lemma.display_latin, ...forms.filter((form) => form.script === "Latn").map((form) => form.text)], score: 90, reason: "exact transliteration", type: "exact" }] : []),
-    ...(searchMode !== "latin" ? [{ values: [record.lemma.primary_form, ...forms.filter((form) => form.script === "Arab").map((form) => form.text)], score: 80, reason: "headword prefix", type: "prefix" }] : []),
-    ...(searchMode !== "ota" ? [{ values: [record.lemma.display_latin, ...forms.filter((form) => form.script === "Latn").map((form) => form.text)], score: 70, reason: "Latin prefix", type: "prefix" }] : []),
-    ...(searchMode !== "latin" ? [{ values: [record.lemma.primary_form, ...forms.filter((form) => form.script === "Arab").map((form) => form.text)], score: 60, reason: "headword contains", type: "substring" }] : []),
-    ...(searchMode !== "ota" ? [{ values: [record.lemma.display_latin, ...forms.filter((form) => form.script === "Latn").map((form) => form.text)], score: 50, reason: "Latin contains", type: "substring" }] : []),
-    ...(searchMode !== "ota" ? [{ values: [record.lemma.display_latin, ...(record.lemma.slugs || []), ...forms.map((form) => form.normalized)], score: 40, reason: "folded Latin", type: "folded" }] : []),
+    ...(searchMode !== "latin" ? [{ values: [record.spelling.primary_form], score: 100, reason: "exact headword", type: "exact" }] : []),
+    ...(searchMode !== "ota" ? [{ values: [latin, ...forms.filter((form) => form.script === "Latn").map((form) => form.text)], score: 90, reason: "exact transliteration", type: "exact" }] : []),
+    ...(searchMode !== "latin" ? [{ values: [record.spelling.primary_form, ...forms.filter((form) => form.script === "Arab").map((form) => form.text)], score: 80, reason: "headword prefix", type: "prefix" }] : []),
+    ...(searchMode !== "ota" ? [{ values: [latin, ...forms.filter((form) => form.script === "Latn").map((form) => form.text)], score: 70, reason: "Latin prefix", type: "prefix" }] : []),
+    ...(searchMode !== "latin" ? [{ values: [record.spelling.primary_form, ...forms.filter((form) => form.script === "Arab").map((form) => form.text)], score: 60, reason: "headword contains", type: "substring" }] : []),
+    ...(searchMode !== "ota" ? [{ values: [latin, ...forms.filter((form) => form.script === "Latn").map((form) => form.text)], score: 50, reason: "Latin contains", type: "substring" }] : []),
+    ...(searchMode !== "ota" ? [{ values: [latin, ...recordSlugs(record), ...forms.map((form) => form.normalized)], score: 40, reason: "folded Latin", type: "folded" }] : []),
     { values: entryHeadwords, score: 30, reason: "source variant", type: "substring" },
     { values: [...sourceLabels, ...externalIds], score: 10, reason: "source metadata", type: "substring" }
   ];
@@ -349,26 +481,26 @@ function matchesByType(value, query, foldedQuery, type) {
 function compareMatches(a, b) {
   return (
     b.match.score - a.match.score ||
-    a.record.lemma.primary_form.length - b.record.lemma.primary_form.length ||
-    b.record.lemma.entries.length - a.record.lemma.entries.length ||
+    a.record.spelling.primary_form.length - b.record.spelling.primary_form.length ||
+    recordEntryCount(b.record) - recordEntryCount(a.record) ||
     a.match.index - b.match.index
   );
 }
 
 function renderNearby() {
-  const selectedIndex = corpus.records.findIndex((record) => record.lemma.id === selectedRecord.lemma.id);
+  const selectedIndex = corpus.records.findIndex((record) => recordId(record) === recordId(selectedRecord));
   const nearby = corpus.records
     .slice(Math.max(0, selectedIndex - 3), selectedIndex + 4)
-    .filter((record) => record.lemma.id !== selectedRecord.lemma.id);
+    .filter((record) => recordId(record) !== recordId(selectedRecord));
 
   $("nearbyList").replaceChildren(...nearby.map((record) => {
     const button = document.createElement("button");
     button.className = "nearby-button";
     button.type = "button";
-    button.innerHTML = `<span dir="rtl" lang="ota">${record.lemma.primary_form}</span><span>${formatResultLatin(record.lemma.display_latin)}</span>`;
+    button.innerHTML = `<span dir="rtl" lang="ota">${record.spelling.primary_form}</span><span>${formatResultLatin(recordLatin(record))}</span>`;
     button.addEventListener("click", () => {
-      $("searchInput").value = record.lemma.primary_form;
-      selectRecord(record, { focusSearch: true, history: "push", urlState: "lemma" });
+      $("searchInput").value = record.spelling.primary_form;
+      selectRecord(record, { focusSearch: true, history: "push", urlState: "spelling" });
     });
     return button;
   }));
@@ -442,12 +574,13 @@ function renderEntry() {
     renderCitationLine(source.title, images);
   } else {
     $("entryImages").replaceChildren();
-    $("citationLine").textContent = `${source.title} is linked in the Ottoman Lexicons lemma graph; crop parsing is outside this prototype sample.`;
+    $("citationLine").textContent = `${source.title} is linked in the Ottoman Lexicons spelling graph; crop parsing is outside this prototype sample.`;
   }
   applyZoom();
 
   const provenance = [
-    ["Lemma", selectedRecord.lemma.id],
+    ["Spelling", selectedRecord.spelling.id],
+    ["Reading", selectedRecord.reading?.id || "—"],
     ["Entry", sourceLink.external_id],
     ["Provider", provider.title],
     ["Source", source.title],
@@ -547,5 +680,5 @@ function foldTurkish(value) {
 
 init().catch((error) => {
   console.error(error);
-  document.body.innerHTML = `<main class="reader"><section class="lemma-panel"><h1>Prototype failed to load</h1><p>${error.message}</p></section></main>`;
+  document.body.innerHTML = `<main class="reader"><section class="spelling-panel"><h1>Prototype failed to load</h1><p>${error.message}</p></section></main>`;
 });

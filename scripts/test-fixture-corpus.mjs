@@ -12,7 +12,7 @@ const fixture = JSON.parse(await readFile(fixtureFile, "utf8"));
 for (const expectation of fixture.expectations || []) {
   const actual = fixture.records
     .filter((record) => matchesRecord(record, expectation.query))
-    .map((record) => record.lemma.id)
+    .map((record) => record.reading?.id || record.spelling.id)
     .sort();
   const expected = [...expectation.matches].sort();
   assertDeepEqual(actual, expected, `fixture expectation failed: ${expectation.reason}`);
@@ -20,7 +20,7 @@ for (const expectation of fixture.expectations || []) {
 
 for (const record of fixture.records || []) {
   const imageIds = record.images.map((image) => image.id);
-  assertEqual(new Set(imageIds).size, imageIds.length, `duplicate image id in ${record.lemma.id}`);
+  assertEqual(new Set(imageIds).size, imageIds.length, `duplicate image id in ${record.spelling.id}`);
 
   for (const entry of record.entries || []) {
     for (const imageId of entry.images || []) {
@@ -35,9 +35,9 @@ function matchesRecord(record, query) {
   const strictQuery = normalizeOttomanSearchText(query);
   const broadQuery = normalizeOttomanSearchText(query, { broad: true });
   const values = [
-    record.lemma.primary_form,
-    record.lemma.display_latin,
-    ...(record.lemma.slugs || []),
+    record.spelling.primary_form,
+    record.reading?.display_latin,
+    ...(record.reading?.slugs || []),
     ...(record.forms || []).flatMap((form) => [form.text, form.normalized]),
     ...(record.entries || []).flatMap((entry) => [entry.headword, entry.latin])
   ];

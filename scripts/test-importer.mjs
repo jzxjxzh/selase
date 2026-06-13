@@ -23,7 +23,7 @@ try {
   ]);
 
   const corpus = JSON.parse(await readFile(outFile, "utf8"));
-  const danis = corpus.records.find((record) => record.lemma.primary_form === "دانش");
+  const danis = corpus.records.find((record) => record.spelling.primary_form === "دانش");
   assert(danis, "Expected imported corpus to contain دانش");
 
   const ebuzziya = danis.entries.find((entry) => entry.source_id === "source:lugat-i-ebuzziya");

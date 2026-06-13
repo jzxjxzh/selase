@@ -1,6 +1,6 @@
 # Search Normalization
 
-Normalization is for search keys only. It must not rewrite canonical lemma IDs,
+Normalization is for search keys only. It must not rewrite canonical spelling IDs,
 display text, citations, source labels, or provenance.
 
 The search matcher should preserve this ranking shape:

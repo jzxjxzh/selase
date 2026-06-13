@@ -4,13 +4,15 @@ Corpus: `data/generated/danis-neighborhood.json`
 
 ## Summary
 
-- Lemma records: 22
-- Entries: 68
-- Images: 77
-- Source links: 90
+- Reading records: 31
+- Entries: 65
+- Images: 73
+- Source links: 98
 
 ## Issue Counts
 
+- Duplicate Reading Ids: 0
+- Duplicate Spelling Reading Pairs: 0
 - Duplicate Image Ids: 0
 - Duplicate Image Urls: 0
 - Duplicate Entry Ids: 0

@@ -9,10 +9,10 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const RAW_DIR = path.join(ROOT, "data/raw/ottomanlexicons");
 const OUT_DIR = path.join(ROOT, "data/generated");
 const BASE_URL = "https://www.ottomanlexicons.com";
-const DEFAULT_LEMMA_URL = `${BASE_URL}/turkish-ottoman-dictionary-10973.html`;
+const DEFAULT_SPELLING_URL = `${BASE_URL}/turkish-ottoman-dictionary-10973.html`;
 
 const args = parseArgs(process.argv.slice(2));
-const startUrl = args.url || DEFAULT_LEMMA_URL;
+const startUrl = args.url || DEFAULT_SPELLING_URL;
 const limit = Number(args.limit || 1);
 const delayMs = Number(args.delay || 250);
 const outFile = args.out || path.join(OUT_DIR, limit > 1 ? "danis-neighborhood.json" : "danis-ottomanlexicons.imported.json");
@@ -55,14 +55,15 @@ async function main() {
   await mkdir(path.dirname(outFile), { recursive: true });
 
   const seedHtml = await fetchCached(startUrl);
-  const lemmaUrls = [absoluteUrl(startUrl), ...parseNearbyLemmaUrls(seedHtml)].slice(0, limit);
-  const uniqueLemmaUrls = [...new Set(lemmaUrls)];
+  const spellingUrls = [absoluteUrl(startUrl), ...parseNearbySpellingUrls(seedHtml)].slice(0, limit);
+  const uniqueSpellingUrls = [...new Set(spellingUrls)];
 
-  const records = [];
-  for (const [index, lemmaUrl] of uniqueLemmaUrls.entries()) {
+  const pageRecords = [];
+  for (const [index, spellingUrl] of uniqueSpellingUrls.entries()) {
     if (index > 0) await sleep(delayMs);
-    records.push(await importLemma(lemmaUrl));
+    pageRecords.push(await importSpelling(spellingUrl));
   }
+  const records = groupReadingRecords(pageRecords);
 
   const payload = {
     generated_at: new Date().toISOString(),
@@ -77,13 +78,13 @@ async function main() {
   };
 
   await writeJson(outFile, payload);
-  console.log(`Imported ${records.length} lemma record(s)`);
+  console.log(`Imported ${records.length} reading record(s)`);
   console.log(`Wrote ${path.relative(ROOT, outFile)}`);
 }
 
-async function importLemma(lemmaUrl) {
-  const html = await fetchCached(lemmaUrl);
-  const lemmaMeta = parseLemmaMeta(html, lemmaUrl);
+async function importSpelling(spellingUrl) {
+  const html = await fetchCached(spellingUrl);
+  const spellingMeta = parseSpellingMeta(html, spellingUrl);
   const sourceEntries = parseSourceEntries(html);
 
   const sourcesById = new Map();
@@ -103,10 +104,14 @@ async function importLemma(lemmaUrl) {
 
     entries.push({
       id: entryId,
-      lemma_id: lemmaMeta.id,
+      spelling_id: spellingMeta.id,
+      reading_id: buildReadingId(
+        detail.headword || spellingMeta.primary_form,
+        detail.latin ?? sourceEntry.latin ?? spellingMeta.display_latin
+      ),
       source_id: source.id,
       provider_id: "provider:ottomanlexicons",
-      headword: detail.headword || lemmaMeta.primary_form,
+      headword: detail.headword || spellingMeta.primary_form,
       latin: detail.latin ?? sourceEntry.latin ?? "",
       content: {
         kind: imageIds.length ? "facsimile" : "facsimile-not-loaded"
@@ -126,44 +131,180 @@ async function importLemma(lemmaUrl) {
   }
 
   return {
-    lemma: {
-      id: lemmaMeta.id,
-      primary_form: lemmaMeta.primary_form,
-      display_latin: lemmaMeta.display_latin,
-      language: "ota",
-      slugs: lemmaMeta.display_latin ? [foldTurkish(lemmaMeta.display_latin)] : [],
-      forms: lemmaMeta.forms,
-      source_links: [`source-link:ottomanlexicons:lemma:${lemmaMeta.external_id}`],
+    spelling: {
+      id: spellingMeta.id,
+      primary_form: spellingMeta.primary_form,
+      language: "ota"
+    },
+    reading: {
+      id: buildReadingId(spellingMeta.primary_form, spellingMeta.display_latin),
+      spelling_id: spellingMeta.id,
+      display_latin: normalizeReadingDisplay(spellingMeta.display_latin),
+      normalized: normalizeReadingKey(spellingMeta.display_latin),
+      languages_attested: ["ota"],
+      slugs: spellingMeta.display_latin ? [foldTurkish(spellingMeta.display_latin)] : [],
+      forms: spellingMeta.forms,
+      source_links: [`source-link:ottomanlexicons:spelling:${spellingMeta.external_id}`],
       entries: entries.map((entry) => entry.id)
     },
-    forms: buildForms(lemmaMeta),
+    forms: buildForms(spellingMeta),
     sources: [...sourcesById.values()],
     entries,
     images,
     source_links: [
       {
-        id: `source-link:ottomanlexicons:lemma:${lemmaMeta.external_id}`,
+        id: `source-link:ottomanlexicons:spelling:${spellingMeta.external_id}`,
         provider_id: "provider:ottomanlexicons",
-        external_type: "lemma",
-        external_id: lemmaMeta.external_id,
-        url: lemmaMeta.url
+        external_type: "spelling",
+        external_id: spellingMeta.external_id,
+        url: spellingMeta.url
       },
       ...sourceLinks
     ]
   };
 }
 
-function parseLemmaMeta(html, lemmaUrl) {
+function groupReadingRecords(pageRecords) {
+  const groups = new Map();
+
+  for (const pageRecord of pageRecords) {
+    const pageSpellingLinkId = pageRecord.reading.source_links[0];
+    const pageSpellingLink = pageRecord.source_links.find((link) => link.id === pageSpellingLinkId);
+
+    for (const entry of pageRecord.entries) {
+      const spelling = entry.headword || pageRecord.spelling.primary_form;
+      const reading = entry.latin || pageRecord.reading.display_latin || "";
+      const spellingId = buildSpellingId(spelling, pageSpellingLink?.external_id);
+      const readingId = buildReadingId(spelling, reading);
+
+      if (!groups.has(readingId)) {
+        groups.set(readingId, {
+          spelling: {
+            id: spellingId,
+            primary_form: spelling,
+            language: pageRecord.spelling.language || "ota"
+          },
+          reading: {
+            id: readingId,
+            spelling_id: spellingId,
+            display_latin: normalizeReadingDisplay(reading),
+            normalized: normalizeReadingKey(reading),
+            languages_attested: ["ota"],
+            slugs: reading ? [foldTurkish(reading)] : [],
+            forms: [],
+            source_links: [],
+            entries: []
+          },
+          forms: [],
+          sources: [],
+          entries: [],
+          images: [],
+          source_links: [],
+          _forms: new Map(),
+          _sources: new Map(),
+          _entries: new Map(),
+          _images: new Map(),
+          _sourceLinks: new Map()
+        });
+      }
+
+      const group = groups.get(readingId);
+      addUniqueSourceLink(group, pageSpellingLink);
+      addUniqueSourceLink(group, ...entry.source_links.map((id) => pageRecord.source_links.find((link) => link.id === id)));
+      addUniqueSource(group, pageRecord.sources.find((source) => source.id === entry.source_id));
+
+      const groupedEntry = {
+        ...entry,
+        spelling_id: group.spelling.id,
+        reading_id: group.reading.id
+      };
+      addUniqueEntry(group, groupedEntry);
+
+      for (const imageId of entry.images || []) {
+        addUniqueImage(group, pageRecord.images.find((image) => image.id === imageId));
+      }
+
+      addFormsForReading(group);
+    }
+  }
+
+  return [...groups.values()].map(stripGroupMaps);
+}
+
+function addFormsForReading(group) {
+  const arabForm = {
+    id: `form:ota:${group.spelling.primary_form}`,
+    script: "Arab",
+    language: "ota",
+    text: group.spelling.primary_form,
+    normalized: group.spelling.primary_form,
+    kind: "headword"
+  };
+  addUniqueForm(group, arabForm);
+
+  if (group.reading.display_latin) {
+    addUniqueForm(group, {
+      id: `form:tr-latn:${group.reading.display_latin}`,
+      script: "Latn",
+      language: "tr",
+      text: group.reading.display_latin,
+      normalized: foldTurkish(group.reading.display_latin),
+      kind: "transliteration"
+    });
+  }
+}
+
+function addUniqueForm(group, form) {
+  if (!form || group._forms.has(form.id)) return;
+  group._forms.set(form.id, form);
+  group.forms.push(form);
+  group.reading.forms.push(form.id);
+}
+
+function addUniqueSource(group, source) {
+  if (!source || group._sources.has(source.id)) return;
+  group._sources.set(source.id, source);
+  group.sources.push(source);
+}
+
+function addUniqueEntry(group, entry) {
+  if (!entry || group._entries.has(entry.id)) return;
+  group._entries.set(entry.id, entry);
+  group.entries.push(entry);
+  group.reading.entries.push(entry.id);
+}
+
+function addUniqueImage(group, image) {
+  if (!image || group._images.has(image.id)) return;
+  group._images.set(image.id, image);
+  group.images.push(image);
+}
+
+function addUniqueSourceLink(group, ...links) {
+  for (const link of links) {
+    if (!link || group._sourceLinks.has(link.id)) continue;
+    group._sourceLinks.set(link.id, link);
+    group.source_links.push(link);
+    if (link.external_type === "spelling") group.reading.source_links.push(link.id);
+  }
+}
+
+function stripGroupMaps(group) {
+  const { _forms, _sources, _entries, _images, _sourceLinks, ...record } = group;
+  return record;
+}
+
+function parseSpellingMeta(html, spellingUrl) {
   const title = decodeEntities(matchText(html, /<h3[^>]*class="[^"]*mb-4[^"]*"[^>]*>([\s\S]*?)<\/h3>/i) || "");
   const [headwordRaw, latinRaw] = title.split(/\s+-\s+/);
   const first = cleanText(headwordRaw || "");
   const second = cleanText(latinRaw || "");
   const primaryForm = hasArabic(first) ? first : second || cleanText(matchText(html, /<span[^>]*dir="rtl"[^>]*>([\s\S]*?)<\/span>/i) || "");
   const displayLatin = hasArabic(first) ? second : first;
-  const externalId = matchText(lemmaUrl, /dictionary-(\d+)\.html/i) || hashId(lemmaUrl).slice(0, 8);
+  const externalId = matchText(spellingUrl, /dictionary-(\d+)\.html/i) || hashId(spellingUrl).slice(0, 8);
 
   return {
-    id: `lemma:ota:${primaryForm || externalId}`,
+    id: buildSpellingId(primaryForm, externalId),
     external_id: externalId,
     primary_form: primaryForm,
     display_latin: displayLatin,
@@ -171,29 +312,48 @@ function parseLemmaMeta(html, lemmaUrl) {
       `form:ota:${primaryForm}`,
       ...(displayLatin ? [`form:tr-latn:${displayLatin}`] : [])
     ],
-    url: absoluteUrl(lemmaUrl)
+    url: absoluteUrl(spellingUrl)
   };
 }
 
-function buildForms(lemmaMeta) {
+function buildSpellingId(primaryForm, externalId) {
+  return primaryForm ? `spelling:${primaryForm}` : `spelling:unresolved:ottomanlexicons:${externalId}`;
+}
+
+function buildReadingId(primaryForm, reading) {
+  return primaryForm
+    ? `reading:${primaryForm}:${normalizeReadingKey(reading) || "null"}`
+    : `reading:unresolved:ottomanlexicons:unknown:${normalizeReadingKey(reading) || "null"}`;
+}
+
+function normalizeReadingDisplay(reading) {
+  return cleanText(reading || "").toLocaleLowerCase("tr");
+}
+
+function normalizeReadingKey(reading) {
+  return normalizeReadingDisplay(reading);
+}
+
+function buildForms(spellingMeta) {
   const forms = [
     {
-      id: `form:ota:${lemmaMeta.primary_form}`,
+      id: `form:ota:${spellingMeta.primary_form}`,
       script: "Arab",
       language: "ota",
-      text: lemmaMeta.primary_form,
-      normalized: lemmaMeta.primary_form,
+      text: spellingMeta.primary_form,
+      normalized: spellingMeta.primary_form,
       kind: "headword"
     }
   ];
 
-  if (lemmaMeta.display_latin) {
+  if (spellingMeta.display_latin) {
+    const displayLatin = normalizeReadingDisplay(spellingMeta.display_latin);
     forms.push({
-      id: `form:tr-latn:${lemmaMeta.display_latin}`,
+      id: `form:tr-latn:${displayLatin}`,
       script: "Latn",
       language: "tr",
-      text: lemmaMeta.display_latin,
-      normalized: foldTurkish(lemmaMeta.display_latin),
+      text: displayLatin,
+      normalized: foldTurkish(displayLatin),
       kind: "transliteration"
     });
   }
@@ -314,7 +474,7 @@ function buildSource(sourcePath, title) {
   };
 }
 
-function parseNearbyLemmaUrls(html) {
+function parseNearbySpellingUrls(html) {
   const urls = [];
   const seen = new Set();
   const re = /href="(https:\/\/www\.ottomanlexicons\.com\/turkish-ottoman-dictionary-\d+\.html)"/gi;

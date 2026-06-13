@@ -7,15 +7,10 @@
   "count": 4,
   "records": [
     {
-      "lemma": {
-        "id": "lemma:ota:fixture:دانشكر",
+      "spelling": {
+        "id": "spelling:fixture:دانشكر",
         "primary_form": "دانشكر",
-        "display_latin": "danişger",
-        "language": "ota",
-        "slugs": ["danisger"],
-        "forms": ["form:ota:fixture:دانشكر"],
-        "source_links": ["source-link:fixture:lemma:daniskr"],
-        "entries": ["entry:fixture:daniskr:multi-crop"]
+        "language": "ota"
       },
       "forms": [
         {
@@ -32,13 +27,16 @@
           "id": "source:fixture-multi-crop",
           "title": "Fixture Multi Crop",
           "kind": "dictionary",
-          "languages": ["ota", "tr"]
+          "languages": [
+            "ota",
+            "tr"
+          ]
         }
       ],
       "entries": [
         {
           "id": "entry:fixture:daniskr:multi-crop",
-          "lemma_id": "lemma:ota:fixture:دانشكر",
+          "spelling_id": "spelling:fixture:دانشكر",
           "source_id": "source:fixture-multi-crop",
           "provider_id": "provider:fixture",
           "headword": "دانشكر",
@@ -46,8 +44,14 @@
           "content": {
             "kind": "facsimile"
           },
-          "images": ["image:fixture:473-9", "image:fixture:473-10"],
-          "source_links": ["source-link:fixture:entry:daniskr"]
+          "images": [
+            "image:fixture:473-9",
+            "image:fixture:473-10"
+          ],
+          "source_links": [
+            "source-link:fixture:entry:daniskr"
+          ],
+          "reading_id": "reading:دانشكر:danişger"
         }
       ],
       "images": [
@@ -78,11 +82,11 @@
       ],
       "source_links": [
         {
-          "id": "source-link:fixture:lemma:daniskr",
+          "id": "source-link:fixture:spelling:daniskr",
           "provider_id": "provider:fixture",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "daniskr",
-          "url": "https://example.invalid/lemma/daniskr"
+          "url": "https://example.invalid/spelling/daniskr"
         },
         {
           "id": "source-link:fixture:entry:daniskr",
@@ -91,18 +95,34 @@
           "external_id": "daniskr",
           "url": "https://example.invalid/entry/daniskr"
         }
-      ]
+      ],
+      "reading": {
+        "id": "reading:دانشكر:danişger",
+        "spelling_id": "spelling:fixture:دانشكر",
+        "display_latin": "danişger",
+        "normalized": "danişger",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danisger"
+        ],
+        "forms": [
+          "form:ota:fixture:دانشكر"
+        ],
+        "source_links": [
+          "source-link:fixture:spelling:daniskr"
+        ],
+        "entries": [
+          "entry:fixture:daniskr:multi-crop"
+        ]
+      }
     },
     {
-      "lemma": {
-        "id": "lemma:ota:fixture:دانشگر",
+      "spelling": {
+        "id": "spelling:fixture:دانشگر",
         "primary_form": "دانشگر",
-        "display_latin": "danişger",
-        "language": "ota",
-        "slugs": ["danisger"],
-        "forms": ["form:ota:fixture:دانشگر"],
-        "source_links": ["source-link:fixture:lemma:danisgr"],
-        "entries": ["entry:fixture:danisgr:no-crop"]
+        "language": "ota"
       },
       "forms": [
         {
@@ -119,13 +139,16 @@
           "id": "source:fixture-no-crop",
           "title": "Fixture No Crop",
           "kind": "dictionary",
-          "languages": ["ota", "tr"]
+          "languages": [
+            "ota",
+            "tr"
+          ]
         }
       ],
       "entries": [
         {
           "id": "entry:fixture:danisgr:no-crop",
-          "lemma_id": "lemma:ota:fixture:دانشگر",
+          "spelling_id": "spelling:fixture:دانشگر",
           "source_id": "source:fixture-no-crop",
           "provider_id": "provider:fixture",
           "headword": "دانشگر",
@@ -134,17 +157,20 @@
             "kind": "facsimile-not-loaded"
           },
           "images": [],
-          "source_links": ["source-link:fixture:entry:danisgr"]
+          "source_links": [
+            "source-link:fixture:entry:danisgr"
+          ],
+          "reading_id": "reading:دانشگر:danişger"
         }
       ],
       "images": [],
       "source_links": [
         {
-          "id": "source-link:fixture:lemma:danisgr",
+          "id": "source-link:fixture:spelling:danisgr",
           "provider_id": "provider:fixture",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "danisgr",
-          "url": "https://example.invalid/lemma/danisgr"
+          "url": "https://example.invalid/spelling/danisgr"
         },
         {
           "id": "source-link:fixture:entry:danisgr",
@@ -153,18 +179,34 @@
           "external_id": "danisgr",
           "url": "https://example.invalid/entry/danisgr"
         }
-      ]
+      ],
+      "reading": {
+        "id": "reading:دانشگر:danişger",
+        "spelling_id": "spelling:fixture:دانشگر",
+        "display_latin": "danişger",
+        "normalized": "danişger",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "danisger"
+        ],
+        "forms": [
+          "form:ota:fixture:دانشگر"
+        ],
+        "source_links": [
+          "source-link:fixture:spelling:danisgr"
+        ],
+        "entries": [
+          "entry:fixture:danisgr:no-crop"
+        ]
+      }
     },
     {
-      "lemma": {
-        "id": "lemma:ota:fixture:مدرسه",
+      "spelling": {
+        "id": "spelling:fixture:مدرسه",
         "primary_form": "مدرسه",
-        "display_latin": "medrese",
-        "language": "ota",
-        "slugs": ["medrese"],
-        "forms": ["form:ota:fixture:مدرسه"],
-        "source_links": ["source-link:fixture:lemma:medrese"],
-        "entries": ["entry:fixture:medrese"]
+        "language": "ota"
       },
       "forms": [
         {
@@ -181,13 +223,16 @@
           "id": "source:fixture-orthography",
           "title": "Fixture Orthography",
           "kind": "dictionary",
-          "languages": ["ota", "tr"]
+          "languages": [
+            "ota",
+            "tr"
+          ]
         }
       ],
       "entries": [
         {
           "id": "entry:fixture:medrese",
-          "lemma_id": "lemma:ota:fixture:مدرسه",
+          "spelling_id": "spelling:fixture:مدرسه",
           "source_id": "source:fixture-orthography",
           "provider_id": "provider:fixture",
           "headword": "مدرسه",
@@ -195,8 +240,13 @@
           "content": {
             "kind": "facsimile"
           },
-          "images": ["image:fixture:medrese-1"],
-          "source_links": ["source-link:fixture:entry:medrese"]
+          "images": [
+            "image:fixture:medrese-1"
+          ],
+          "source_links": [
+            "source-link:fixture:entry:medrese"
+          ],
+          "reading_id": "reading:مدرسه:medrese"
         }
       ],
       "images": [
@@ -215,11 +265,11 @@
       ],
       "source_links": [
         {
-          "id": "source-link:fixture:lemma:medrese",
+          "id": "source-link:fixture:spelling:medrese",
           "provider_id": "provider:fixture",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "medrese",
-          "url": "https://example.invalid/lemma/medrese"
+          "url": "https://example.invalid/spelling/medrese"
         },
         {
           "id": "source-link:fixture:entry:medrese",
@@ -228,18 +278,34 @@
           "external_id": "medrese",
           "url": "https://example.invalid/entry/medrese"
         }
-      ]
+      ],
+      "reading": {
+        "id": "reading:مدرسه:medrese",
+        "spelling_id": "spelling:fixture:مدرسه",
+        "display_latin": "medrese",
+        "normalized": "medrese",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "medrese"
+        ],
+        "forms": [
+          "form:ota:fixture:مدرسه"
+        ],
+        "source_links": [
+          "source-link:fixture:spelling:medrese"
+        ],
+        "entries": [
+          "entry:fixture:medrese"
+        ]
+      }
     },
     {
-      "lemma": {
-        "id": "lemma:ota:fixture:مسئله",
+      "spelling": {
+        "id": "spelling:fixture:مسئله",
         "primary_form": "مسئله",
-        "display_latin": "mesele",
-        "language": "ota",
-        "slugs": ["mesele"],
-        "forms": ["form:ota:fixture:مسئله"],
-        "source_links": ["source-link:fixture:lemma:mesele"],
-        "entries": ["entry:fixture:mesele"]
+        "language": "ota"
       },
       "forms": [
         {
@@ -256,13 +322,16 @@
           "id": "source:fixture-broad",
           "title": "Fixture Broad Match",
           "kind": "dictionary",
-          "languages": ["ota", "tr"]
+          "languages": [
+            "ota",
+            "tr"
+          ]
         }
       ],
       "entries": [
         {
           "id": "entry:fixture:mesele",
-          "lemma_id": "lemma:ota:fixture:مسئله",
+          "spelling_id": "spelling:fixture:مسئله",
           "source_id": "source:fixture-broad",
           "provider_id": "provider:fixture",
           "headword": "مسئله",
@@ -270,8 +339,13 @@
           "content": {
             "kind": "facsimile"
           },
-          "images": ["image:fixture:mesele-1"],
-          "source_links": ["source-link:fixture:entry:mesele"]
+          "images": [
+            "image:fixture:mesele-1"
+          ],
+          "source_links": [
+            "source-link:fixture:entry:mesele"
+          ],
+          "reading_id": "reading:مسئله:mesele"
         }
       ],
       "images": [
@@ -290,11 +364,11 @@
       ],
       "source_links": [
         {
-          "id": "source-link:fixture:lemma:mesele",
+          "id": "source-link:fixture:spelling:mesele",
           "provider_id": "provider:fixture",
-          "external_type": "lemma",
+          "external_type": "spelling",
           "external_id": "mesele",
-          "url": "https://example.invalid/lemma/mesele"
+          "url": "https://example.invalid/spelling/mesele"
         },
         {
           "id": "source-link:fixture:entry:mesele",
@@ -303,23 +377,51 @@
           "external_id": "mesele",
           "url": "https://example.invalid/entry/mesele"
         }
-      ]
+      ],
+      "reading": {
+        "id": "reading:مسئله:mesele",
+        "spelling_id": "spelling:fixture:مسئله",
+        "display_latin": "mesele",
+        "normalized": "mesele",
+        "languages_attested": [
+          "ota"
+        ],
+        "slugs": [
+          "mesele"
+        ],
+        "forms": [
+          "form:ota:fixture:مسئله"
+        ],
+        "source_links": [
+          "source-link:fixture:spelling:mesele"
+        ],
+        "entries": [
+          "entry:fixture:mesele"
+        ]
+      }
     }
   ],
   "expectations": [
     {
       "query": "دانشگر",
-      "matches": ["lemma:ota:fixture:دانشكر", "lemma:ota:fixture:دانشگر"],
+      "matches": [
+        "reading:دانشكر:danişger",
+        "reading:دانشگر:danişger"
+      ],
       "reason": "kaf/gaf class"
     },
     {
       "query": "مدرسة",
-      "matches": ["lemma:ota:fixture:مدرسه"],
+      "matches": [
+        "reading:مدرسه:medrese"
+      ],
       "reason": "teh marbuta/heh class"
     },
     {
       "query": "مسیله",
-      "matches": ["lemma:ota:fixture:مسئله"],
+      "matches": [
+        "reading:مسئله:mesele"
+      ],
       "reason": "broad yeh-hamza class"
     }
   ]

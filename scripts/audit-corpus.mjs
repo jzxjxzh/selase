@@ -29,6 +29,8 @@ function auditCorpus(data) {
   };
 
   const issues = {
+    duplicateReadingIds: [],
+    duplicateSpellingReadingPairs: [],
     duplicateImageIds: [],
     duplicateImageUrls: [],
     duplicateEntryIds: [],
@@ -41,7 +43,30 @@ function auditCorpus(data) {
     repeatedCitations: []
   };
 
+  const readingIds = new Map();
+  const spellingReadingPairs = new Map();
+
   for (const record of data.records || []) {
+    const readingId = record.reading?.id || record.spelling?.id;
+    if (readingId) {
+      if (readingIds.has(readingId)) {
+        issues.duplicateReadingIds.push({
+          ...context(record, readingId),
+          previous: context(readingIds.get(readingId), readingId).spelling
+        });
+      }
+      readingIds.set(readingId, record);
+    }
+
+    const spellingReadingPair = `${record.spelling?.primary_form || ""}\t${record.reading?.normalized || "null"}`;
+    if (spellingReadingPairs.has(spellingReadingPair)) {
+      issues.duplicateSpellingReadingPairs.push({
+        ...context(record, spellingReadingPair.replace("\t", " / ")),
+        previous: context(spellingReadingPairs.get(spellingReadingPair), spellingReadingPair).spelling
+      });
+    }
+    spellingReadingPairs.set(spellingReadingPair, record);
+
     const entryById = new Map();
     const sourceById = new Map((record.sources || []).map((source) => [source.id, source]));
     const imageById = new Map();
@@ -85,7 +110,7 @@ function auditCorpus(data) {
       }
     }
 
-    for (const entryId of record.lemma?.entries || []) {
+    for (const entryId of record.reading?.entries || record.spelling?.entries || []) {
       if (!entryById.has(entryId)) issues.missingEntryRefs.push(context(record, entryId));
     }
 
@@ -140,7 +165,7 @@ function formatMarkdownReport(audit, corpusPath) {
     "",
     "## Summary",
     "",
-    `- Lemma records: ${audit.summary.records}`,
+    `- Reading records: ${audit.summary.records}`,
     `- Entries: ${audit.summary.entries}`,
     `- Images: ${audit.summary.images}`,
     `- Source links: ${audit.summary.sourceLinks}`,
@@ -168,7 +193,10 @@ function formatMarkdownReport(audit, corpusPath) {
 
 function context(record, value) {
   return {
-    lemma: record.lemma?.primary_form || record.lemma?.id || "unknown",
+    spelling: [
+      record.spelling?.primary_form || record.spelling?.id || "unknown",
+      record.reading?.display_latin || "null"
+    ].join(" / "),
     value
   };
 }
@@ -191,10 +219,10 @@ function label(value) {
 
 function formatItem(item) {
   const extras = Object.entries(item)
-    .filter(([key]) => !["lemma", "value"].includes(key))
+    .filter(([key]) => !["spelling", "value"].includes(key))
     .map(([key, value]) => `${key}: ${Array.isArray(value) ? value.join(", ") : value}`)
     .join("; ");
-  return `\`${item.lemma}\` - ${item.value}${extras ? ` (${extras})` : ""}`;
+  return `\`${item.spelling}\` - ${item.value}${extras ? ` (${extras})` : ""}`;
 }
 
 function parseArgs(argv) {
